@@ -42,7 +42,7 @@
     {
       "question_number": 4,
       "category": "Programowanie proceduralne",
-      "question_text": "Jaką wartość wypisze na ekranie podany program:\nvoid f(char *s){\nprintf(\"%zu\\n\", sizeof(s));\n}\nint main(void) {\nchar t[20]=\"kot w worku\";\nf(t);\n}",
+      "question_text": "Jaką wartość wypisze na ekranie podany program:<br>void f(char *s){<br>printf(\"%zu<br>\", sizeof(s));<br>}<br>int main(void) {<br>char t[20]=\"kot w worku\";<br>f(t);<br>}",
       "answers": [
         "podane informacje nie są wystarczające do określenia wypisywanej wartości",
         "11",
@@ -187,10 +187,10 @@
       "category": "Programowanie proceduralne",
       "question_text": "Wskaż poprawną w języku C instrukcję dynamicznego przydziału i zwalniania pamięci dla dwuwymiarowej tablicy t składającej się z N wierszy i M kolumn i typie elementów int:",
       "answers": [
-        "int **t = (int **) malloc(N* sizeof(int*)); for(int i=0; i<N; i++){ t[i]=(int*) malloc(M * sizeof(int)); } ... for(int i=0; i<N; i++) free(t[i]); free(t);",
-        "int **t = (int **) malloc(N* sizeof(int*)); t[0] = (int*) malloc(M*N* sizeof(int)); for(int i=0; i<N; i++){ t[i]=t[0]+i*N; } ... free(**t); free(t[0]);",
-        "int **t = (int **) malloc(N* sizeof(int*)); for(int i=0; i<N; i++){ t[i]=(int*) malloc(M * sizeof(int)); } ... free(t[i]); free(**t);",
-        "int **t = (int**) malloc(N* sizeof(int*)); t[0]=(int*) malloc(M*N * sizeof(int)); for(int i=0; i<N; i++){ *(t+i)=*t+i*N; } ... free(*t); free(t);"
+        "int **t = (int **) mal0; i++){ t[i]=(int*) malloc(M * sizeof(int)); } ... for(int i=0;; i++) free(t[i]); free(t);",
+        "int **t = (int **) malloc(N* sizeof(inN* sizeof(int)); for(int i=0;; i++){ t[i]=t[0]+i*N; } ... free(**t); free(t[0]);",
+        "int **t = (int **) malloc(N* si]=(int*) malloc(M * sizeof(int)); } ... free(t[i]); free(**t);",
+        "int **t = (int**) malloc(N* sizeof(int*))t[0]=(int*i=0; i i++){ *(t+i)=*t+i*N; } ... free(*t); free(t);"
       ],
       "correct_answer": 3,
       "assets": []
@@ -486,7 +486,7 @@
     {
       "question_number": 38,
       "category": "Programowanie proceduralne",
-      "question_text": "Rozważmy następujące deklaracje w języku C:\nint $t[2][3]=\\{\\{1,2,3\\}$, {4,5,6}};\nint $(^{*}p)[3]=8t[1]$;\nint $*q=t[1]$;\nKtóra z wymienionych instrukcji nie jest równoważna instrukcji $t[1][2]=7$",
+      "question_text": "Rozważmy następujące deklaracje w języku C:<br>int $t[2][3]=\\{\\{1,2,3\\}$, {4,5,6}};<br>int $(^{*}p)[3]=8t[1]$;<br>int $*q=t[1]$;<br>Która z wymienionych instrukcji nie jest równoważna instrukcji $t[1][2]=7$",
       "answers": [
         "$*(t[2]+1)=7$;",
         "$*(^{*}(t+1)+2)=7$;",
@@ -525,7 +525,7 @@
     {
       "question_number": 41,
       "category": "Języki hipertekstowe i tworzenie stron WWW",
-      "question_text": "Wybierz selektor, który odwołuje się tylko i wyłącznie do akapitu zawierającego tekst „Ważny akapit\".\n<div>\n<p>Tekstl</p>\n<p>Ważny akapit</p>\n<section>\n<p>Tekst2</p>\n<p>Tekst3</p>\n</section>\n</div>",
+    "question_text": "Wybierz selektor, który odwołuje się tylko i wyłącznie do akapitu zawierającego tekst „Ważny akapit\".<br>&lt;div&gt;<br>&lt;p&gt;Tekst&lt;/p&gt;<br>&lt;p&gt;Ważny akapit&lt;/p&gt;<br>&lt;section&gt;<br>&lt;p&gt;Tekst2&lt;/p&gt;<br>&lt;p&gt;Tekst3&lt;/p&gt;<br>&lt;/section&gt;<br>&lt;/div&gt;",
       "answers": [
         "div p+p",
         "div > p+p",
@@ -642,8 +642,8 @@
     {
       "question_number": 50,
       "category": "Programowanie proceduralne",
-      "question_text": "W pewnym programie zdefiniowano następującą funkcję:\nvoid f(long *p1, long *p2, long x){\nwhile(p1!=p2) {\nif(*p1<x)printf(\"%ld, \", *p1);\n++p1;\n}\n}\nJakie wartości i w jakiej kolejności zostaną wyświetlone w wyniku wykonania poniższych instrukcji w tym programie:\nlong $a[15]=\\{15,3,16,1,7,48,8,2,18,3,5,61,5,11,9\\}$;\nf(a+2, a+10, 8);",
-      "answers": [
+      "question_text": "W pewnym programie zdefiniowano następującą funkcję:<br>void f(long *p1, long *p2, long x){<br>while(p1!=p2) {<br>if(*p1&lt;x) printf(\"%ld, \", *p1);<br>++p1;<br>}<br>}<br> Jakie wartości i w jakiej kolejności zostaną wyświetlone w wyniku wykonania poniższych instrukcji w tym programie:<br>long a[15]={15,3,16,1,7,48,8,2,18,3,5,61,5,11,9};<br>f(a+2, a+10, 8);"
+,      "answers": [
         "3, 1, 7, 2, 3,",
         "1, 7, 2, 3, 5, 5,",
         "1, 7, 2, 3,",

@@ -29,8 +29,8 @@
     {
       "question_number": 203,
       "category": "Podstawy programowania",
-      "question_text": "Tablica a zawiera dwadzieścia elementów typu double. Po wykonaniu instrukcji:\nint $j=3$, k;\nfor $(k=4;k<10;++k)$\nif $(a[k]<a[j])$\n$j=k$\nwartością zmiennej j będzie:",
-      "answers": [
+"question_text": "Tablica a zawiera dwadzieścia elementów typu double. Po wykonaniu instrukcji:<br>\nint $j=3$, k;\n<br>for $(k=4;k&lt;10;++k)$\n<br>if $(a[k]&lt;a[j])$\n<br>$j=k$<br>\nwartością zmiennej $j$ będzie:"
+,      "answers": [
         "indeks elementu o najmniejszej wartości wśród elementów: $a[3],a[4],...a[9]$",
         "indeks elementu o największej wartości wśród elementów: $a[3],a[4],...a[9]$",
         "indeks elementu o najmniejszej wartości wśród elementów: $a[4],a[5],...a[9]$",
@@ -295,10 +295,10 @@
       "category": "Języki hipertekstowe i tworzenie stron WWW",
       "question_text": "Zaznacz poprawne zdanie.",
       "answers": [
-        "w znaczniku <article> nie można umieszczać znaczników <section>.",
-        "w znaczniku <section> nie można umieszczać znaczników <article>.",
-        "w znaczniku <section> powinien (zalecany, ale nie jest obowiązkowy) znajdować się znacznik nagłówkowy (<h1> do <h6>).",
-        "każdy znacznik nagłówkowy (<h1> do <h6>) może wystąpić na stronie tylko jeden raz."
+        "w znaczniku &lt;article&gt; nie można umieszczać znaczników &lt;section&gt;.",
+        "w znaczniku &lt;section&gt; nie można umieszczać znaczników &lt;article&gt;.",
+        "w znaczniku &lt;section&gt; powinien (zalecany, ale nie jest obowiązkowy) znajdować się znacznik nagłówkowy (&lt;h1&gt; do &lt;h6&gt;).",
+        "każdy znacznik nagłówkowy (&lt;h1&gt; do &lt;h6&gt;) może wystąpić na stronie tylko jeden raz."
       ],
       "correct_answer": 2,
       "assets": []

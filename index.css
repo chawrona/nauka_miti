@@ -95,7 +95,7 @@ nav button {
   margin-top: 1.5rem;
 }
 
-.answers button,
+.answers .button,
 .answers li {
   padding: 10px 14px;
   border-radius: 8px;
@@ -119,14 +119,17 @@ nav{
     top: 0.5rem;
 }
 
-.answers button {
+.answers .button {
+  display: block;
+  white-space: normal;
       cursor: pointer;
         font-size: 20px;
          padding: 20px 14px;
         transition: all 0.2s;
-}
+      color: black;
+    }
 
-.answers button:hover {
+.answers .button:hover {
       background-color: #bfbfbf;
   }
 

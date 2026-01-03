@@ -57,10 +57,10 @@
       "category": "Programowanie proceduralne",
       "question_text": "Wskaż poprawną w języku C instrukcję dynamicznego przydziału i zwalniania pamięci dla dwuwymiarowej tablicy t składającej się z N wierszy i M kolumn i typie elementów int:",
       "answers": [
-        "int **t = (int **) malloc(N* sizeof(int*)); for(int i=0; i<N; i++){ t[i]=(int*) malloc(M * sizeof(int)); } ... for(int i=0; i<N; i++) free(t[i]); free(t);",
-        "int **t = (int **) malloc(N* sizeof(int*)); t[0] = (int*) malloc(M*N* sizeof(int)); for(int i=0; i<N; i++){ t[i]=t[0]+i*N; } ... free(**t); free(t[0]);",
-        "int **t = (int **) malloc(N* sizeof(int*)); for(int i=0; i<N; i++){ t[i]=(int*) malloc(M * sizeof(int)); } ... free(t[i]); free(**t);",
-        "int **t = (int**) malloc(N* sizeof(int*)); t[0]=(int*) malloc(M*N * sizeof(int)); for(int i=0; i<N; i++){ *(t+i)=*t+i*N; } ... free(*t); free(t);"
+        "int **t = (int **) malloc(N* sizeof(int*));<br> for(int i=0; i&lt;N; i++){ t[i]=(int*) malloc(M * sizeof(int)); };<br> for(int i=0; i&lt;N; i++) free(t[i]); free(t);",
+        "int **t = (int **) malloc(N* sizeof(int*)); <br>t[0] = (int*) malloc(M*N* sizeof(int));<br> for(int i=0; i&lt;N; i++){ t[i]=t[0]+i*N; } free(**t); free(t[0]);",
+        "int **t = (int **) malloc(N* sizeof(int*));<br> for(int i=0; i&lt;N; i++){ t[i]=(int*) malloc(M * sizeof(int)); } free(t[i]); free(**t);",
+        "int **t = (int**) malloc(N* sizeof(int*));<br> t[0]=(int*) malloc(M*N * sizeof(int)); <br>for(int i=0; i&lt;N; i++){ *(t+i)=*t+i*N; } free(*t); free(t);"
       ],
       "correct_answer": 3,
       "assets": []

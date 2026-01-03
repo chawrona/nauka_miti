@@ -60,7 +60,9 @@ if (window.MathJax && window.MathJax.typesetPromise) {
   // Wyświetlanie odpowiedzi
   answersButtons.forEach((btn, i) => {
   const ans = q.answers[i] || "";
+
   btn.innerHTML = ans.charAt(0).toUpperCase() + ans.slice(1);
+    if(index === 14) console.log(ans.charAt(0).toUpperCase() + ans.slice(1));
   if (window.MathJax && window.MathJax.typesetPromise) {
     MathJax.typesetPromise([btn]).catch((err)=>console.error(err));
   }

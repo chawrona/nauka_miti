@@ -44,8 +44,8 @@
       "category": "Wstęp do programowania w języku Java",
       "question_text": "Które słowo kluczowe w języku Java oznacza, że rozszerzamy o klasę X?",
       "answers": [
-        "<T extends X>",
-        "<X>",
+        "&lt;T extends X&gt;",
+        "&lt;X&gt;",
         "implements X",
         "extends X"
       ],

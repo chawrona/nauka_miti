@@ -161,10 +161,10 @@
       "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
       "question_text": "Który z poniższych dokumentów XML jest dobrze sformułowany",
       "answers": [
-        "<firstElement>dowolny tekst\n</secondElement>kolejny dowolny tekst\n<secondElement>\n</firstElement>",
-        "<firstElement>dowolny tekst\n<secondElement> kolejny dowolny tekst\n</firstElement>\n</secondElement>",
-        "<firstElement>dowolny tekst</firstElement>\n<secondElement> kolejny dowolny tekst</secondElement>",
-        "</firstElement>dowolny tekst\n</secondElement>kolejny dowolny tekst\n<firstElement>"
+        "&lt;firstElement&gt;dowolny tekst\n&lt;/secondElement&gt;kolejny dowolny tekst\n&lt;secondElement&gt;\n&lt;/firstElement&gt;",
+        "&lt;firstElement&gt;dowolny tekst\n&lt;secondElement&gt; kolejny dowolny tekst\n&lt;/firstElement&gt;\n&lt;/secondElement&gt;",
+        "&lt;firstElement&gt;dowolny tekst&lt;/firstElement&gt;\n<secondElement> kolejny dowolny tekst&lt;/secondElement&gt;",
+        "&lt;/firstElement&gt;dowolny tekst\n&lt;/secondElement&gt;kolejny dowolny tekst\n&lt;firstElement&gt;"
       ],
       "correct_answer": 1,
       "assets": []
@@ -185,7 +185,7 @@
     {
       "question_number": 265,
       "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
-      "question_text": "Plik XML ma następującą strukturę:\n<menstore>\n<category>Shirts</category>\n<color>Red</color>\n<size>M</size>\n<price>$25.99</price>\n<clothing />\n</menstore>\nKtóra składnie XPath zwróci kolor koszuli?",
+"question_text": "Plik XML ma następującą strukturę:<br>&lt;menstore&gt;<br>&lt;category&gt;Shirts&lt;/category&gt;<br>&lt;color&gt;Red&lt;/color&gt;<br>&lt;size&gt;M&lt;/size&gt;<br>&lt;price&gt;$25.99&lt;/price&gt;<br>&lt;clothing /&gt;<br>&lt;/menstore&gt;<br>Która składnie XPath zwróci kolor koszuli?",
       "answers": [
         "path='/clothing/color'",
         "path='/menstore/color'",

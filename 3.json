@@ -147,12 +147,13 @@
       "question_number": 112,
       "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
       "question_text": "Który z znaczników XML jest poprawnie sformułowany?",
-      "answers": [
-        "<myElement myAttribute=\"someValue'/>",
-        "<myElement myAttribute='someValue'>",
-        "<myElement myAttribute=\"someValue\"/>",
-        "<myElement myAttribute=someValue/>"
-      ],
+     "answers": [
+    "&lt;myElement myAttribute=\"someValue'/&gt;",
+    "&lt;myElement myAttribute='someValue'&gt;",
+    "&lt;myElement myAttribute=\"someValue\"/&gt;",
+    "&lt;myElement myAttribute=someValue/&gt;"
+]
+,
       "correct_answer": 2,
       "assets": []
     },
@@ -458,18 +459,19 @@
       "assets": []
     },
     {
-      "question_number": 136,
-      "category": "Języki hipertekstowe i tworzenie stron WWW",
-      "question_text": "<form method=\"post\" action=\"\">\n<label>Imie: </label>\n<input type=\"text\" name=\"imie\" placeholder=\"tutaj wpisz swoje imię\"<br>\n<input type=\"submit\" value=\"Wyslij\">\n</form>\nAby wyświetlić imię pobrane z formularza należy wykonać skrypt:",
-      "answers": [
-        "<?php echo \\$_POST[\"name\"]; ?>",
-        "<?php echo \"\\$_POST[\"name\"] \"; ?>",
-        "<?php echo '\\$_Post[\"name\"] ; ?>",
-        "<?php echo '\\$_POST[\"name\"]'; ?>"
-      ],
-      "correct_answer": 0,
-      "assets": []
-    },
+  "question_number": 136,
+  "category": "Języki hipertekstowe i tworzenie stron WWW",
+  "question_text": "&lt;form method=\"post\" action=\"\"&gt;\n&lt;label&gt;Imie: &lt;/label&gt;\n&lt;input type=\"text\" name=\"imie\" placeholder=\"tutaj wpisz swoje imię\"&lt;br&gt;\n&lt;input type=\"submit\" value=\"Wyslij\"&gt;\n&lt;/form&gt;\nAby wyświetlić imię pobrane z formularza należy wykonać skrypt:",
+  "answers": [
+    "&lt;?php echo \\$_POST[\"name\"]; ?&gt;",
+    "&lt;?php echo \"\\$_POST[\"name\"] \"; ?&gt;",
+    "&lt;?php echo '\\$_Post[\"name\"] ; ?&gt;",
+    "&lt;?php echo '\\$_POST[\"name\"]'; ?&gt;"
+  ],
+  "correct_answer": 0,
+  "assets": []
+}
+,
     {
       "question_number": 137,
       "category": "Oprogramowanie użytkowe",

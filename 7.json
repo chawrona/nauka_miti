@@ -449,10 +449,10 @@
       "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
       "question_text": "Jak stworzyć w XML-u, aby atrybut miał wiele wartości?",
       "answers": [
-        "<myElement myAttribute=\"value1\" \"value2\"/>",
-        "<myElement myAttribute=\"value1\"-\"value2\"/>",
+        "&lt;myElement myAttribute=\"value1\" \"value2\"/&gt;",
+        "&lt;myElement myAttribute=\"value1\"-\"value2\"/&gt;",
         "Atrybuty nie mogą mieć wielu wartości.",
-        "<myElement myAttribute=\"value1\" myAttribute=\"value2\"/>"
+        "&lt;myElement myAttribute=\"value1\" myAttribute=\"value2\"/&gt;"
       ],
       "correct_answer": 2,
       "assets": []
