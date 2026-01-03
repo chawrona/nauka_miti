@@ -1,0 +1,656 @@
+{
+  "questions": [
+    {
+      "question_number": 51,
+      "category": "Rzeczywistość wirtualna",
+      "question_text": "Do najpopularniejszych silników graficznych nie należy:",
+      "answers": [
+        "Virtual Engine",
+        "Unity",
+        "Cry Engine",
+        "Unreal Engine"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 52,
+      "category": "Elektronika",
+      "question_text": "Tranzystor bipolarny umożliwia:",
+      "answers": [
+        "przełączanie oraz wzmacnianie natężenia prąd",
+        "wzmacnianie natężenia prądu",
+        "wzmacnianie napięcia",
+        "przełączanie oraz wzmacnianie napięcia"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 53,
+      "category": "Programowanie proceduralne",
+      "question_text": "Wskaźnik p został zadeklarowany następująco\nint *p;\nKtóre z wyrażeń\np\n*p\n++p\nsą L-wartościami?",
+      "answers": [
+        "Tylko ++p jest L-wartością.",
+        "Tylko *p jest L-wartością.",
+        "Żadne z podanych wyrażeń nie jest L-wartością.",
+        "L-wartościami są wyrażenia p oraz *p."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 54,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "W aspekcie złożoności obliczeniowej ograniczenie dolne oznacza:",
+      "answers": [
+        "algorytm o najmniejszej znanej złożoności czasowej",
+        "że nie istnieje algorytm o większej złożoności",
+        "że nie istnieje algorytm o mniejszej złożoności",
+        "że konkretny algorytm jest ograniczony od dołu"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 55,
+      "category": "E-Biznes",
+      "question_text": "Strona internetowa wyświetlająca wyniki wyszukiwania w wyszukiwarce po wpisaniu słów kluczowych.",
+      "answers": [
+        "SEO",
+        "SCRP",
+        "SERP",
+        "SARP"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 56,
+      "category": "Matematyka 2",
+      "question_text": "Funkcja $f:\\mathbb{R}\\rightarrow\\mathbb{R}^{+}U$ {0} o przypisie $f(x)=|x-1|$",
+      "answers": [
+        "jest różniczkowalna w R",
+        "jest różniczkowalna w $\\mathfrak{R}^{+}$",
+        "posiada ekstremum lokalne",
+        "nie posiada ekstremum lokalnego"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 57,
+      "category": "Programowanie proceduralne",
+      "question_text": "Czy któraś ze zmiennych w podanym programie jest zmienną dynamiczną? Jeśli tak, to proszę ją wskazać.\n#include <stdio.h>\nint main(void) {\nint $x=6$;\nint $*y=8x$\nstatic int $z=8$;\n}\nprintf(\"%d %d %d\\n\", x, y, z);",
+      "answers": [
+        "Zmienna y jest zmienną dynamiczną.",
+        "Zmienna z jest zmienną dynamiczną.",
+        "Żadna ze zmiennych w tym programie nie jest zmienną dynamiczną.",
+        "Zmienna x jest zmienną dynamiczną."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 58,
+      "category": "Programowanie obiektowe",
+      "question_text": "Konstruktor w języku C++:",
+      "answers": [
+        "definiuje obiekt i nadaje mu wartości w jednej instrukcji",
+        "definiuje obiekt bez nadania mu wartości",
+        "konstruuje obiekt",
+        "konstruuje funkcję"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 59,
+      "category": "Elektronika",
+      "question_text": "Zasilacze impulsowe osiągają wysoką sprawność dzięki pracy z częstotliwością:",
+      "answers": [
+        "$f=100~Hz$",
+        "$f=60~Hz$",
+        "$f=50~Hz$",
+        "$f>100Hz$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 60,
+      "category": "Metody numeryczne",
+      "question_text": "Interpolacja wielomianowa jest szczególnym przypadkiem aproksymacji wielomianowej",
+      "answers": [
+        "tak, jeżeli liczba punktów węzłowych jest taka sama jak liczba wektorów bazowych",
+        "tak, a liczba punktów węzłowych nie ma nic wspólnego z liczbą wektorów bazowych",
+        "nie, nie mają ze sobą nic wspólnego",
+        "nie, interpolacja jest bardziej ogólna od aproksymacji"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 61,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Ciąg kodowy 111 0010 1100 1011 zakodowany w kodzie Hamminga (15,11) zawiera jeden błędny bit. Bit ten znajduje się w pozycji:",
+      "answers": [
+        "12",
+        "10",
+        "7",
+        "3"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 62,
+      "category": "Sztuczna inteligencja",
+      "question_text": "Halucynacje modeli Al to:",
+      "answers": [
+        "generowanie treści poprawnie sformułowanych językowo, ale nieprawdziwych/niepoprawnych",
+        "sytuacja, w której model nie generuje żadnej odpowiedzi",
+        "błąd syntaktyczny w promptcie",
+        "brak internetu u użytkownika"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 63,
+      "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
+      "question_text": "Jaka jest różnica między \"/\" a \"//\" w XPath?",
+      "answers": [
+        "wszystkie są poprawne",
+        "pojedynczy ukośnik ( ) reprezentuje względną ścieżkę a podwójny ukośnik (//) reprezentuje bezwzględną ścieżkę",
+        "pojedynczy ukośnik ( ) reprezentuje bezwzględną ścieżkę, rozpoczyna od korzenia dokumentu, podczas gdy podwójny ukośnik (//) reprezentuje względną ścieżkę, która zaczyna się od dowolnego miejsca w dokumencie XML",
+        "żadna z nich nie jest poprawna"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 64,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Promieniowanie elektromagnetyczne wytwarzane jest przez ładunek, który:",
+      "answers": [
+        "porusza się z dużą, ale stałą prędkością po prostej",
+        "nie porusza się ruchem jednostajnym po prostej oraz nie pozostaje w spoczynku",
+        "spoczywa",
+        "porusza się z małą, ale stałą prędkością po prostej"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 65,
+      "category": "Programowanie proceduralne",
+      "question_text": "Przy następujących deklaracjach i instrukcjach:\nint $mm[3][2]=\\{\\{12,3\\}$, {4,16}, {8,9}};\nint $(^{*}p)[2]$;\n$p=mm$\nWśród zestawu poniższych wyrażeń wskaż wyrażenie równoważne do wyrażenia:\n$*(mm[2]+1)$",
+      "answers": [
+        "$p[2][1]$",
+        "$p[2]+1$",
+        "$8p[2][1]$",
+        "$*(^{*}(p+1)+2)$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 66,
+      "category": "Modelowanie 3D",
+      "question_text": "Aby wykonać transformację przemieszczenia wybranego wierzchołka dowolnej bryły w 3ds Max z kategorii Standard Primitives należy:",
+      "answers": [
+        "dokonać konwersji bryły na obiekt typu Editable Poly",
+        "użyć modyfikatora Edit Poly",
+        "wszystkie odpowiedzi są poprawne",
+        "dokonać konwersji bryły na obiekt typu Editable Mesh"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 67,
+      "category": "Projektowanie wizualne i tworzenie interfejsów",
+      "question_text": "Dla platform mobilnych (Android / iOS) istotną zasadą jest:",
+      "answers": [
+        "unikanie natywnych komponentów systemowych",
+        "dopasowanie interakcji do kontekstu urządzenia (gesty, zasięg kciuka, rozmiar dotyku)",
+        "stosowanie minimalnego kontrastu (żeby Ul był „czystszy\")",
+        "projektowanie wszystkich ekranów identycznie jak na desktop"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 68,
+      "category": "Metody numeryczne",
+      "question_text": "Metoda Eulera rozwiązywania równań różniczkowych jest szczególnym przypadkiem metod Rungego-Kutty",
+      "answers": [
+        "nie, nie mają ze sobą nic wspólnego",
+        "tak, jest metodą Rungego-Kutty rzędu I",
+        "tak, ale służy do rozwiązywania innych typów równań różniczkowych",
+        "nie, metoda Eulera jest bardziej ogólna"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 69,
+      "category": "Podstawy programowania",
+      "question_text": "W języku C składowe struktury:",
+      "answers": [
+        "muszą zostać zainicjalizowane w czasie deklaracji zmiennej typu strukturalnego",
+        "nie mogą być typu wskaźnikowego",
+        "nie mogą być typu tej struktury",
+        "muszą być różnych typów"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 70,
+      "category": "Testowanie oprogramowania",
+      "question_text": "Która z podanych zasad nie jest częścią 7 Zasad Testowania Oprogramowania?",
+      "answers": [
+        "Paradoks kosztów.",
+        "Paradoks pestycydów.",
+        "Przekonanie o braku błędów jest błędem.",
+        "Testowanie zależy od kontekstu."
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 71,
+      "category": "Języki skryptowe",
+      "question_text": "Co to jest interpreter w kontekście języka Python?",
+      "answers": [
+        "narzędzie do przekształcania kodu źródłowego Pythona na kod maszynowy",
+        "specjalny typ danych do przechowywania informacji w języku Python",
+        "program, który wykonuje kod źródłowy Pythona linia po linii podczas jego uruchamiania",
+        "biblioteka zawierająca funkcje i moduły, które można importować i używać w Pythonie"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 72,
+      "category": "Systemy operacyjne",
+      "question_text": "Problem tzw. głodzenia (nieskończonego blokowania) procesu może wystąpić w systemie operacyjnym w przypadku planowania zadań wg metody:",
+      "answers": [
+        "rotacyjnej",
+        "priorytetowej",
+        "problem głodzenia procesu może wystąpić w każdej strategii planowania zadań",
+        "kolejkowej FIFO lub LIFO"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 73,
+      "category": "Kryptografia",
+      "question_text": "Które zdanie najlepiej opisuje różnicę między steganografią a kryptografią?",
+      "answers": [
+        "Steganografia to tylko metoda stosowana w II wojnie światowej, kryptografia to współczesna technika.",
+        "Steganografia zawsze wymaga klucza publicznego, kryptografia nigdy.",
+        "Steganografia ukrywa istnienie komunikatu, kryptografia ukrywa jego treść.",
+        "Steganografia szyfruje wiadomości asymetrycznie, kryptografia tylko symetrycznie."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 74,
+      "category": "Integracja sieci i usług",
+      "question_text": "Które warunki muszą być spełnione, aby zaczął działać interfejs szeregowy routera z zainstalowanym systemem IOS?",
+      "answers": [
+        "zastosowanie komendy \"no shutdown\"",
+        "ustawienie po obu stronach łącza tej samej wartości prędkości łącza instrukcją \"clock rate\"",
+        "wprowadzenie opisu interfejsu komendą \"description\"",
+        "ustawienie po obu stronach łącza adresów logicznych należących do tej samej sieci"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 75,
+      "category": "Podstawy programowania",
+      "question_text": "Aby przekazać tablicę dwuwymiarową do funkcji, należy podać:",
+      "answers": [
+        "wskaźnik do pierwszej kolumny oraz liczbę jej kolumn",
+        "wskaźnik do początku tablicy oraz liczbę jej kolumn",
+        "wskaźnik do pierwszego wiersza tablicy oraz liczbę jej wierszy",
+        "wskaźnik do początku tablicy"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 76,
+      "category": "Integracja sieci i usług",
+      "question_text": "Routing statyczny można zdefiniować:",
+      "answers": [
+        "do dowolnej sieci",
+        "tylko do sieci lokalnych i loopback",
+        "tylko do sieci bezpośrednio podłączonych do sąsiedniego routera",
+        "do dowolnego adresu IPv6"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 77,
+      "category": "Wzorce projektowe",
+      "question_text": "Intencja (przeznaczenie) wzorca Fasada (Facade) to:",
+      "answers": [
+        "Wszystkie pozostałe odpowiedzi są błędne.",
+        "Zdefiniowanie obiektu hermetyzującego informację o interakcji pomiędzy obiektami z pewnego zbioru.",
+        "Udostępnienie interfejsu do tworzenia rodzin powiązanych lub zależnych obiektów bez specyfikacji ich konkretnych klas.",
+        "Udostępnienie jednolitego interfejsu dla zbioru interfejsów z podsystemu."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 78,
+      "category": "Wzorce projektowe",
+      "question_text": "Intencja (przeznaczenie) wzorca Pula Obiektów (Object Pool) to:",
+      "answers": [
+        "Oddzielenie konstrukcji obiektu o złożonej strukturze od jego reprezentacji tak, że ten sam proces konstrukcji może prowadzić do powstawania różnych reprezentacji.",
+        "Optymalizacja wydajności poprzez ponowne użycie istniejących obiektów, zamiast tworzenia nowych.",
+        "Umożliwienie obiektowi zmiany zachowania w wyniku zmiany wewnętrznego stanu.",
+        "Utrwalenie wewnętrznego stanu obiektu w zewnętrznej jednostce bez naruszania hermetyzacji tak, żeby obiekt można było później przywrócić do tego stanu."
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 79,
+      "category": "Modelowanie 3D",
+      "question_text": "W programie 3ds Max aby dodać dodatkowy wierzchołek do obiektu typu Splain należy użyć polecenia:",
+      "answers": [
+        "Attach",
+        "Refine",
+        "Break",
+        "Divide"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 80,
+      "category": "Metody numeryczne",
+      "question_text": "Policzyć błąd względny opierając się na danych: $x_{0}=0.9$ - wartość dokładna, $x=1\\cdot$ wartość obliczona",
+      "answers": [
+        "$1/9$",
+        "nie można policzyć błędu względnego opierając się na tych danych",
+        "10/9",
+        "1/10"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 81,
+      "category": "Animacje komputerowe",
+      "question_text": "Efekt masowania w programie Adobe Animate jest własnością:",
+      "answers": [
+        "obiektu",
+        "warstwy",
+        "animacji",
+        "symbolu"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 82,
+      "category": "Wstęp do matematyki",
+      "question_text": "Rozwiązaniem nierówności $|x+1|\\le1$ jest przedział:",
+      "answers": [
+        "(-0,0)",
+        "$(-\\infty,-1)\\cup(0,+\\infty)$",
+        "[-2,0]",
+        "$(-\\infty,-1]\\cup(0,+\\infty)$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 83,
+      "category": "Programowanie obiektowe",
+      "question_text": "Jaka jest konsekwencja przekazania obiektu jako parametru do funkcji za pomocą referencji, zgodnie z przykładową deklaracją w języku C++:\nvoid fun (MyClass & param);",
+      "answers": [
+        "brak możliwości modyfikacji obiektu przekazanego w argumencie w trakcie działania funkcji",
+        "wywołanie konstruktora kopiującego klasy MyClass",
+        "brak utworzenia lokalnej kopii obiektu, funkcja działa na oryginalnym obiekcie",
+        "utworzenie lokalnej kopii obiektu, ewentualne modyfikacje parametru nie będą widoczne po wyjściu z funkcji"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 84,
+      "category": "Programowanie proceduralne",
+      "question_text": "Czy w podanej funkcji występuje wskaźnik do tablicy?\nvoid f(int t[] [5]){\nint $*p[5]$\nint $**q=p$;\np[0] = malloc(5*sizeof(int));\n$q[\\theta][\\theta]=t[\\theta][\\theta]$;\nprintf(\"%d\\n\", p[0][0]);\n}",
+      "answers": [
+        "q jest wskaźnikiem do tablicy",
+        "w funkcji f nie występuje wskaźnik do tablicy",
+        "parametr t jest wskaźnikiem do tablicy",
+        "p jest wskaźnikiem do tablicy"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 85,
+      "category": "Programowanie proceduralne",
+      "question_text": "Wskaż poprawne instrukcje dynamicznego przydziału i zwalniania pamięci dla dwuwymiarowej tablicy ARR2D składającej się z M jednowymiarowych tablic, każda o rozmiarze N i typie elementów double.",
+      "answers": [
+        "double (*ARR2D) [M] = (double *) malloc(M*N*sizeof(double *)); free (ARR2D);",
+        "double (*ARR2D) [N] = (double (*) [N])malloc(M*N*sizeof(double)); free (*ARR2D);",
+        "double (*ARR2D) [N]=(double (*) [N]) malloc(M*N*sizeof(double)); free (ARR2D);",
+        "double (*ARR2D) [M] = (double (*) [M]) malloc(M*N*sizeof(double)); free (ARR2D);"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 86,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "W dowolnej sieci, maksymalny przepływ jest równy:",
+      "answers": [
+        "średniej przepustowości dowolnego przekroju",
+        "minimalnej przepustowości dowolnego przekroju",
+        "średniej przepustowości jednego przekroju",
+        "maksymalnej przepustowości dowolnego przekroju"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 87,
+      "category": "Programowanie proceduralne",
+      "question_text": "W poniższym programie w języku C brakuje trzech instrukcji (w miejscach [1], [2], [3]). Wskaż jakie instrukcje i wjakiej kolejności wstawić w tym programie, tak, aby program wyświetlał wartość następującej sumy: $-2+1+4+...+19$ .\n#include <stdio.h>\nlong f(int n) {\n}\nif $(n==0)$\nreturn [1];\nelse\nreturn [2];\nint main(void) {\n[3];\nreturn 0;\n}",
+      "answers": [
+        "[1]:-2\n[2]: $(3^{*}n-2)+f(n-1)$\n[3]: printf(\"\\n %ld\", f(7))",
+        "[1]: -2\n[2]: $(3^{*}n-1)+f(n-1)$\n[3]: printf(\"\\n %ld \", f(7))",
+        "[1]: 0\n[2]: $(3^{*}n-1)+f(n-1)$\n[3]: printf(\"\\n %ld\", f(8))",
+        "[1]: 0\n[2]: $(3^{*}n-2)+f(n-1)$\n[3]: printf(\"\\n %ld \", f(8))"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 88,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Graf jest grafem eulerowskim:",
+      "answers": [
+        "jeśli każdy wierzchołek tego grafu jest incydentny do parzystej ilości krawędzi",
+        "jeśli graf posiada parzystą ilość krawędzi",
+        "jeśli każdy wierzchołek tego grafu jest incydentny do nieparzystej ilości krawędzi",
+        "jeśli wierzchołki tego grafu nie są incydentne do parzystej ilości krawędzi"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 89,
+      "category": "Relacyjne bazy danych",
+      "question_text": "W tabeli mieszkancy z polami id, imie, nazwisko, ulica, numer, czynsz (wartość całkowita) należy wybrać dane osób mieszkających na ulicy Kopernika pod numerami 71, 72, 80, których czynsz jest niższy niż 1000 zł. Klauzula WHERE do zapytania będzie miała postać:",
+      "answers": [
+        "WHERE ulica = 'Kopernika' AND numer IN (71, 72, 80) OR czynsz < 1000",
+        "WHERE ulica = 'Kopernika' OR numer IN (71, 72, 80) OR czynsz < 1000",
+        "WHERE ulica = 'Kopernika' AND numer IN (71, 72, 80) AND czynsz < 1000",
+        "WHERE ulica = 'Kopernika' AND numer > 70 AND numer < 81 OR czynsz < 1000"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 90,
+      "category": "Modelowanie 3D",
+      "question_text": "W programie SketchUp aby narysować pięciokąt foremny przy użyciu narzędzia Polygon należy użyć zapisu:",
+      "answers": [
+        "5s",
+        "5k",
+        "5c",
+        "5z"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 91,
+      "category": "Testowanie oprogramowania",
+      "question_text": "Które ze stwierdzeń jest prawdziwe dla testów jednostkowych",
+      "answers": [
+        "Żadne z pozostałych stwierdzeń nie jest prawidłowe.",
+        "Polegają na pisaniu testów do określonej metody lub klasy w kodzie programu.",
+        "Są częścią beta testów na środowisku klienta.",
+        "Polegają na testowaniu w określonej jednostce czasu."
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 92,
+      "category": "Sieci komputerowe",
+      "question_text": "Przyjrzyj się zamieszczonemu powyżej schematowi. Host A chce uzyskać dostęp do sieci Internet. Jaka kombinacja adresów warstwy 2 oraz adresów warstwy 3 pozwoli na ten dostęp z hosta A? [OBRAZEK: pytanie_92_tresc.png]",
+      "answers": [
+        "Docelowy MAC: 0030.8596.DE82, Brama domyślna: 172.16.9.2",
+        "Docelowy MAC: 0030.8517.44C4, Brama domyślna: 209.165.202.130",
+        "Docelowy MAC: 0030.8517.44C4, Brama domyślna: 172.16.1.1",
+        "Docelowy MAC: 0030.8596.DE83, Brama domyślna: 209.165.202.130"
+      ],
+      "correct_answer": 2,
+      "assets": [
+        "pytanie_92_tresc.png"
+      ]
+    },
+    {
+      "question_number": 93,
+      "category": "Elektronika",
+      "question_text": "Wzmacniacz operacyjny może pracować w konfiguracji:",
+      "answers": [
+        "wzmacniacza całkowitego",
+        "wzmacniacza bramkującego",
+        "wzmacniacza wzmacniającego fazę sygnału",
+        "wzmacniacza odwracającego fazę sygnału"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 94,
+      "category": "Programowanie obiektowe",
+      "question_text": "W języku C++ metoda statyczna może odwoływać się do:",
+      "answers": [
+        "wyłącznie tych składowych, które też są statyczne",
+        "wszystkich prywatnych składowych zdefiniowanych w klasie",
+        "wszystkich składowych posiadających modyfikator const",
+        "wszystkich składowych zdefiniowanych w klasie bez względu na ich dostępność"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 95,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Która reguła stwierdza, że wzrost wydajności jest mniej więcej proporcjonalny do pierwiastka kwadratowego ze wzrostu złożoności",
+      "answers": [
+        "prawo Moore'a",
+        "reguła MOESI",
+        "prawo Amdahla",
+        "reguła Pollacka"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 96,
+      "category": "Języki skryptowe",
+      "question_text": "Co oznacza termin 'interpretowany' w kontekście języków skryptowych, takich jak Python?",
+      "answers": [
+        "kody źródłowe są czytane i wykonywane linia po linii podczas wykonywania",
+        "wszystkie wymienione odpowiedzi",
+        "kody źródłowe są kompilowane do kodu bajtowego, który jest potem interpretowany",
+        "kody źródłowe są kompilowane do kodu maszynowego przed ich wykonaniem"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 97,
+      "category": "Wzorce projektowe",
+      "question_text": "Intencja (przeznaczenie) wzorca Mediator to:",
+      "answers": [
+        "Dostarczenie zastępnika lub reprezentanta innego obiektu w celu kontrolowania dostępu do tego obiektu.",
+        "Umożliwienie obiektowi zmiany zachowania w wyniku zmiany wewnętrznego stanu.",
+        "Wszystkie pozostałe odpowiedzi są błędne.",
+        "Zdefiniowanie obiektu hermetyzującego informację o interakcji pomiędzy obiektami z pewnego zbioru."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 98,
+      "category": "Relacyjne bazy danych",
+      "question_text": "W relacyjnych bazach danych encja jest reprezentowana przez",
+      "answers": [
+        "relację",
+        "kwerendę",
+        "tabelę",
+        "rekord"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 99,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Które z poleceń nadaje najniższy poziom uprawnień użytkownikowi student pod względem modyfikacji danych i struktury tabel?",
+      "answers": [
+        "GRANT ALTER, SELECT ON uczelnia.przedmioty TO student;",
+        "GRANT SELECT ON uczelnia.przedmioty TO student;",
+        "GRANT INSERT, DROP ON uczelnia.przedmioty TO student;",
+        "GRANT DROP ON uczelnia.przedmioty TO student;"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 100,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "O uniwersalności maszyny Turinga decydują:",
+      "answers": [
+        "liczba stanów wewnętrznych i liczba symboli alfabetu na taśmie roboczej",
+        "uniwersalna lista rozkazów",
+        "liczba symboli na wejściu",
+        "uniwersalna liczba stanów końcowych"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    }
+  ]
+}

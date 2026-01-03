@@ -1,0 +1,656 @@
+{
+  "questions": [
+    {
+      "question_number": 1,
+      "category": "Animacje komputerowe",
+      "question_text": "Rozpoczynający się ruch jednostajnie przyspieszony spadającego obiektu, animowanego poklatkowo wymaga:",
+      "answers": [
+        "większej liczby klatek i niewielkich zmian położenia obiektu na końcu ruchu",
+        "mniejszej liczby klatek i większych zmian położenia obiektu na początku ruchu",
+        "mniejszej liczby klatek i większych zmian położenia obiektu na końcu ruchu",
+        "większej liczby klatek i niewielkich zmian położenia obiektu na początku ruchu"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 2,
+      "category": "Testowanie oprogramowania",
+      "question_text": "W kontekście testowania oprogramowania skrót techniki TDD oznacza:",
+      "answers": [
+        "Test Development Drive",
+        "Tester Driving Desk",
+        "Żadne z pozostałych stwierdzeń nie jest prawidłowe.",
+        "Technical Driven Development"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 3,
+      "category": "Matematyka 1",
+      "question_text": "Wskaż zdanie prawdziwe dotyczące indeksowanej rodziny zbiorów $A_{n}:=[\\frac{1}{n},n]dla~n\\in\\mathbb{N}_{+}$",
+      "answers": [
+        "U An = [0,00), $\\bigcap_{n\\in\\mathbb{N}_{+}}A_{n}=A_{1}$",
+        "NEN+",
+        "$\\bigcup_{n\\in\\mathbb{N}_{+}}A_{n}=(0,+\\infty)$",
+        "$\\bigcup_{n\\in\\mathbb{N}_{+}}A_{n}=(0,+\\infty),\\bigcap_{n\\in\\mathbb{N}_{+}}A_{n}=\\emptyset$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 4,
+      "category": "Programowanie proceduralne",
+      "question_text": "Jaką wartość wypisze na ekranie podany program:\nvoid f(char *s){\nprintf(\"%zu\\n\", sizeof(s));\n}\nint main(void) {\nchar t[20]=\"kot w worku\";\nf(t);\n}",
+      "answers": [
+        "podane informacje nie są wystarczające do określenia wypisywanej wartości",
+        "11",
+        "20",
+        "12"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 5,
+      "category": "Sieci komputerowe",
+      "question_text": "Co następuje w warstwie łącza danych podczas procesu enkapsulacji?",
+      "answers": [
+        "Żaden adres nie jest dodawany",
+        "Dodawany jest numer portu",
+        "Dodawany jest adres fizyczny",
+        "Dodawany jest adres logiczny"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 6,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Kursory w bazach relacyjnych danych służą do:",
+      "answers": [
+        "eliminowanie problemów z redundancją danych",
+        "iteracyjnego przeglądania wyników zapytania",
+        "zarządzania sesją połączenia",
+        "przełączaniem się między tabelami"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 7,
+      "category": "Programowanie obiektowe",
+      "question_text": "Przyjaźń w języku C++",
+      "answers": [
+        "jest przechodnia i niedziedziczna",
+        "jest przechodnia i dziedziczna",
+        "jest nieprzechodnia i dziedziczna",
+        "jest nieprzechodnia i niedziedziczna"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 8,
+      "category": "Wstęp do matematyki",
+      "question_text": "Dana jest funkcja f określona wzorem $f(x)=\\begin{cases}x-2&dla~x\\le0\\\\ |x+3|&dla~x>0\\end{cases}.$ Równanie $f(x)=-1$ ma:",
+      "answers": [
+        "0 rozwiązań",
+        "1 rozwiązanie",
+        "2 rozwiązania",
+        "nieskończenie wiele rozwiązań"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 9,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Filtr widoku dzierżawców:",
+      "answers": [
+        "widoki określające uprawnienia dzierżawców do wierszy wybranych widoków.",
+        "widoki pozwalają na dostęp równoczesny do kilku tabel z zastosowaniem odpowiednich filtrów.",
+        "widoki pozwalają przydzielić poszczególnym prawo dostępu do wybranych kolumn danej tabeli przy równoczesnym uniemożliwieniu dostępu do pozostałych kolumn.",
+        "widoki pozwalają przydzielić poszczególnym dzierżawcom prawo dostępu do wybranych wierszy danej tabeli przy równoczesnym uniemożliwieniu dostępu do pozostałych wierszy."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 10,
+      "category": "Matematyka 1",
+      "question_text": "Wskaż zdanie, którego wartość logiczna wynosi 1.",
+      "answers": [
+        "$[(\\sqrt{2}>1,41)\\Rightarrow\\sqrt{1\\frac{7}{9}}>(1\\frac{1}{2})^{-1}]\\wedge[(3:2=6)\\Leftrightarrow(4\\cdot70=4)]$",
+        "$lim_{n\\rightarrow\\infty}\\frac{1+2+3+4+...+n}{n^{2}}$ jest liczbą naturalną",
+        "Liczba 0,(3) jest liczbą niewymierną i spełniona jest nierówność $3\\sqrt{2}<2\\sqrt{3}$",
+        "$(3|5)\\Leftrightarrow(2|8)$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 11,
+      "category": "Matematyka 1",
+      "question_text": "Ciąg $(a_{n})$ określony jest wzorem rekurencyjnym $\\begin{cases}a_{1}=1,a_{2}=1,&a_{3}=1\\\\ a_{n+3}=a_{n+2}+a_{n+1}+a_{n},&n\\ge1\\end{cases}$. Szósty wyraz tego ciągu jest równy:",
+      "answers": [
+        "$\\frac{64^{\\frac{2}{3}}\\cdot\\sqrt{8}}{0,5^{-4}\\cdot\\sqrt[4]{4}}\\cdot4,5$",
+        "-9",
+        "$3^{log_{9}27}+log_{\\frac{1}{3}}\\frac{1}{9}-3\\sqrt{3}$",
+        "reszcie z dzielenia liczby 10 przez 6"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 12,
+      "category": "Wstęp do programowania w języku Java",
+      "question_text": "Który symbol reprezentuje typ wieloznaczny w programowaniu generycznym w Javie?",
+      "answers": [
+        "@",
+        "?",
+        "*",
+        "#"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 13,
+      "category": "Programowanie obiektowe",
+      "question_text": "W języku C++ mechanizm przyjaźni służy do:",
+      "answers": [
+        "nadawania przez funkcję dostępu do swoich lokalnych zmiennych innym funkcjom",
+        "nadawania przez klasę dostępu do jej prywatnych i chronionych składowych dla zewnętrznych funkcji i/lub innych klas",
+        "współdzielenia metod między dwoma klasami",
+        "współdzielenia składowych między dwoma klasami"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 14,
+      "category": "Testowanie oprogramowania",
+      "question_text": "Które z wymienionych poniżej testów są tworzone zazwyczaj przez programistów piszących kod aplikacji (a nie przez testerów)?",
+      "answers": [
+        "testy funkcjonalne",
+        "beta testy",
+        "testy integracyjne",
+        "testy jednostkowe"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 15,
+      "category": "Programowanie proceduralne",
+      "question_text": "Wskaż poprawną w języku C instrukcję dynamicznego przydziału i zwalniania pamięci dla dwuwymiarowej tablicy t składającej się z N wierszy i M kolumn i typie elementów int:",
+      "answers": [
+        "int **t = (int **) malloc(N* sizeof(int*)); for(int $i=0$; $i<N$; i++){ $t[i]=(int)$ malloc(M * sizeof(int)); } ...",
+        "int **t = (int **) malloc(N* sizeof(int*)); t[0] = (int*) malloc(M*N* sizeof(int)); for(int $i=0$; $i<N$; i++){ $t[i]=t[\\theta]+i^{*}N;$ } ... free(**t); free(t[\\theta]);",
+        "int **t = (int **) malloc(N* sizeof(int*)); for(int $i=0$; $i<N$; i++){ $t[i]=(int^{*})$ malloc(M sizeof(int)); } ... free(t[i]); free(**t);",
+        "int **t = (int**) malloc(N* sizeof(int*)); $t[\\theta]=(int^{*})$ malloc(M*N * sizeof(int)); for(int $i=0$; $i<N$; i++){ $*(t+i)=*t+i^{*}N;$ } free(*t); free(t);"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 16,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Prędkość światła w próżni jest:",
+      "answers": [
+        "jednakowa we wszystkich inercjalnych układach odniesienia",
+        "zależna od długości fali",
+        "jest różna w różnych inercjalnych układach odniesienia",
+        "zależy od prędkości źródła"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 17,
+      "category": "Matematyka 1",
+      "question_text": "Czy prawdziwe jest zdanie: \"Jeżeli student przygotował się do sesji, to z faktu, że student nie przygotował się do sesji wynika, że student zdał egzaminy\"?",
+      "answers": [
+        "nie, bo wyrażenie $p\\Rightarrow(\\sim p\\Rightarrow q)$ nie jest tautologią",
+        "tak, bo wyrażenie $(p\\Rightarrow\\sim p)\\Rightarrow q$ jest tautologią",
+        "tak, bo wyrażenie $p\\Rightarrow(\\sim p\\Rightarrow q)$ jest tautologią",
+        "temu wyrażeniu nie można przypisać wartości logicznej"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 18,
+      "category": "Relacyjne bazy danych",
+      "question_text": "Aby zmienić maksymalną długość pola imie w tabeli klienci na 30 znaków, należy użyć w języku SQL następującego kodu",
+      "answers": [
+        "ALTER TABLE klienci CHANGE imie TEXT;",
+        "CHANGE TABLE klienci TO COLUMN imie SET CHAR(30);",
+        "ALTER TABLE klienci MODIFY COLUMN imie VARCHAR(30);",
+        "CHANGE TABLE klienci MODIFY imie CHAR(30);"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 19,
+      "category": "Systemy czasu rzeczywistego",
+      "question_text": "Priorytety w systemach czasu rzeczywistego oraz w systemach operacyjnych czasu rzeczywistego są reprezentowane przez liczby całkowite. Ile różnych wartości priorytetu zapewnia implementacja systemu Linux w przypadku domyślnego algorytmu szeregowania procesów (klasa SCHED_OTHER) dla użytkownika root? Chodzi tu o parametr NICENESS.",
+      "answers": [
+        "20",
+        "40",
+        "99",
+        "139"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 20,
+      "category": "Animacje komputerowe",
+      "question_text": "Popularnym narzędziem do tworzenia animacji 2D jest:",
+      "answers": [
+        "Blender",
+        "Autodesk Maya",
+        "Adobe Animation",
+        "Autodesk 3DsMax"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 21,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Drzewo matematyczne, to graf:",
+      "answers": [
+        "nieskierowany, cykliczny i spójny",
+        "nieskierowany, acykliczny i spójny",
+        "skierowany, acykliczny i niespójny",
+        "skierowany, cykliczny i niespójny"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 22,
+      "category": "Metody numeryczne",
+      "question_text": "Oblicz przy pomocy metody Newtona pierwiastek równania ex $=2$ przyjmując $x_{0}=1$. Rozwiązanie po pierwszym kroku $(x_{1})$ wynosi",
+      "answers": [
+        "1-2/e",
+        "(2-e)/e",
+        "1-1/e",
+        "2/e"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 23,
+      "category": "Matematyka 1",
+      "question_text": "Rzucamy dwa razy sześcienną kostką do gry. Oblicz prawdopodobieństwo, że suma wyrzuconych oczek jest podzielna przez 3 lub iloraz wyrzuconych oczek jest liczbą całkowitą.",
+      "answers": [
+        "1",
+        "13",
+        "18",
+        "$\\frac{5}{9}$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 24,
+      "category": "Wzorce projektowe",
+      "question_text": "Do kategorii wzorców operacyjnych/czynnościowych należą (wskaż odpowiedź zawierającą wzorce tylko i wyłącznie z tej kategorii):",
+      "answers": [
+        "Most (Bridge), Metoda Szablonowa (Template Method), Polecenie (Command), Iterator (Iterator), Mediator (Mediator), Pamiątka (Memento), Stan (State), Odwiedzający/Wizytator (Visitor), Kompozyt (Composite).",
+        "Intepreter (Interpreter), Metoda Szablonowa (Template Method), Polecenie (Command), Iterator (Iterator), Mediator (Mediator), Pamiątka (Memento), Stan (State), Odwiedzający/Wizytator (Visitor), Pełnomocnik (Proxy).",
+        "Intepreter (Interpreter), Metoda Szablonowa (Template Method), Polecenie (Command), Iterator (Iterator), Mediator (Mediator), Stan (State), Odwiedzający/Wizytator (Visitor).",
+        "Wszystkie pozostałe odpowiedzi są błędne."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 25,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "W przypadku więcej niż czterech zmiennych alternatywnym podejściem jest technika tabelaryczna zwana metodą?",
+      "answers": [
+        "Quine-McCluskey'a",
+        "Mapa- tablica Karnaugha",
+        "DeMorgan",
+        "Boole-Shannon"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 26,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Nazwa B-drzewa pochodzi od:",
+      "answers": [
+        "binarne",
+        "nazwiska Bayer",
+        "bazodanowe",
+        "blokowe"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 27,
+      "category": "Rzeczywistość wirtualna",
+      "question_text": "Biorąc pod uwagę animation controller / state machine poniżej, który kod spowoduje przejście stanu \"Idle\" do stanu „Walk\"? [OBRAZEK: pytanie_27_tresc.png]",
+      "answers": [
+        "setFloat(\"Speed_f\", 0.1f);",
+        "setTrigger(\"Speed_f\");",
+        "setInt(\"Speed_f\", 1);",
+        "setFloat(\"Speed_f\", 0.3f);"
+      ],
+      "correct_answer": 3,
+      "assets": [
+        "pytanie_27_tresc.png"
+      ]
+    },
+    {
+      "question_number": 28,
+      "category": "Programowanie obiektowe",
+      "question_text": "Które słowo kluczowe w języku C++ używane jest do dziedziczenia klasy?",
+      "answers": [
+        "extends",
+        "using",
+        "super",
+        "żadna z pozostałych odpowiedzi nie jest prawdziwa"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 29,
+      "category": "Systemy operacyjne",
+      "question_text": "Z potokiem (w systemie operacyjnym) mamy do czynienia, gdy:",
+      "answers": [
+        "program wysyła dane na standardowe wyjście oraz do pliku",
+        "co najmniej dwa programy, pracujące równolegle wysyłają dane na standardowe wyjście",
+        "dane wyjściowe jednego programu stanowią wejście dla drugiego programu",
+        "program wysyła dane na standardowe wyjście"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 30,
+      "category": "Oprogramowanie użytkowe",
+      "question_text": "Podział dokumentu wielostronicowego (np. raportu, artykułu itd.) na sekcje umożliwia:",
+      "answers": [
+        "ujednolicenie poszczególnych elementów formatowania w całym dokumencie",
+        "zmianę widoku układu dokumentu",
+        "określenie konkretnego układu strony i opcji formatowania dla różnych części dokumentu",
+        "zbiorcze usunięcie podrzędnych haseł indeksu"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 31,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Jeden przyrost lub impuls zegara nazywany jest?",
+      "answers": [
+        "cyklem zegara",
+        "czasem cyklu",
+        "szybkością zegara",
+        "taktowaniem"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 32,
+      "category": "Relacyjne bazy danych",
+      "question_text": "Które zdanie najlepiej opisuje różnicę między klauzulami WHERE a HAVING w zapytaniach SQL?",
+      "answers": [
+        "WHERE jest używane do filtrowania grup, a HAVING jest używane do filtrowania wierszy.",
+        "WHERE jest używane do filtrowania wierszy, a HAVING jest używane do filtrowania grup.",
+        "WHERE I HAVING są używane w ten sam sposób do filtrowania danych.",
+        "żadna z odpowiedzi nie jest poprawna"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 33,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Przepustowością kanału nazywamy:",
+      "answers": [
+        "średnią, ze względu na prawdopodobieństwa sygnałów wyjściowych, ilość informacji przekazywaną przez kanał",
+        "średnią, ze względu na prawdopodobieństwa sygnałów wejściowych, ilość informacji przekazywaną przez kanał",
+        "maksymalną, ze względu na prawdopodobieństwa sygnałów wyjściowych, ilość informacji przekazywaną przez kanał",
+        "maksymalną, ze względu na prawdopodobieństwa sygnałów wejściowych, ilość informacji przekazywaną przez kanał"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 34,
+      "category": "Oprogramowanie użytkowe",
+      "question_text": "Konsolidacja danych w arkuszach kalkulacyjnych polega na:",
+      "answers": [
+        "połączeniu wartości tylko z komórek arkuszy jednego, bieżącego pliku przy jednoczesnym podsumowaniu tych danych",
+        "wszystkie odpowiedzi są błędne",
+        "połączeniu wartości tylko z wybranych zakresów komórek przy jednoczesnym podsumowaniu tych danych",
+        "połączeniu wartości z różnych zakresów komórek, różnych arkuszy lub różnych skoroszytów przy jednoczesnym podsumowaniu tych danych"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 35,
+      "category": "Systemy operacyjne",
+      "question_text": "Rolę pamięci pomocniczej w systemie komputerowym pełni najczęściej:",
+      "answers": [
+        "płyta cd/dvd (RW)",
+        "pamięć typu PROM lub EPROM",
+        "pamięć podręczna procesora",
+        "dysk twardy"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 36,
+      "category": "Programowanie obiektowe",
+      "question_text": "Właściwa kolejność wyłapywania wyjątków w klauzuli try { ... } catch { ... } w języku C++ to:",
+      "answers": [
+        "najpierw wyjątki klas bazowych, potem klas pochodnych (od góry do dołu drzewa hierarchii dziedziczenia)",
+        "najpierw klasy wyjątków z biblioteki standardowej, potem własne klasy",
+        "dowolna, kolejność klas w łapaniu wyjątków nie ma znaczenia",
+        "najpierw wyjątki klas pochodnych, potem klas bazowych (od dołu do góry drzewa hierarchii dziedziczenia)"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 37,
+      "category": "Animacje komputerowe",
+      "question_text": "Elementem wspólnym programów do animacji jest okno przedstawiające tzw. oś czasu. Zawiera ona zwykle:",
+      "answers": [
+        "podział na klatki animacji",
+        "narzędzia tworzenia animacji",
+        "kluczowe informacje o animowanych obiektach",
+        "podgląd efektów specjalnych"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 38,
+      "category": "Programowanie proceduralne",
+      "question_text": "Rozważmy następujące deklaracje w języku C:\nint $t[2][3]=\\{\\{1,2,3\\}$, {4,5,6}};\nint $(^{*}p)[3]=8t[1]$;\nint $*q=t[1]$;\nKtóra z wymienionych instrukcji nie jest równoważna instrukcji $t[1][2]=7$",
+      "answers": [
+        "$*(t[2]+1)=7$;",
+        "$*(^{*}(t+1)+2)=7$;",
+        "$*(q+2)=7$;",
+        "$*(^{*}p+2)=7$;"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 39,
+      "category": "Relacyjne bazy danych",
+      "question_text": "Wskaż kwerendę, która z tabeli klienci wybierze jedynie nazwiska trzech najlepszych klientów, czyli takich, którzy na swoim koncie mają najwięcej punktów (pole całkowite punkty)",
+      "answers": [
+        "SELECT nazwisko FROM klienci ORDER BY punkty DESC LIMIT 3",
+        "SELECT nazwisko FROM klienci ORDER BY nazwisko DESC LIMIT 3;",
+        "SELECT nazwisko FROM klienci LIMIT 3;",
+        "SELECT LIMIT 3 nazwisko FROM klienci ORDER BY nazwisko DESC;"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 40,
+      "category": "Relacyjne bazy danych",
+      "question_text": "Z tabeli mieszkańcy należy wybrać niepowtarzające się nazwy miast, w tym celu należy skorzystać z wyrażenia SQL zawierającego klauzulę",
+      "answers": [
+        "UNIQUE",
+        "DISTINCT",
+        "HAVING",
+        "CHECK"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 41,
+      "category": "Języki hipertekstowe i tworzenie stron WWW",
+      "question_text": "Wybierz selektor, który odwołuje się tylko i wyłącznie do akapitu zawierającego tekst „Ważny akapit\".\n<div>\n<p>Tekstl</p>\n<p>Ważny akapit</p>\n<section>\n<p>Tekst2</p>\n<p>Tekst3</p>\n</section>\n</div>",
+      "answers": [
+        "div p+p",
+        "div > p+p",
+        "div p",
+        "div > p"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 42,
+      "category": "Oprogramowanie użytkowe",
+      "question_text": "Raport tabeli przestawnej w arkuszu kalkulacyjnym umożliwia:",
+      "answers": [
+        "usunięcie zduplikowanych wierszy z arkusza",
+        "rozmieszczanie i podsumowywanie skomplikowanych danych oraz przechodzenie do szczegółów",
+        "odnalezienie odpowiednich danych wejściowych dla żądanych wyników",
+        "wszystkie odpowiedzi są błędne"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 43,
+      "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
+      "question_text": "Co oznacza skrót DTD?",
+      "answers": [
+        "Down-level Type Definition",
+        "Document Type Definition",
+        "Direct Type Definition",
+        "Dynamic Type Definition"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 44,
+      "category": "Wstęp do programowania w języku Java",
+      "question_text": "Czy interfejs w języku Java może posiadać zmienne niestatyczne?",
+      "answers": [
+        "Tak, ale tylko jeżeli będą wykorzystane w abstrakcyjnych metodach.",
+        "Nie, interfejs tylko określa metody które powinny być zaimplementowane w klasach które go implementują.",
+        "Tak.",
+        "Nie, jedynie może deklarować stałe."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 45,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Co oznacza atomic - niepodzielność transakcji:",
+      "answers": [
+        "że nie istnieje konflikt z innymi transakcjami wykonywanymi w tym samym czasie na tych samych danych",
+        "że transakcja nie zmienia spójności (integralności) danych",
+        "że transakcja wykonywana jest w całości albo jest odwoływana",
+        "że zmiany wykonane po zatwierdzeniu transakcji są trwałe, niezależnie od tego co będzie działo się w bazie po jej zakończeniu"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 46,
+      "category": "Inżynieria oprogramowania",
+      "question_text": "Wskaż główną korzyść wynikającą z zastosowania „bug trackera\":",
+      "answers": [
+        "umożliwia prowadzenie ewidencji błędów wykrytych w rozwijanym projekcie",
+        "pozwala na uzyskanie prawidłowo działającego programu",
+        "umożliwia odnalezienie przyczyn błędów w oprogramowaniu",
+        "dostarcza możliwości eliminowania błędów w odrębnych fragmentach kodu"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 47,
+      "category": "Modelowanie 3D",
+      "question_text": "Aby utworzyć bryłę poprzez obrót o 360st przekroju narysowanego za pomocą linii należy w programie 3ds Max użyć modyfikatora:",
+      "answers": [
+        "Chamfer",
+        "Lathe",
+        "Twist",
+        "Taper"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 48,
+      "category": "Matematyka 2",
+      "question_text": "Funkcja $f(x)=\\frac{(x-1)^{2}}{(x-1)}$ jest odwracalna w zbiorze",
+      "answers": [
+        "nie jest odwrotna w",
+        "R",
+        "$\\mathbb{R}\\backslash\\{1\\}$",
+        "R\\{0}"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 49,
+      "category": "Sztuczna inteligencja",
+      "question_text": "Random Forest klasyfikuje/estymuje poprzez:",
+      "answers": [
+        "jedno duże drzewo decyzyjne bez przycinania (pruning)",
+        "trenowanie wielu drzew decyzyjnych i agregowanie ich wyników",
+        "wyszukiwanie najbliższych sąsiadów (KNN)",
+        "zawsze regresję liniową plus jeden perceptron"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 50,
+      "category": "Programowanie proceduralne",
+      "question_text": "W pewnym programie zdefiniowano następującą funkcję:\nvoid f(long *p1, long *p2, long x){\nwhile(p1!=p2) {\nif(*p1<x)printf(\"%ld, \", *p1);\n++p1;\n}\n}\nJakie wartości i w jakiej kolejności zostaną wyświetlone w wyniku wykonania poniższych instrukcji w tym programie:\nlong $a[15]=\\{15,3,16,1,7,48,8,2,18,3,5,61,5,11,9\\}$;\nf(a+2, a+10, 8);",
+      "answers": [
+        "3, 1, 7, 2, 3,",
+        "1, 7, 2, 3, 5, 5,",
+        "1, 7, 2, 3,",
+        "1, 7,"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    }
+  ]
+}

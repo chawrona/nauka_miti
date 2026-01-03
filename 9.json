@@ -1,0 +1,485 @@
+{
+  "questions": [
+    {
+      "question_number": 401,
+      "category": "Integracja sieci i usług",
+      "question_text": "Zbieżność sieci to czas potrzebny:",
+      "answers": [
+        "routerom w jednym systemie autonomicznym na to, aby dowiedziały się o trasach do celów w innym systemie autonomicznym",
+        "routerom na aktualizację tablic routingu po wystąpieniu zmiany w topologii",
+        "na aktualizację tablic routingu wymagany przez routery z różnymi protokołami routingu",
+        "na to, aby routery podzieliły się z całą siecią informacjami o zmianach konfiguracji"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 402,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Który z rdzeni przeznaczony jest do wykonywania równoległych operacji na danych graficznych?",
+      "answers": [
+        "ALU",
+        "MIC",
+        "GPU",
+        "PGD"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 403,
+      "category": "Oprogramowanie użytkowe",
+      "question_text": "Do konstruowania kwerend wybierających w SQL musimy wykorzystać następujące słowa kluczowe:",
+      "answers": [
+        "SELECT FROM",
+        "SELECT WHEN",
+        "FROM SELECT",
+        "SELECT WHERE"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 404,
+      "category": "Sieci komputerowe",
+      "question_text": "HTTPS zapewnia:",
+      "answers": [
+        "przyspieszenie działania aplikacji przez cache",
+        "tylko autoryzację użytkowników bez szyfrowania",
+        "zdalne wykonywanie kodu po stronie przeglądarki",
+        "szyfrowanie i integralność transmisji pomiędzy klientem i serwerem"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 405,
+      "category": "Sieci komputerowe",
+      "question_text": "Którym spośród następujących urządzeń sieciowych należy przypisywać statyczne adresy IP?",
+      "answers": [
+        "komputery przenośne",
+        "stacje robocze LAN",
+        "drukarki sieciowe",
+        "zdalne stacje robocze"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 406,
+      "category": "E-Biznes",
+      "question_text": "Podpis zaufany to:",
+      "answers": [
+        "podpis elektroniczny do podpisywania podań i wniosków składanych wyłącznie do podmiotów publicznych",
+        "inaczej podpis kwalifikowany",
+        "Inaczej podpis weryfikowany",
+        "podpis wykorzystywany przy kontaktach biznesowych i administracyjno publicznych"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 407,
+      "category": "Kryptografia",
+      "question_text": "W schemacie RSA bezpieczeństwo klucza prywatnego opiera się głównie na:",
+      "answers": [
+        "problemie dyskretnego logarytmu w grupach eliptycznych",
+        "trudności rozkładu dużej liczby na czynniki pierwsze",
+        "generowaniu losowych wektorów inicjalizujących (IV)",
+        "zastosowaniu funkcji skrótu SHA-3"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 408,
+      "category": "Sztuczna inteligencja",
+      "question_text": "Słaba (weak) AI w klasycznym rozróżnieniu oznacza:",
+      "answers": [
+        "systemy oparte wyłącznie na sieciach neuronowych",
+        "systemy projektowane do wykonywania konkretnych zadań bez świadomości i pełnego rozumienia",
+        "systemy, które przeszły test Turinga",
+        "systemy zdolne do samoświadomości i pełnego rozumienia świata"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 409,
+      "category": "E-Biznes",
+      "question_text": "W e-commerce oznacza współpracę, transakcję czy wymianę produktów/usług między dwoma podmiotami biznesowymi, np. producentem a hurtownikiem, hurtownikiem a sprzedawcą detalicznym itp.",
+      "answers": [
+        "B2C",
+        "B2B",
+        "C2C",
+        "B2E"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 410,
+      "category": "Matematyka 1",
+      "question_text": "Wśród podanych poniżej zdań wskaż tę, która ma wartość logiczną 1.",
+      "answers": [
+        "$\\forall x \\in \\mathbb{R} [x^2 > 0]$",
+        "$\\forall m \\in \\mathbb{N} \\exists n \\in \\mathbb{N} [n > m]$",
+        "$\\exists m \\in \\mathbb{N} [m < 0]$",
+        "$\\forall x \\in \\mathbb{N} \\exists y \\in \\mathbb{N} [x + y = 2]$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 411,
+      "category": "Matematyka 2",
+      "question_text": "Policzyć pierwsze trzy niezerowe wyrazy szeregu Maclaurina dla funkcji f(x)=cos(x)",
+      "answers": [
+        "$f(x) = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} + ...$",
+        "$f(x) = 1 + \\frac{x^2}{2!} - \\frac{x^4}{4!} + ...$",
+        "$f(x) = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} + ...$",
+        "$f(x) = 1 + \\frac{x}{1!} + \\frac{x^3}{3!} + ...$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 412,
+      "category": "Podstawy programowania",
+      "question_text": "Co należy wstawić w miejsce X, aby program wyświetlał resztę z dzielenia a przez b, pod warunkiem, że reszta ta jest liczbą parzystą?\nint main(void){\nint a, b=7;\nprintf(\"podaj liczbe\\n\");\nscanf (\"%d\", &a);\nX\nprintf(\"%d\\n\", b);\nreturn 0;\n}",
+      "answers": [
+        "if((b=a%2)%b==0)",
+        "if((a=a%b)%2==0)",
+        "if((b=a%b)%2)",
+        "if((b=a%b)%2==0)"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 413,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Która z poniższych cech jest podstawową cechą chmury obliczeniowej?",
+      "answers": [
+        "mierzalna usługa",
+        "szybka elastyczność",
+        "wszystkie wymienione",
+        "szeroki dostęp do sieci"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 414,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Podstawową procedurą w algorytmie DSW jest:",
+      "answers": [
+        "zastępowanie",
+        "wykluczanie",
+        "kasowanie",
+        "rotacja"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 415,
+      "category": "Relacyjne bazy danych",
+      "question_text": "Co oznacza zachowanie integralności encji w bazie danych?",
+      "answers": [
+        "szybkie przetwarzanie zapytań",
+        "poprawność składniowa zapytań SQL.",
+        "spójność danych i zależności między nimi.",
+        "unikalność wartości w kolumnach tabeli."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 416,
+      "category": "Testowanie oprogramowania",
+      "question_text": "Które z podanych stwierdzeń jest prawdziwe dla \"smoke\" testów?",
+      "answers": [
+        "Testy te trwają bardzo długo.",
+        "Testy te są bardzo dokładne.",
+        "Testy te zawsze są ze sobą wzajemnie powiązane.",
+        "Testy te są zwykle szybkie."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 417,
+      "category": "E-Biznes",
+      "question_text": "Projektowanie strony internetowej w taki sposób, aby samoczynnie dostosowywała się do rozdzielczości ekranu różnych urządzeń: komputerów stacjonarnych, laptopów, tabletów, smartfonów.",
+      "answers": [
+        "ROM",
+        "RUI",
+        "ROI",
+        "RWD"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 418,
+      "category": "Wstęp do matematyki",
+      "question_text": "Czwarty wyraz ciągu określonego wzorem $a_n = \\frac{(1-2n)}{(1-n)^2}$ jest równy:",
+      "answers": [
+        "$-\\frac{64}{147}$",
+        "$\\frac{n}{2}$",
+        "$\\frac{64}{147}$",
+        "$-\\frac{4}{147}$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 419,
+      "category": "Sieci komputerowe",
+      "question_text": "Protokół ARP odwzorowuje:",
+      "answers": [
+        "znanemu adresowi IP sprzętowy interfejs hosta",
+        "adres prywatny hosta na zewnętrzny adres routera",
+        "znanemu adresowi interfejsu hosta nieznany adres IP",
+        "nieznanemu adresowi IP adres sprzętowy interfejsu hosta"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 420,
+      "category": "Inżynieria i analiza danych",
+      "question_text": "Który z algorytmów jest stosowany do redukcji wymiarowości danych?",
+      "answers": [
+        "regresja logistyczna",
+        "analiza głównych składowych (PCA)",
+        "grupowanie",
+        "drzewo decyzyjne"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 421,
+      "category": "Matematyka 1",
+      "question_text": "Funkcja $f:R \\rightarrow R$ jest dana wzorem $f(x) = \\begin{cases} 2x+1 & dla~x \\ge 0 \\\\ x-1 & dla~x < 0 \\end{cases}$ Wskaż zdanie prawdziwe:",
+      "answers": [
+        "funkcja jest suriekcją",
+        "funkcja jest iniekcją",
+        "miejsce zerowe to punkt(-2/3,0)",
+        "funkcja jest bijekcją"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 422,
+      "category": "Sieci komputerowe",
+      "question_text": "NAT (Network Address Translation) uruchomiony na routerze działa:",
+      "answers": [
+        "przez uruchomiony loopback",
+        "tylko na interfejsach lokalnych",
+        "na wszystkich interfejsach routera",
+        "na wskazanych interfejsach"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 423,
+      "category": "Programowanie obiektowe",
+      "question_text": "W języku C++ jeśli klasa deklaruje jedną ze swoich metod jako wirtualną, to:",
+      "answers": [
+        "wszystkie pozostałe składowe klasy też powinny być wirtualne",
+        "można pominąć definiowanie własnego destruktora",
+        "destruktor też powinien być wirtualny",
+        "konstruktor też powinien być wirtualny"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 424,
+      "category": "Projektowanie aplikacji internetowych",
+      "question_text": "W kontekście tworzenia aplikacji webowych „zasada minimalnego uprawnienia” oznacza:",
+      "answers": [
+        "każdy użytkownik ma pełne prawa, dopóki ich ręcznie nie obetniemy",
+        "dostęp nadawany jest grupom, ale nie pojedynczym użytkownikom",
+        "użytkownik ma tylko takie prawa, jakie są mu rzeczywiście potrzebne do wykonania jego zadań",
+        "żadnych uprawnień nie można zmieniać po wdrożeniu"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 425,
+      "category": "Programowanie proceduralne",
+      "question_text": "Jakie wartości i w jakiej kolejności, zostaną wyświetlone na ekranie po wykonaniu poniższego programu.\n#include <stdio.h>\nvoid f(int x){\nif(x < 6) f(2*x);\nprintf(\"%d, \", x);\nif(x < 5) f(6);\n}\nint main(void){\nf(2);\nreturn 0;\n}",
+      "answers": [
+        "6, 8, 2, 4, 6,",
+        "8, 4, 6, 6, 2,",
+        "8, 4, 6, 2, 6,",
+        "6, 2, 6, 4, 8,"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 426,
+      "category": "Programowanie proceduralne",
+      "question_text": "Wskaż fałszywe stwierdzenie (dotyczy języka C):",
+      "answers": [
+        "Funkcja może zwracać wskaźnik do struktury.",
+        "Funkcja może zwracać wskaźnik do funkcji.",
+        "Funkcja może zwracać tablicę.",
+        "Funkcja może zwracać strukturę."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 427,
+      "category": "Animacje komputerowe",
+      "question_text": "Analizę ruchu animowanych obiektów za pomocą krzywych w programie 3ds Max umożliwia:",
+      "answers": [
+        "Dope Sheet",
+        "Perspective View",
+        "Motion Menu",
+        "Curve Editor"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 428,
+      "category": "Programowanie proceduralne",
+      "question_text": "Wskaż poprawną instrukcję dynamicznego przydziału i zwalniania pamięci dla jednowymiarowej tablicy 150 elementowej o nazwie vec, której typ elementów zdefiniowano poniżej.\nstruct dane{\nchar *s;\ndouble x,y;\nint k;\n};",
+      "answers": [
+        "struct dane *vec =(struct dane *)malloc(150*sizeof(struct dane)); free(vec);",
+        "struct dane *vec =(struct dane )malloc(150*sizeof(struct dane *)); free(vec);",
+        "struct dane vec =(struct dane *)malloc(150*sizeof(struct dane)); free(*vec);",
+        "struct dane *vec =(struct dane *)malloc(150*sizeof(struct dane)); free(*vec);"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 429,
+      "category": "Systemy czasu rzeczywistego",
+      "question_text": "W programach czasu rzeczywistego ze względu na dodatkowe wymagania czasowe rozważa się kilka możliwych stanów zadania. Jeśli zadanie nie jest gotowe do wykonywania, ponieważ nie spełnia warunków czasowych, to określa się go jako:",
+      "answers": [
+        "uśpione",
+        "wykonywalne",
+        "zawieszone",
+        "wykonywane"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 430,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Sumę n kolejnych liczby naturalnych: 1 + 2 + 3 + … + (n − 1) + n . Możemy obliczyć korzystając ze wzoru: n(n + 1)/2. Najbardziej precyzyjnie określimy złożoność takiego algorytmu jako:",
+      "answers": [
+        "O(n)",
+        "O(n^2)",
+        "O(1)",
+        "O(logn)"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 431,
+      "category": "Inżynieria i analiza danych",
+      "question_text": "Macierz konfuzji służy do:",
+      "answers": [
+        "żadna z pozostałych odpowiedzi nie jest poprawna",
+        "wyznaczeniu najistotniejszych predyktorów",
+        "ocenie skuteczności modelu w zadaniu klasyfikacji",
+        "oceny interpretowalności modelu"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 432,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Który serwis dostarcza klientom usługi w postaci oprogramowania, a konkretnie oprogramowania aplikacyjnego, uruchamianego i dostępnego w chmurze?",
+      "answers": [
+        "IaaS",
+        "SaaS",
+        "CaaS",
+        "PaaS"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 433,
+      "category": "Wstęp do matematyki",
+      "question_text": "Dziedziną funkcji $f(x) = log(x - 1)$ jest:",
+      "answers": [
+        "[2, + ∞)",
+        "(1, 2]",
+        "(1, + ∞)",
+        "(1, 2)"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 434,
+      "category": "Inżynieria oprogramowania",
+      "question_text": "Wskaż różnicę pomiędzy testowaniem a debugowaniem:",
+      "answers": [
+        "debugowanie to analiza kodu programu w celu sprawdzenia poprawności jego działania",
+        "testowanie zawsze poprzedza debugowanie kodu pod katem poprawnego działania programu",
+        "testowanie to analiza kodu programu w celu sprawdzenia poprawności jego działania",
+        "testowanie to uruchomienie programu i sprawdzenie czy działa poprawnie, natomiast debugowanie to poszukiwanie przyczyny błędu"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 435,
+      "category": "Animacje komputerowe",
+      "question_text": "Proces, w którym przypisujemy kości do elementów obiektu (modelu 3D), który chcemy animować nosi nazwę:",
+      "answers": [
+        "modeling",
+        "tweening",
+        "skinning",
+        "rigging"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 436,
+      "category": "Matematyka 2",
+      "question_text": "Całka $\\int ln(x) dx$ wynosi:",
+      "answers": [
+        "$-xln(x) + C$",
+        "$2x(ln(x) - 1) + C$",
+        "$x(ln(x) + 1) + 1$",
+        "$1/x + C$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 437,
+      "category": "Metody numeryczne",
+      "question_text": "Dane są węzły interpolacji (-1, -1), (0, -2), (1, -1). Podać stopień wielomianu interpolacyjnego i jego wartość dla x = 2.",
+      "answers": [
+        "wielomian stopnia pierwszego oraz y(2) = 2",
+        "wielomian stopnia drugiego oraz y(2) = 2",
+        "wielomian stopnia trzeciego oraz y(2) = 1",
+        "wielomian stopnia drugiego ale na podstawie danych nie można policzyć y(2)"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    }
+  ]
+}

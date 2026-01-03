@@ -1,0 +1,9 @@
+270 pytań - zdajesz
+
+graf i tablica pokazująca na ile dobrze z jakich przedmiotów odpowiedziałeś
+
+łączenie przedmiotów w kategorie np. programistyczne
+
+sieciowe
+
+komputerowe

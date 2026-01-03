@@ -1,0 +1,656 @@
+{
+  "questions": [
+    {
+      "question_number": 101,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Zjawisko fotoelektryczne polega na:",
+      "answers": [
+        "emisji elektronów z powierzchni metalu pod wpływem promieniowania elektromagnetycznego",
+        "świeceniu podgrzanego metalu w obszarze widzialnym",
+        "powstawaniu par elektron - dziura w półprzewodniku pod wpływem promieniowania elektromagnetycznego",
+        "powstawaniu różnicy potencjałów na ściankach na skutek ściskania materiału"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 102,
+      "category": "Systemy operacyjne",
+      "question_text": "Stan procesu zmienił się: gotowy -> aktywny. Jaka jest przyczyna tej zmiany?",
+      "answers": [
+        "obsłużenie zdarzenia lub operacji wejścia/wyjścia",
+        "przerwanie programowe",
+        "taka sytuacja następuje zawsze w sposób losowy",
+        "decyzja planisty"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 103,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Który obwód elektroniczny wytwarza sygnał wyjściowy będący prostą operacją boolowską na swoich sygnałach wejściowych?",
+      "answers": [
+        "licznik",
+        "przerzutnik",
+        "dekoder",
+        "bramka"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 104,
+      "category": "Systemy operacyjne",
+      "question_text": "W skryptach powłok systemowych BASH oraz PowerShell można stosować komentarze w następujący sposób:",
+      "answers": [
+        "$To jest komentarz.",
+        "/*To jest komentarz.*/",
+        "!To jest komentarz.",
+        "#To jest komentarz."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 105,
+      "category": "Relacyjne bazy danych",
+      "question_text": "Indeksy w bazach danych:",
+      "answers": [
+        "Spowalniają operacje wyszukiwania.",
+        "Zmniejszają ilość potrzebnej pamięci.",
+        "Powodują utratę danych.",
+        "Przyspieszają operacje wyszukiwania i sortowania."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 106,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "W celu przyśpieszenia operacji na bazie danych należy dla pól często wyszukiwanych lub sortowanych",
+      "answers": [
+        "utworzyć indeks",
+        "dodać więzy integralności",
+        "stworzyć osobną tabelę przechowującą tylko te pola",
+        "dodać klucz obcy"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 107,
+      "category": "Wstęp do programowania w języku Java",
+      "question_text": "Po ilu klasach można dziedziczyć w języku Java?",
+      "answers": [
+        "Po dowolnej liczbie klas.",
+        "Po jednej klasie.",
+        "Po dwóch klasach.",
+        "Java nie obsługuje dziedziczenia."
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 108,
+      "category": "Podstawy programowania",
+      "question_text": "W języku C modyfikator unsigned może dotyczyć typu:",
+      "answers": [
+        "float",
+        "char",
+        "long double",
+        "double"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 109,
+      "category": "Matematyka 1",
+      "question_text": "Z grupy 6 chłopców i 4 dziewcząt wybieramy losowo 3 osoby. Na ile sposobów można wybrać taką grupę, w której będzie co najwyżej 1 dziewczyna?",
+      "answers": [
+        "$C_{4}^{0}\\cdot C_{6}^{3}+C_{4}^{1}\\cdot C_{6}^{2}$",
+        "$C_{4}^{0}+C_{6}^{3}$",
+        "$C_{4}^{0}\\cdot C_{6}^{3}\\cdot C_{4}^{1}\\cdot C_{6}^{2}$",
+        "$C_{4}^{0}\\cdot C_{6}^{3}$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 110,
+      "category": "Rzeczywistość wirtualna",
+      "question_text": "Holograficzne przetwarzanie jest specyfiką:",
+      "answers": [
+        "Virtual reality",
+        "Mixed reality",
+        "Holografic reality",
+        "Augmented reality"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 111,
+      "category": "Testowanie oprogramowania",
+      "question_text": "Które z podanych zdań jest prawdziwe dla techniki TDD?",
+      "answers": [
+        "Technika TDD polega na pisaniu testów w trakcie implementacji kodu programu.",
+        "Technika TDD polega na pisaniu testów po zakończeniu implementacji kodu programu.",
+        "Technika TDD polega na pisaniu testów przed implementacją kodu programu.",
+        "Żadne z pozostałych stwierdzeń nie jest prawidłowe."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 112,
+      "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
+      "question_text": "Który z znaczników XML jest poprawnie sformułowany?",
+      "answers": [
+        "<myElement myAttribute=\"someValue'/>",
+        "<myElement myAttribute='someValue'>",
+        "<myElement myAttribute=\"someValue\"/>",
+        "<myElement myAttribute=someValue/>"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 113,
+      "category": "Inżynieria oprogramowania",
+      "question_text": "Co jest cechą charakterystyczną zintegrowanego środowiska programowania (IDE)?",
+      "answers": [
+        "wspólne narzędzia do tłumaczenia programów na inne języki programowania",
+        "wspólny zbiór klas do ponownego użycia w budowie oprogramowania",
+        "brak konieczności pisania kodu poszczególnych klas",
+        "wspólny zbiór udogodnień dla narzędzi programistycznych"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 114,
+      "category": "Podstawy programowania",
+      "question_text": "Tablica przekazana jako argument do funkcji jest interpretowana jako?",
+      "answers": [
+        "wartość pierwszego elementu tablicy",
+        "adres tablicy",
+        "liczba elementów tablicy",
+        "adres pierwszego elementu tablicy"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 115,
+      "category": "Matematyka 2",
+      "question_text": "$\\int_{0}^{2\\pi}|sin(x)|dx$ jest równa",
+      "answers": [
+        "2",
+        "4",
+        "cos(x)",
+        "0"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 116,
+      "category": "Matematyka 2",
+      "question_text": "Istnieje macierz $A^{-1}$ odwrotna do macierzy kwadratowej A jeżeli",
+      "answers": [
+        "macierz A posiada minor",
+        "A jest nieosobliwa",
+        "detA $=0$",
+        "A jest osobliwa"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 117,
+      "category": "Projektowanie wizualne i tworzenie interfejsów",
+      "question_text": "Który z poniższych jest typowym mitem UX?",
+      "answers": [
+        "że „ładne = użyteczne\" (wygląd sam w sobie nie gwarantuje dobrej użyteczności)",
+        "że UI/UX dotyczy wyłącznie aplikacji mobilnych",
+        "że interfejs zawsze trzeba budować „mobile first\"",
+        "że UX obejmuje tylko testy po wdrożeniu"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 118,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Języki imperatywne mówią:",
+      "answers": [
+        "jak osiągnąć wynik bez jego określenia",
+        "określają zarówno wynik jak i metody jego osiągnięcia",
+        "określają cel bez metod jego osiągnięcia",
+        "nie określają ani metod, ani wyniku, który jest pewną funkcją definiowaną automatycznie"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 119,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Złożoność algorytmu to:",
+      "answers": [
+        "stopień jego komplikacji",
+        "zależność czasu wykonania lub wymaganej pamięci od liczby danych wejściowych",
+        "zależność między czasem wykonania a pamięcią danych wejściowych",
+        "sposób na bardziej efektywne wykonanie zadania algorytmicznego"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 120,
+      "category": "Animacje komputerowe",
+      "question_text": "Aby w programie Adobe Animate wykonać animację obiektu wzdłuż ścieżki należy wykorzystać:",
+      "answers": [
+        "właściwości obiektu",
+        "odpowiednią własność warstwy",
+        "właściwości sceny",
+        "bibliotekę symboli"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 121,
+      "category": "Modelowanie 3D",
+      "question_text": "W programie 3ds Max bezpośrednio po przekształceniu prostopadłościanu (Box) na obiekt typu Editable Poly, którego z wymienionych podobiektów nie uda się zaznaczyć:",
+      "answers": [
+        "Vertex",
+        "Edge",
+        "Border",
+        "Polygon"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 122,
+      "category": "Wzorce projektowe",
+      "question_text": "Intencja (przeznaczenie) wzorca Pyłek (Flyweight) to:",
+      "answers": [
+        "Użycie współdzielenia do efektywnej obsługi dużej liczby małych obiektów.",
+        "Wszystkie pozostałe odpowiedzi są błędne.",
+        "Utrwalenie wewnętrznego stanu obiektu w zewnętrznej jednostce bez naruszania hermetyzacji tak, żeby obiekt można było później przywrócić do tego stanu.",
+        "Zdefiniowanie rodziny algorytmów, zastosowanie hermetyzacji dla każdego z nich i stosowanie ich wymiennie."
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 123,
+      "category": "Komunikacja i zarządzanie projektami",
+      "question_text": "Planning Poker jest:",
+      "answers": [
+        "sposobem kalkulacji ryzyka bezpieczeństwa",
+        "algorytmicznym modelem kosztu opartym o KLOC (lines of code)",
+        "techniką estymacji opartą o ocenę ekspertów i budowanie konsensu w grupie",
+        "miarą wysiłku opartą o Function Points"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 124,
+      "category": "Metody numeryczne",
+      "question_text": "Metoda Simpsona jest bardziej dokładna od metody trapezów ponieważ",
+      "answers": [
+        "nieprawda ponieważ metoda trapezów jest wyższego rzędu niż metoda Simpsona",
+        "opiera się o interpolację wielomianami wyższego stopnia",
+        "nie można porównać tych metod ponieważ metoda trapezów służy do rozwiązania równań różniczkowych",
+        "węzły interpolacyjne są bardziej „gęste\""
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 125,
+      "category": "Sieci komputerowe",
+      "question_text": "Przyjrzyj się zamieszczonemu powyżej schematowi. Diagram przedstawia proces wysyłania wiadomości email pomiędzy klientami. Jaka lista poprawnie identyfikuje komponent lub protokół użyty na każdym etapie w diagramie? [OBRAZEK: pytanie_125_tresc.png]",
+      "answers": [
+        "1.MUA 2.POP 3.SMTP 4.MDA 5.MTA 6.SMTP 7.POP 8.MUA",
+        "1.MUA 2.SMTP 3.MTA 4.SMTP 5.MTA 6.MDA 7.POP 8.MUA",
+        "1.MDA 2.SMTP 3.MTA 4.SMTP 5.MTA 6.MUA 7.POP 8.MDA",
+        "1.MUA 2.POP 3.MDA 4.SMTP 5.MTA 6.MDA 7.SMTP 8.MUA"
+      ],
+      "correct_answer": 1,
+      "assets": [
+        "pytanie_125_tresc.png"
+      ]
+    },
+    {
+      "question_number": 126,
+      "category": "E-biznes",
+      "question_text": "Model udostępniania oprogramowania/aplikacji za pośrednictwem Internetu, bez konieczności posiadania własnego serwera czy specjalistycznej infrastruktury. Dostawca usługi zarządza oprogramowaniem i zapewnia jego stałą aktualizację, udostępniając je w tzw. chmurze.",
+      "answers": [
+        "EaaS",
+        "SaSS",
+        "SAS",
+        "SaaS"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 127,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Który element jest używany w obwodach cyfrowych do sterowania przesyłaniem sygnałów i danych?",
+      "answers": [
+        "przerzutniki",
+        "liczniki programów",
+        "interfejs RS232",
+        "multipleksery"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 128,
+      "category": "Testowanie oprogramowania",
+      "question_text": "Wskaż, które z wymienionych narzędzi lub frameworków nie służy do tworzenia testów (np. jednostkowych) w podanym języku",
+      "answers": [
+        "NUnit (C#)",
+        "Pytest (Python)",
+        "JUnit (Java)",
+        "JModule (Java)"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 129,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Punkt materialny porusza się z niezerowym przyspieszeniem „a\" względem jednego inercjalnego układu odniesienia. Jakie będzie jego przyspieszenie względem innego układu inercjalnego?",
+      "answers": [
+        "może być jedynie większe od „a\"",
+        "będzie miało wartość identyczną",
+        "może być tylko mniejsze od „a\"",
+        "może mieć różne wartości w zależności od wyboru układu"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 130,
+      "category": "Programowanie obiektowe",
+      "question_text": "W języku C++ aby poprawnie zwolnić pamięć i uniknąć wycieków pamięci przy usuwaniu obiektu należy:",
+      "answers": [
+        "nic nie trzeba robić, zwalnianiem pamięci zajmie się automatyczny mechanizm odśmiecania (garbage collector)",
+        "stworzyć w klasie specjalną metodę delete()",
+        "unikać alokowania zasobów za pomocą new",
+        "stworzyć w klasie destruktor zwalniający wszystkie alokowane przez obiekt zasoby"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 131,
+      "category": "Animacje komputerowe",
+      "question_text": "Jeżeli wykonujemy animację ręki (np. poruszającej się postaci), różne jej części poruszać się będą w różnym czasie. Np. podnosząc rękę możemy rozpocząć ruch od barku, potem kolejno poruszyć ramię, przedramię i dłoń. Jaką zasadę animacji opisuje ta zależność:",
+      "answers": [
+        "arc",
+        "overlapping actiopn",
+        "follow through",
+        "timing"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 132,
+      "category": "Animacje komputerowe",
+      "question_text": "Aby wykonać płynną animację (korzystając z klatek kluczowych) piłeczki odbijającej się od podłoża:",
+      "answers": [
+        "użyjemy dokładnie 5 klatek kluczowych",
+        "wystarczą 3 klatki kluczowe",
+        "potrzeba co najmniej 4 klatek kluczowych",
+        "potrzebujemy co najmniej 6 klatek kluczowych"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 133,
+      "category": "Wstęp do programowania w języku Java",
+      "question_text": "Która z odpowiedzi jest prawidłowa dla języka Java?",
+      "answers": [
+        "Jest to język kompilowany do kodu natywnego.",
+        "Jest to język kompilowany do bytecode.",
+        "Jest to język interpretowany.",
+        "Jest to język wykorzystujący maszynę LLVM."
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 134,
+      "category": "Języki skryptowe",
+      "question_text": "Jakie jest różnica między listą (list) a krotką (tuple) w języku Python?",
+      "answers": [
+        "listy są niemutowalne, a krotki są mutowalne",
+        "listy są mutowalne, a krotki są niemutowalne",
+        "zarówno listy jak i krotki są mutowalne, a krotki nie pozwalają nie przechowywanie duplikatów",
+        "listy mogą zawierać elementy różnych typów danych, a krotki mogą zawierać tylko elementy tego samego typu"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 135,
+      "category": "Wzorce projektowe",
+      "question_text": "Intencja (przeznaczenie) wzorca Fabryka Abstrakcyjna (Abstract Factory) to:",
+      "answers": [
+        "Wszystkie pozostałe odpowiedzi są błędne.",
+        "Zdefiniowanie rodziny algorytmów, zastosowanie hermetyzacji dla każdego z nich i stosowanie ich wymiennie.",
+        "Udostępnienie interfejsu do tworzenia rodzin powiązanych lub zależnych obiektów bez specyfikacji ich konkretnych klas.",
+        "Oddzielenie abstrakcji od implementacji w sposób umożliwiający ich zmiany niezależnie od siebie."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 136,
+      "category": "Języki hipertekstowe i tworzenie stron WWW",
+      "question_text": "<form method=\"post\" action=\"\">\n<label>Imie: </label>\n<input type=\"text\" name=\"imie\" placeholder=\"tutaj wpisz swoje imię\"<br>\n<input type=\"submit\" value=\"Wyslij\">\n</form>\nAby wyświetlić imię pobrane z formularza należy wykonać skrypt:",
+      "answers": [
+        "<?php echo \\$_POST[\"name\"]; ?>",
+        "<?php echo \"\\$_POST[\"name\"] \"; ?>",
+        "<?php echo '\\$_Post[\"name\"] ; ?>",
+        "<?php echo '\\$_POST[\"name\"]'; ?>"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 137,
+      "category": "Oprogramowanie użytkowe",
+      "question_text": "Makra (makropolecenia) służą do:",
+      "answers": [
+        "wyłącznie do konsolidacji danych",
+        "wszystkie odpowiedzi są błędne",
+        "automatyzacji często powtarzanych czynności lub dokonania zmian w dokumentach bez interakcji z użytkownikiem",
+        "tylko i wyłącznie do definiowania odwołań bezwzględnych"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 138,
+      "category": "Modelowanie 3D",
+      "question_text": "Do wytłoczeniu kształtu po ścieżce w programie SketchUp służy narzędzie:",
+      "answers": [
+        "Dimensions",
+        "Section Plane",
+        "Follow Me",
+        "Move"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 139,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "SPARC odnosi się do architektury zdefiniowanej przez",
+      "answers": [
+        "Sun Microsystems",
+        "Apple",
+        "Microsoft",
+        "IBM"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 140,
+      "category": "Systemy czasu rzeczywistego",
+      "question_text": "Która cecha nie pasuje do systemu czasu rzeczywistego?",
+      "answers": [
+        "niezawodność",
+        "determinizm",
+        "nieprzewidywalność",
+        "reaktywność"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 141,
+      "category": "Animacje komputerowe",
+      "question_text": "Przesuwanie obiektu podrzędnego celem przesunięcia obiektów będących jego przodkami to kinematyka",
+      "answers": [
+        "prosta",
+        "odwrotna",
+        "wsteczna",
+        "przybliżona"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 142,
+      "category": "Wzorce projektowe",
+      "question_text": "Intencja (przeznaczenie) wzorca Budowniczy (Builder) to:",
+      "answers": [
+        "Dodanie dodatkowej odpowiedzialności do obiektu w sposób dynamiczny (elastyczna alternatywa dla tworzenia podklas w rozszerzaniu funkcjonalności).",
+        "Oddzielenie konstrukcji obiektu o złożonej strukturze od jego reprezentacji tak, że ten sam proces konstrukcji może prowadzić do powstawania różnych reprezentacji.",
+        "Wszystkie pozostałe odpowiedzi są błędne.",
+        "Oddzielenie abstrakcji od implementacji w sposób umożliwiający ich zmiany niezależnie od siebie."
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 143,
+      "category": "Programowanie obiektowe",
+      "question_text": "Wskaż prawidłową deklarację metody czysto wirtualnej w języku C++:",
+      "answers": [
+        "virtual void fun();",
+        "virtual void $fun()=\\theta$;",
+        "pure virtual void fun();",
+        "virtual void fun() {};"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 144,
+      "category": "Programowanie obiektowe",
+      "question_text": "Co w języku C++ oznacza słowo kluczowe const użyte w deklaracji metody klasy?",
+      "answers": [
+        "metoda jest statyczna",
+        "metoda nie może modyfikować obiektu, na rzecz którego działa",
+        "metoda nie może modyfikować przekazanych do niej argumentów",
+        "metoda nie może być przeciążona w klasie pochodnej"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 145,
+      "category": "Wzorce projektowe",
+      "question_text": "Do kategorii wzorców strukturalnych należą (wskaż odpowiedź zawierającą wzorce tylko i wyłącznie z tej kategorii):",
+      "answers": [
+        "Wszystkie pozostałe odpowiedzi są błędne.",
+        "Łańcuch Odpowiedzialności/Zobowiązań (Chain Of Responsibility), Most (Bridge), Kompozyt (Composit), Dekorator (Decorator), Fasada (Facade), Pyłek (Flyweight), Pełnomocnik (Proxy), Budowniczy (Builder).",
+        "Adapter (Adapter), Most (Bridge), Kompozyt (Composit), Dekorator (Decorator), Fasada (Facade), Pyłek (Flyweight), Pełnomocnik (Proxy), Prototyp (Prototype).",
+        "Adapter (Adapter), Most (Bridge), Kompozyt (Composit), Dekorator (Decorator), Fasada (Facade), Pyłek (Flyweight), Pełnomocnik (Proxy)."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 146,
+      "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
+      "question_text": "Które stwierdzenie jest prawdziwe?",
+      "answers": [
+        "Wszystkie elementy XML muszą być napisane z małych liter",
+        "Wszystkie dokumenty XML muszą posiadać pliki XSLT lub CSS",
+        "Wszystkie elementy XML muszą posiadać znacznik zamknięcia",
+        "Wszystkie dokumenty XML muszą być powiązane z DTD"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 147,
+      "category": "Systemy operacyjne",
+      "question_text": "Element struktury systemu plików - i-węzeł (ang. i-node) - nie występuje w:",
+      "answers": [
+        "ext 4 (Linux)",
+        "NTFS (Windows)",
+        "UFS2 (FreeBSD)",
+        "HFS+ (macOS)"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 148,
+      "category": "Wzorce projektowe",
+      "question_text": "Do kategorii wzorców konstrukcyjnych należą (wskaż odpowiedź zawierającą wzorce tylko i wyłącznie z tej kategorii):",
+      "answers": [
+        "Adapter (Adapter), Dekorator (Decorator), Metoda Wytwórcza (Factory Method), Fabryka Abstrakcyjna (Abstract Factory), Kompozyt (Composite).",
+        "Metoda Wytwórcza (Factory Method), Fabryka Abstrakcyjna (Abstract Factory), Budowniczy (Builder), Prototyp (Prototype), Singleton (Singleton), Dekorator (Decorator).",
+        "Wszystkie pozostałe odpowiedzi są błędne.",
+        "Metoda Wytwórcza (Factory Method), Fabryka Abstrakcyjna (Abstract Factory), Budowniczy (Builder), Prototyp (Prototype), Singleton (Singleton)."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 149,
+      "category": "Modelowanie 3D",
+      "question_text": "Kolor obiektu (modelu 3D) w programie 3ds Max, na który nałożony został materiał Standard definiowany jest przez:",
+      "answers": [
+        "Specular Color",
+        "Diffuse Color",
+        "Filter Color",
+        "Ambient Color"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 150,
+      "category": "Metody numeryczne",
+      "question_text": "Głównym celem aproksymacji średniokwadratowej jest:",
+      "answers": [
+        "minimalizacja błędu metody",
+        "obliczenie całki nieoznaczonej",
+        "rozwiązanie układu równań różniczkowych",
+        "obliczenie całki oznaczonej"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+{
+  "questions": [
+    {
+      "question_number": 201,
+      "category": "Wstęp do programowania w języku Java",
+      "question_text": "W języku Java jeden plik źródłowy może zawierać:",
+      "answers": [
+        "Co najwyżej jedną klasę o zasięgu publicznym i musi się ona nazywać tak jak plik źródłowy.",
+        "Dowolną liczbę klas publicznych pod warunkiem, że jedna nazywa się tak jak plik źródłowy.",
+        "Dowolną liczbę klas, o dowolnym zasięgu i nie ma ograniczeń na ich nazwy.",
+        "Jedną klasę o zasięgu publicznym i dowolną liczbę klas o zasięgu pakietowym pod warunkiem, że którakolwiek z nich nazywa się tak jak plik źródłowy."
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 202,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Przez luźną cewkę płynie prąd stały. Skutkiem przepływu prądu:",
+      "answers": [
+        "naprzemiennie zwoje przyciągają się, a przy nadmiernym zbliżeniu odpychają się",
+        "nie występuje oddziaływanie pomiędzy zwojami więc długość cewki nie ulega zmianie",
+        "poszczególne zwoje odpychają się powodując wydłużenie cewki",
+        "poszczególne zwoje przyciągają się powodując skrócenie cewki"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 203,
+      "category": "Podstawy programowania",
+      "question_text": "Tablica a zawiera dwadzieścia elementów typu double. Po wykonaniu instrukcji:\nint $j=3$, k;\nfor $(k=4;k<10;++k)$\nif $(a[k]<a[j])$\n$j=k$\nwartością zmiennej j będzie:",
+      "answers": [
+        "indeks elementu o najmniejszej wartości wśród elementów: $a[3],a[4],...a[9]$",
+        "indeks elementu o największej wartości wśród elementów: $a[3],a[4],...a[9]$",
+        "indeks elementu o najmniejszej wartości wśród elementów: $a[4],a[5],...a[9]$",
+        "indeks elementu o największej wartości wśród elementów: $a[4],a[5],...a[9]$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 204,
+      "category": "Systemy czasu rzeczywistego",
+      "question_text": "Który z wymienionych algorytmów szeregowania zadań w systemach czasu rzeczywistego z dynamicznym przydziałem priorytetów jest optymalny?",
+      "answers": [
+        "RR (ang. Round Robin)",
+        "RMS (ang. Rate Monotonic Scheduling)",
+        "LLF (ang. Least Laxity First)",
+        "EDF (ang. Earliest Deadline First)"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 205,
+      "category": "Matematyka 2",
+      "question_text": "Funkcja $f:[0,+\\infty)\\rightarrow[0,+\\infty)$ o przypisie $y=f(x)=x^{2}$",
+      "answers": [
+        "jest bijekcją",
+        "nie jest surjekcją",
+        "nie jest iniekcją",
+        "nie jest bijekcją"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 206,
+      "category": "Podstawy programowania",
+      "question_text": "Dana jest struktura vector:\nstruct vector { double x; double y;}\noraz zmienna\nstruct vector w, $w1=8w;$\nAby podstawić do składowych struktury wartości $x=2.5$ i $1y=3.5$ należy wykonać instrukcje:",
+      "answers": [
+        "Żadna z pozostałych odpowiedzi nie jest poprawna.",
+        "w1.x $x=2.5$; w1.y $y=3.5$;",
+        "$w1->x=2.5$; $w1->y=3.5$;",
+        "*w1->x=2.5; $*_{W}1->y=3.5$;"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 207,
+      "category": "Metody badawcze w informatyce i projektach inżynierskich",
+      "question_text": "W badaniach ilościowych i jakościowych...",
+      "answers": [
+        "warto łączyć dane z obu typów badań, bo pokazują różne strony tego samego zjawiska",
+        "badania ilościowe są z definicji obiektywne i nigdy nie wymagają interpretacji",
+        "nie wolno nigdy łączyć danych z różnych metod",
+        "badania jakościowe są „nienaukowe\" i nie mają żadnej wartości"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 208,
+      "category": "Ochrona własności intelektualnej",
+      "question_text": "Licencja Creative Commons pozwala:",
+      "answers": [
+        "narzuca wymóg sprzedaży kodu źródłowego",
+        "kopiować materiały wyłącznie w celach komercyjnych",
+        "zawsze kopiować i publikować dowolne materiały bez pytania",
+        "określić, na jakich warunkach autor zezwala innym na użycie swojej twórczości"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 209,
+      "category": "Elektronika",
+      "question_text": "Napięcie przewodzenia (bariera potencjału) krzemowego złącza półprzewodnikowego to:",
+      "answers": [
+        "$Uf=(0,3-0,6)V$",
+        "$Uf=(0,6-0,7)V$",
+        "$Uf=(2,1-3,3)V$",
+        "$Uf=(1,7-2,1)V$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 210,
+      "category": "Testowanie oprogramowania",
+      "question_text": "Która z poniższych zasad jest częścią 7 Zasad Testowania Oprogramowania?",
+      "answers": [
+        "Wczesne testowanie jest nieopłacalne i niezasadne.",
+        "Kumulowanie się pestycydów.",
+        "Testowanie ujawnia usterki, ale nie może dowieść ich braku.",
+        "Testowanie gruntowne jest najtańszą formą zapewnienia jakości oprogramowania."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 211,
+      "category": "Matematyka 1",
+      "question_text": "Która z podanych formuł jest tautologią rachunku zdań?",
+      "answers": [
+        "$p\\Rightarrow(q\\vee\\sim p)$",
+        "$[(p\\vee q)\\wedge\\sim p]$",
+        "$p\\Rightarrow(p\\vee q)$",
+        "$[(p\\Rightarrow q)\\wedge r]\\Rightarrow\\sim r$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 212,
+      "category": "Matematyka 1",
+      "question_text": "Dane są zbiory: $A=[-2,7]$, B = {x ∈ R: x²-7x+6<0} i C = {x ∈ R: |x-1| >= 1 }. Wskaż zdanie prawdziwe",
+      "answers": [
+        "$(A\\cap B)\\backslash C=B$",
+        "$A\\backslash B=[-2,1)\\cup(6,7]$",
+        "$C\\backslash(A\\cup B)=(-\\infty,2)$",
+        "$C^{\\prime}\\backslash B=(\\frac{1}{2},1)\\cup(6,\\infty)$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 213,
+      "category": "Matematyka 2",
+      "question_text": "Rząd r macierzy kwadratowej stopnia n może być",
+      "answers": [
+        "$r>n+1$",
+        "dowolny",
+        "$r>n$",
+        "$r\\le n$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 214,
+      "category": "Animacje komputerowe",
+      "question_text": "Aby w programie 3ds Max określić sposób w jaki wyświetlany będzie czas na osi czasu należy wybrać odpowiednią opcję w oknie Time Configuration w sekcji:",
+      "answers": [
+        "Frame Rate",
+        "Animation",
+        "Key Steps",
+        "Time Display"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 215,
+      "category": "Rzeczywistość wirtualna",
+      "question_text": "Jeśli dokonałeś zmian w prefabie w scenie i chcesz zastosować te zmiany do wszystkich prefabów, co powinieneś kliknąć? [OBRAZEK: pytanie_215_tresc.png]",
+      "answers": [
+        "przycisk „Open\" u góry okna Inspektor",
+        "przycisk „Add Component\"\" na dole Inspektora",
+        "lista rozwijana „Overrides\" w oknie Inspektora",
+        "menu rozwijane „Create\" w oknie Hierarchii"
+      ],
+      "correct_answer": 2,
+      "assets": [
+        "pytanie_215_tresc.png"
+      ]
+    },
+    {
+      "question_number": 216,
+      "category": "Metody numeryczne",
+      "question_text": "Metoda Simpsona",
+      "answers": [
+        "jest metodą całkowania w oparciu o interpolację wielomianami stopnia drugiego",
+        "jest metodą rekurencyjną",
+        "służy do rozwiązywania równań liniowych",
+        "jest metodą całkowania w oparciu o interpolację wielomianami stopnia pierwszego"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 217,
+      "category": "Sieci komputerowe",
+      "question_text": "Przyjrzyj się zamieszczonemu powyżej rysunkowi. Technik wykonuje komendę nslookup na komputerze PC i przegląda dane wyjściowe przedstawione na ilustracji. Co można odczytać z wyświetlonych informacji? [OBRAZEK: pytanie_217_tresc.png]",
+      "answers": [
+        "adres IP strony internetowej www.xyz.com",
+        "nazwę hosta serwera DHCP",
+        "nazwę hosta komputera PC",
+        "nazwę hosta routera"
+      ],
+      "correct_answer": 0,
+      "assets": [
+        "pytanie_217_tresc.png"
+      ]
+    },
+    {
+      "question_number": 218,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Opór półprzewodnika ze wzrostem temperatury:",
+      "answers": [
+        "maleje, gdyż wzrasta liczba nośników ładunku elektrycznego",
+        "rośnie, gdyż opór elektryczny wszystkich substancji rośnie ze wzrostem temperatury",
+        "nie zmienia się ponieważ opór nie ma nic wspólnego z drganiami sieci krystalicznej",
+        "rośnie, gdyż wzrasta amplituda drgań termicznych tworzących go atomów"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 219,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "W B+-drzewie odwołania do danych mogą pojawiać się:",
+      "answers": [
+        "w korzeniu",
+        "w dowolnych węzłach",
+        "tylko w liściach",
+        "w węzłach rodzicach"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 220,
+      "category": "Systemy czasu rzeczywistego",
+      "question_text": "Tabela przedstawia cztery wątki zadania czasu rzeczywistego oraz ich względne priorytety. \nZadanie A: niski\nZadanie B: średni\nZadanie C: średni\nZadanie D: wysoki\nPrzebieg z planowaniem RR (ang. Round Robin) to:",
+      "answers": [
+        "$D\\rightarrow B\\rightarrow C\\rightarrow A$",
+        "$D\\rightarrow B\\rightarrow C\\rightarrow B\\rightarrow C\\rightarrow A$",
+        "$D\\rightarrow C\\rightarrow D\\rightarrow C\\rightarrow B\\rightarrow A$",
+        "$A\\rightarrow B\\rightarrow C\\rightarrow D$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 221,
+      "category": "Systemy czasu rzeczywistego",
+      "question_text": "Tabela zawiera parametry wejściowe dla pewnego algorytmu szeregującego zadania w systemie czasu rzeczywistego.\nZadanie A: Czas=20ms, Okres=100ms\nZadanie B: Czas=60ms, Okres=150ms\nZadanie C: Czas=100ms, Okres=300ms\nJak nazywa się ta metoda planowania?",
+      "answers": [
+        "RMS (ang. Rate Monotonic Scheduling)",
+        "LLF (ang. Least Laxity First)",
+        "EDF (ang. Earliest Deadline First)",
+        "RR (ang. Round Robin)"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 222,
+      "category": "Animacje komputerowe",
+      "question_text": "Animację obiektu wzdłuż ścieżki można wykonać za pomocą kontrolera:",
+      "answers": [
+        "Position Constraint",
+        "Orientation Constraint",
+        "Link Constraint",
+        "Path Constraint"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 223,
+      "category": "Języki hipertekstowe i tworzenie stron WWW",
+      "question_text": "Zaznacz poprawne zdanie.",
+      "answers": [
+        "w znaczniku <article> nie można umieszczać znaczników <section>.",
+        "w znaczniku <section> nie można umieszczać znaczników <article>.",
+        "w znaczniku <section> powinien (zalecany, ale nie jest obowiązkowy) znajdować się znacznik nagłówkowy (<h1> do <h6>).",
+        "każdy znacznik nagłówkowy (<h1> do <h6>) może wystąpić na stronie tylko jeden raz."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 224,
+      "category": "Programowanie proceduralne",
+      "question_text": "Następujący program w języku C (c:\\program.c)\nint main (int argc, char *argw[]) {\nint i;\nfor (i=0; i < argc; i++)\nprintf (\"%s\", argw[i]);\nreturn 0;\n}\nPo wywołaniu (uruchomianiu) w postaci: c:\\program.exe 123\nwyświetli na ekranie:",
+      "answers": [
+        "1,2,3,4,",
+        "c:\\program.exe,1,2,3,",
+        "c:\\program.exe,1,2,",
+        "1,2,3,"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 225,
+      "category": "Programowanie obiektowe",
+      "question_text": "Klasa języka C++, w której jest zdefiniowana funkcja wirtualna,",
+      "answers": [
+        "nazywa się klasą wirtualną.",
+        "nazywa się klasą zastępczą.",
+        "nazywa się klasą pomocniczą.",
+        "nazywa się klasą polimorficzną."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 226,
+      "category": "Rzeczywistość wirtualna",
+      "question_text": "Modelem oświetlenia nie jest model:",
+      "answers": [
+        "Frosta",
+        "Cooka-Torrence'a",
+        "Blinna",
+        "Phonga"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 227,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Mamy dwie metalowe kule. Jedna z kul jest naładowana. Zbliżamy kule bez zetknięcia. Co zaobserwujemy?",
+      "answers": [
+        "w zależności od stosunku promieni kul, mogą się odpychać lub przyciągać",
+        "kule nie będą oddziaływały",
+        "kule będą się przyciągały",
+        "kule będą się odpychały"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 228,
+      "category": "Matematyka 2",
+      "question_text": "Jedną z własności całek oznaczonych jest:",
+      "answers": [
+        "$\\int_{a}^{b}f(x)dx-\\int_{b}^{a}f(x)dx=0$",
+        "$\\int_{a}^{b}cf(x)dx=|c|\\int_{a}^{b}f(x)dx$",
+        "$\\int_{a}^{b}f(x)g(x)dx=\\int_{a}^{b}f(x)dx\\int_{a}^{b}g(x)dx$",
+        "$\\int_{a}^{b}f(x)dx+\\int_{b}^{a}f(x)dx=0$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 229,
+      "category": "Testowanie oprogramowania",
+      "question_text": "Wskaż poprawną kontynuację twierdzenia: „Test aplikacji webowej utworzony w Selenium IDE",
+      "answers": [
+        "może być uruchamiany tylko z użyciem dodatku do przeglądarki (Selenium IDE)\".",
+        "Żadne z pozostałych stwierdzeń nie jest prawidłowe.",
+        "może być wyeksportowany do popularnych środowisk programowania i frameworków (np. Java Junit, C# NUnit)\".",
+        "będzie zawsze wolniejszy od testu napisanego w wybranym środowisku bez użycia Selenium IDE\"."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 230,
+      "category": "Matematyka 1",
+      "question_text": "Relacja równoważności jest relacją",
+      "answers": [
+        "zwrotną, symetryczną, przechodnią",
+        "symetryczną, przechodnią, spójną",
+        "zwrotną, symetryczną, spójną",
+        "antysymetryczną, przechodnią"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 231,
+      "category": "Metody badawcze w informatyce i projektach inżynierskich",
+      "question_text": "Dlaczego konstrukcja narzędzia badawczego (np. kwestionariusza, scenariusza testów) jest tak ważna?",
+      "answers": [
+        "bo od jakości narzędzia zależy jakość danych i możliwość poprawnej interpretacji wyników",
+        "bo narzędzie badawcze zastępuje analizę wyników",
+        "bo narzędzia typu SaaS same generują wnioski bez naszego udziału",
+        "bo formularz zawsze musi mieć dokładnie 10 pytań"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 232,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Dla kanału z 11 sygnałami wejściowymi oraz n sygnałami wyjściowymi istnieje $n^{m}$ różnych reguł decyzyjnych. Celem wyboru reguły jest",
+      "answers": [
+        "minimalizacja prawdopodobieństwa błędu",
+        "uśrednienie ze względu na prawdopodobne błędy",
+        "ograniczenie zakresu wysyłanych wiadomości tylko do wiadomości najmniej prawdopodobnych",
+        "ograniczenie zakresu odbieranych wiadomości tylko do wiadomości najbardziej prawdopodobnych"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 233,
+      "category": "Modelowanie 3D",
+      "question_text": "W programie SketchUp aby utworzyć większą lub mniejszą wersję tego samego kształtu należy użyć narzędzia:",
+      "answers": [
+        "Move",
+        "Offset",
+        "Copy",
+        "Clone"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 234,
+      "category": "Wzorce projektowe",
+      "question_text": "Intencja (przeznaczenie) wzorca Dekorator (Decorator) to:",
+      "answers": [
+        "Dodanie dodatkowej odpowiedzialności do obiektu w sposób statyczny.",
+        "Dodanie dodatkowej odpowiedzialności do obiektu w sposób dynamiczny (elastyczna alternatywa dla tworzenia podklas w rozszerzaniu funkcjonalności).",
+        "Umożliwienie obiektowi zmiany zachowania w wyniku zmiany wewnętrznego stanu.",
+        "Wszystkie pozostałe odpowiedzi są błędne."
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 235,
+      "category": "Wstęp do matematyki",
+      "question_text": "Układ równań $\\begin{cases}2x+4y=-2\\\\ x+y=1\\end{cases}$",
+      "answers": [
+        "jest nieoznaczony",
+        "jest sprzeczny",
+        "jest oznaczony",
+        "ma rozwiązanie $\\begin{cases}x=-2\\\\ y=3\\end{cases}$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 236,
+      "category": "Wstęp do matematyki",
+      "question_text": "Ciąg $(^{a_{n})}$ ma granicę równą 1. Wskaż ciąg, którego granicą jest liczba 2.",
+      "answers": [
+        "$\\frac{2a_{n}-1}{{(a_{n}+1)}^{2}}$",
+        "$\\frac{2a_{n}+1}{a_{n}+1}$",
+        "$\\frac{2{a_{n}}^{2}}{a_{n}+1}$",
+        "$\\frac{\\sqrt{2a_{1}+2}}{2a_{11}-1}$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 237,
+      "category": "Metody numeryczne",
+      "question_text": "Metody Newtona i Regula Falsi znajdowania pierwiastków równania $f(x)=0$ na przedziale [a,b] wymagają wiedzy na temat znaków pierwszej i drugiej pochodnej funkcji $f(x)$ na tym przedziale, tzn., że:",
+      "answers": [
+        "$f^{\\prime}(x)i~f^{\\prime\\prime}(x)$ mają stały znak",
+        "f'(x) i f (x) muszą mieć takie same znaki",
+        "f'(x) i f '(x) mogą mieć wartość zero w którymś z punktów przedziału",
+        "$f^{\\prime}(x)i~f^{\\prime\\prime}(x)$ muszą mieć przeciwne znaki"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 238,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Aby stworzyć indeks o nazwie indeksosoby na polach imie i nawisko w tabeli osoby należy wpisać:",
+      "answers": [
+        "CREATE INDEX indeksosobowy ON osoba WHERE imie and nazwisko",
+        "CREATE INDEX indeksosoby ON osoby(imie) and osoby(nazwisko)",
+        "CREATE INDEX SET='indeksosoby' ON osoby(imie,nazwisko)",
+        "CREATE INDEX indeksosoby ON osoby(imie, nazwisko)"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 239,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Cyklem Hamiltona nazywamy cykl przechodzący przez:",
+      "answers": [
+        "nieparzystą liczbę wierzchołków",
+        "niektóre wierzchołki",
+        "wszystkie wierzchołki",
+        "parzystą liczbę wierzchołków"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 240,
+      "category": "Matematyka 2",
+      "question_text": "Całka oznaczona $\\int f(x)dx = F(b) - F(a)$ Jeżeli",
+      "answers": [
+        "F(b) > F(a)",
+        "F(x) jest dowolną całką nieoznaczoną funkcji f(x)",
+        "F(b) >= F(a)",
+        "f(x) > 0 dla x w [a,b]"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 241,
+      "category": "Metody numeryczne",
+      "question_text": "Rozwiązać równanie różniczkowe y'(x) = -2y(x) metodą Eulera przyjmując y(0) = 1, h = 0.1. Obliczyć y(0.2)",
+      "answers": [
+        "y(0.2) = -0.64",
+        "nie można obliczyć y(0.2) korzystając wyłącznie z powyższych danych",
+        "y(0.2) = 0.8",
+        "y(0.2) = 0.64"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 242,
+      "category": "Rzeczywistość wirtualna",
+      "question_text": "Zadeklarowałeś nową zmienną przycisku jako “private Button start;”, ale pod słowem \"Button\" jest błąd, który mówi: error CS0246: The type or namespace name 'Button' could not be found... Co prawdopodobnie powoduje ten błąd?",
+      "answers": [
+        "nowe zmienne przycisku muszą być \"public\"",
+        "nie możesz nazwać przycisku „start” bo tak nazywa się Funkcja Unity Event Function",
+        "brakuje Ci “using UnityEngine.UI;” na górze klasy",
+        "„Przycisk” powinien być pisany małymi literami \"przycisk\""
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 243,
+      "category": "Wstęp do programowania w języku Java",
+      "question_text": "Czym jest klasa anonimowa w Javie?",
+      "answers": [
+        "Klasa z której nie możemy utworzyć obiektu, a jedynie ustawiać wartości.",
+        "Klasa która posiada jedynie jedną instancję.",
+        "Klasa z której nie możemy utworzyć obiektu, a jedynie po niej dziedziczyć.",
+        "Klasa z której możemy utworzyć obiekt oraz po niej dziedziczyć."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 244,
+      "category": "Animacje komputerowe",
+      "question_text": "W animacji poklatkowej:",
+      "answers": [
+        "wszystkie odpowiedzi są poprawne",
+        "tworzymy niezależnie każdą klatkę animacji",
+        "tworzymy klatki kluczowe jedynie na początku i na końcu animacji",
+        "tworzymy klatki jedynie w kluczowych momentach animacji"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 245,
+      "category": "Inżynieria i analiza danych",
+      "question_text": "Jakiej funkcji użyć w scikit-learn aby podzielić dane na zbiór treningowy i testowy za pomocą ?",
+      "answers": [
+        "scikit_split()",
+        "divide_data()",
+        "train_test_split()",
+        "split_data()"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 246,
+      "category": "E-biznes",
+      "question_text": "Określa ogólne wrażenia użytkownika w korzystaniu z określonego produktu, systemu lub usługi. W przypadku sklepów internetowych dotyczy doświadczeń zakupowych...",
+      "answers": [
+        "UI",
+        "UE",
+        "US",
+        "UX"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 247,
+      "category": "Języki hipertekstowe i tworzenie stron WWW",
+      "question_text": "Aby pobrać wszystkie rekordy z tabeli users należy wysłać do bazy MySQL zapytanie:",
+      "answers": [
+        "insert users;",
+        "select users;",
+        "select * from users;",
+        "download * from users;"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 248,
+      "category": "Systemy operacyjne",
+      "question_text": "Zadania czekające na zakończenie operacji wejścia-wyjścia są umieszczone w kolejce:",
+      "answers": [
+        "do urządzenia",
+        "zadań gotowych",
+        "zadań priorytetowych",
+        "wszystkich zadań"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 249,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Ciąg binarny 110111100001 jest równoważny?",
+      "answers": [
+        "F64(16)",
+        "DE1(16)",
+        "CE1(16)",
+        "D71(16)"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 250,
+      "category": "Elektronika",
+      "question_text": "W generatorach sygnałów elektrycznych ma zastosowanie:",
+      "answers": [
+        "dodatnie sprzężenie zwrotne",
+        "dodatnie i ujemne sprzężenie zwrotne",
+        "ujemne sprzężenie zwrotne",
+        "brak sprzężenia zwrotnego"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz 437 pytań</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+
+ 
+  <nav>
+  <button id="all-questions-btn">Wszystkie pytania</button>
+  <button id="reset-btn">Reset testu</button>
+</nav>
+
+
+  <div id="quiz">
+    <div id="question-number"></div>
+    <div id="question-text"></div>
+    <div id="question-image"></div>
+    <div class="answers">
+      <button id="answer0"></button>
+      <button id="answer1"></button>
+      <button id="answer2"></button>
+      <button id="answer3"></button>
+    </div>
+  </div>
+
+  <canvas id="radarChart"></canvas>
+  <div class="results" id="results" style="display:none;"></div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="quiz.js"></script>
+   </div>
+
+   <script>
+const btn = document.getElementById('all-questions-btn');
+
+btn.addEventListener('click', () => {
+  const proceed = confirm(
+    "UWAGA: Ta strona zawiera wszystkie pytania wraz z odpowiedziami.\n" +
+    "Jeżeli nie ukończyłeś testu, zobaczenie odpowiedzi może zaspoilerować Ci quiz " +
+    "i analiza strategii uczenia się nie będzie sensowna.\n\n" +
+    "Czy chcesz kontynuować?"
+  );
+
+  if (proceed) {
+    // przeniesienie na all_questions.html
+    window.location.href = 'all_questions.html';
+  }
+});
+
+const resetBtn = document.getElementById('reset-btn');
+
+resetBtn.addEventListener('click', () => {
+  const confirmReset = confirm(
+    "Czy na pewno chcesz zresetować test?\n" +
+    "To usunie wszystkie zapisane odpowiedzi i statystyki."
+  );
+
+  if (confirmReset) {
+    // Usunięcie danych z localStorage
+    localStorage.removeItem('currentQuestion');
+    localStorage.removeItem('correctAnswersCount');
+    localStorage.removeItem('correctByCategory');
+    localStorage.removeItem('correctBySuperCategory');
+    localStorage.removeItem('userAnswers');
+
+    // Odświeżenie strony
+    window.location.reload();
+  }
+});
+
+</script>
+
+</body>
+</html>

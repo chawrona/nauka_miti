@@ -1,0 +1,656 @@
+{
+  "questions": [
+    {
+      "question_number": 151,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Które z poniższych zapytań SQL wykorzystuje podzapytanie skalarnego typu? (podzapytanie, które zwraca pojedynczą wartość)",
+      "answers": [
+        "SELECT * FROM tabela 1 WHERE kolumna IN (SELECT kolumna FROM tabela2)",
+        "SELECT * FROM tabela 1 WHERE kolumna = (SELECT MAX(kolumna) FROM tabela2)",
+        "SELECT * FROM tabela 1 JOIN tabela2 ON tabela1.id = tabela2.id",
+        "SELECT AVG(kolumna) FROM tabela 1"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 152,
+      "category": "Systemy czasu rzeczywistego",
+      "question_text": "Gotowy do zastosowania mechanizm synchronizacji zadań - obiekt chroniony - jest zaimplementowany w języku programowania:",
+      "answers": [
+        "JAVA",
+        "C++",
+        "Ada",
+        "C"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 153,
+      "category": "Inżynieria oprogramowania",
+      "question_text": "Wskaż korzyści z badania klas systemu w celu sprawdzenia, czy istnieje miejsce na generalizację:",
+      "answers": [
+        "zmiany można wykonać na najbardziej szczegółowym poziomie",
+        "wspólne informacje będą utrzymywane w kilku miejscach",
+        "planowane zmiany można wprowadzić wyłącznie w obrębie jednej klasy",
+        "nie trzeba przeglądać wszystkich klas w systemie, aby się przekonać, czy zmiana będzie miała na nie wpływ"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 154,
+      "category": "Matematyka 2",
+      "question_text": "Granica funkcji $lim_{x\\rightarrow1^{-}}\\frac{1}{1-x^{2}}$",
+      "answers": [
+        "nie istnieje",
+        "00",
+        "0",
+        "+∞"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 155,
+      "category": "Projektowanie wizualne i tworzenie interfejsów",
+      "question_text": "Który trend jest zgodny ze współczesnym kierunkiem UI/UX?",
+      "answers": [
+        "preferowanie skomplikowanych nawigacji wielopoziomowych",
+        "maksymalna liczba animacji i mikrointerakcji na każdym ekranie",
+        "upraszczanie i redukcja „szumu\" wizualnego, podkreślanie hierarchii i czytelności",
+        "projektowanie „pixel perfect\" pod jedną stałą rozdzielczość"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 156,
+      "category": "Podstawy programowania",
+      "question_text": "Ile razy wykona się ciało pętli?\nint $i=4$,k;\nwhile $(k=i)$\ni--;",
+      "answers": [
+        "4 razy",
+        "nieskończenie wiele razy",
+        "Żadna z pozostałych odpowiedzi nie jest poprawna.",
+        "3 razy"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 157,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "W którym typie pamięci, wartości binarne są przechowywane przy użyciu tradycyjnych form konfiguracji bramki logicznej typu flip-flop.",
+      "answers": [
+        "ROM",
+        "SRAM",
+        "DRAM",
+        "RAM"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 158,
+      "category": "Elektronika",
+      "question_text": "Przy wzroście temperatury złącza statyczny współczynnik wzmocnienia prądowego tranzystora bipolarnego:",
+      "answers": [
+        "maleje",
+        "jest stały",
+        "rośnie, a następnie maleje w zależności od temperatury",
+        "rośnie"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 159,
+      "category": "Sieci komputerowe",
+      "question_text": "W jakiej fizycznej topologii uszkodzenie jednej stacji roboczej zatrzyma działanie całej sieci?",
+      "answers": [
+        "drzewa",
+        "siatki",
+        "pierścienia",
+        "magistrali"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 160,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Proton oraz elektron wlatują w obszar jednorodnego pola magnetycznego skierowanego pionowo z góry do dołu. Tory cząstek znajdują się w płaszczyźnie prostopadłej do kierunku pola oraz są początkowo do siebie równoległe. Po wejściu w obszar pola tor",
+      "answers": [
+        "elektronu odchyli się w prawo, a proton będzie poruszał się po prostej",
+        "elektronu odchyli się w prawo, a protonu w lewo",
+        "elektronu oraz protonu nie ulegnie zmianie (będzie linią prostą)",
+        "elektronu odchyli się w lewo, a protonu w prawo"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 161,
+      "category": "Matematyka 2",
+      "question_text": "Równanie $x^{4}+1=0$ posiada:",
+      "answers": [
+        "po dwa pierwiastki w zbiorze liczb zespolonych i liczb rzeczywistych",
+        "cztery pierwiastki w zbiorze liczb zespolonych",
+        "tylko dwa pierwiastki w zbiorze liczb zespolonych",
+        "tylko dwa pierwiastki w zbiorze liczb rzeczywistych"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 162,
+      "category": "Matematyka 1",
+      "question_text": "Dana jest funkcja $f(x)=|x^{2}-4|$ oraz zbiory $A=(-2,-1)iB=(-1,3)$. Wskaż zdanie prawdziwe:",
+      "answers": [
+        "Obraz $f(A)=(0,3)$ Przeciwobraz $f^{-1}(B)=(-\\sqrt{7},-1)\\cup(1,\\sqrt{7})$",
+        "Obraz $f(A)=(0,3)$ Przeciwobraz $f^{-1}(B)=(-\\sqrt{7},\\sqrt{7})$",
+        "Obraz $f(A)=\\emptyset$ Przeciwobraz $f^{-1}(B)=\\emptyset$",
+        "Obraz $f(A)=\\langle0,3\\rangle$ Przeciwobraz $f^{-1}(B)=(-\\sqrt{7},-1)\\cup(1,\\sqrt{7})$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 163,
+      "category": "Modelowanie 3D",
+      "question_text": "Podczas kopiowania obiektu w 3ds Max, możemy dokonać wyboru pomiędzy kopią (Copy), klonem (Instance) a odnośnikiem (Reference). Który z wyborów nie powoduje powiązania pomiędzy obiektem oryginalnym a powielanym?",
+      "answers": [
+        "kopia",
+        "odnośnik",
+        "żadna z odpowiedzi nie jest poprawna",
+        "klon"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 164,
+      "category": "Testowanie oprogramowania",
+      "question_text": "Podczas tworzenia testów aplikacji webowych (np. w Selenium IDE) do wskazywania elementów na stronie można używać w kodzie testu:",
+      "answers": [
+        "Metody FindElementBy TheName lub metody FindElementByTheClass.",
+        "Selektorów CSS lub XPath.",
+        "Żadne z pozostałych stwierdzeń nie jest prawidłowe.",
+        "Pełnej nazwy tagu html wraz z jego numerem porządkowym oddzielonym średnikiem."
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 165,
+      "category": "Wzorce projektowe",
+      "question_text": "Intencja (przeznaczenie) wzorca Kompozyt (Composite) to:",
+      "answers": [
+        "Dodanie dodatkowej odpowiedzialności do obiektu w sposób dynamiczny (elastyczna alternatywa dla tworzenia podklas w rozszerzaniu funkcjonalności).",
+        "Wszystkie pozostałe odpowiedzi są błędne.",
+        "Oddzielenie konstrukcji obiektu o złożonej strukturze od jego reprezentacji tak, że ten sam proces konstrukcji może prowadzić do powstawania różnych reprezentacji.",
+        "Kompozycja obiektów w struktury drzewiaste odzwierciedlające hierarchię całość-część. Wzorzec pozwala klientom na traktowanie w taki sam sposób indywidualnych obiektów i ich złożeń."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 166,
+      "category": "Podstawy programowania",
+      "question_text": "Jakie będą wartości tablicy a, po wykonaniu programu?\nint f(int *u) {\n$*u=8$;\nreturn -u[1];\n}\nint main(void) {\nint $a[]=\\{3,4,5\\}$;\nint i;\n$a[\\theta]=f(a+1)$;\nreturn 0;\n}",
+      "answers": [
+        "-4, 8, 5",
+        "-5, 8, 5",
+        "-5, 4, 8",
+        "8,-4,5"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 167,
+      "category": "Programowanie obiektowe",
+      "question_text": "Nazwy deklarowane w klasie języka C++",
+      "answers": [
+        "mają zakres ważności równy obszarowi całego podprogramu",
+        "mają zakres ważności równy obszarowi całej klasy",
+        "mają zakres od miejsca definicji aż do końca klasy",
+        "mają zakres ważności równy obszarowi całego programu"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 168,
+      "category": "Inżynieria oprogramowania",
+      "question_text": "Co jest głównym założeniem modelu przyrostowego wytwarzania oprogramowania?",
+      "answers": [
+        "tworzenie gotowego systemu za pierwszym razem",
+        "tworzenie systemu poprzez oddzielenie specyfikacji, tworzenia i walidacji",
+        "żadna z powyższych odpowiedzi",
+        "budowanie wstępnej implementacji i jej ciągłe udoskonalanie"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 169,
+      "category": "Animacje komputerowe",
+      "question_text": "W programie brush.ninja aby mieć podgląd poprzednich klatek do aktualnie wybranej, należy włączyć opcję:",
+      "answers": [
+        "Set Animation Speed",
+        "Toggle Onion Skinning",
+        "żadna odpowiedź nie jest poprawna",
+        "Set Frame Caption"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 170,
+      "category": "Elektronika",
+      "question_text": "Dioda Zenera umożliwia:",
+      "answers": [
+        "wzmacnianie natężenia prądu",
+        "stabilizowanie napięcia",
+        "wzmacnianie napięcia",
+        "stabilizowanie natężenia prądu"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 171,
+      "category": "Inżynieria i analiza danych",
+      "question_text": "W jakim celu stosuje się analizę skupień?",
+      "answers": [
+        "Do klasyfikacji binarnej.",
+        "Do przewidywania wartości numerycznych.",
+        "Do redukcji wymiarów danych.",
+        "Do grupowania podobnych obserwacji na podstawie ich cech."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 172,
+      "category": "Wstęp do programowania w języku Java",
+      "question_text": "Jakiego operatora używamy do porównywania dwóch obiektów pod kątem równości, a nie referencji?",
+      "answers": [
+        "==",
+        "===",
+        ".equals()",
+        "isEquals()"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 173,
+      "category": "Programowanie obiektowe",
+      "question_text": "W poniższym fragmencie programu w języku C++:\nX & operator = (X & drugi)\n{\nif(this == &drugi)\nreturn *this;\n}\nwarunek w klauzuli if jest prawdziwy, gdy:",
+      "answers": [
+        "nastąpiła próba przypisania obiektu, którego adres w pamięci jest inny, ale zawartość wszystkich składowych jest identyczna",
+        "nastąpiła próba przypisania obiektu innego, niezgodnego typu",
+        "nastąpiła próba przypisania obiektu niezainicjalizowanego",
+        "nastąpiła próba przypisania obiektu do samego siebie"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 174,
+      "category": "Testowanie oprogramowania",
+      "question_text": "Dla testów regresyjnych prawdziwe jest następujące stwierdzenie",
+      "answers": [
+        "Żadne z pozostałych stwierdzeń nie jest prawidłowe.",
+        "Testy regresyjne mają wykazać czy w wyniku wprowadzonych zmian, w niezmienionych obszarach oprogramowania nie zostały wprowadzone lub odkryte defekty.",
+        "Testy regresyjne polegają na wykonaniu takich samych testów funkcjonalnych n-razy.",
+        "Testy regresyjne są zawsze najbardziej czasochłonnymi testami w całym cyklu testowania."
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 175,
+      "category": "Testowanie oprogramowania",
+      "question_text": "Rozwiń skrót STLC w kontekście testowania oprogramowania.",
+      "answers": [
+        "Speed Testing Life Cycle",
+        "Software Technical Life Cycle",
+        "Żadne z pozostałych stwierdzeń nie jest prawidłowe.",
+        "Software Testing Life Cycle"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 176,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Informacja wzajemna I(A;B) jest najmniejsza, gdy:",
+      "answers": [
+        "rozkłady zmiennych A i B są niezależne",
+        "rozkład łączny jest sumą rozkładów",
+        "rozkład łączny jest różny od iloczynu rozkładów",
+        "korelacja pomiędzy zmiennymi jest maksymalna"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 177,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Wahadło, wykonane z nieprzewodzącej i nierozciągliwej nici oraz kulki naelektryzowanej ujemnie umieszczamy w polu elektrostatycznym skierowanym pionowo ku górze. Obecność pola elektrostatycznego:",
+      "answers": [
+        "spowoduje skrócenie okresu drgań wahadła",
+        "spowoduje zmniejszenie częstości drgań",
+        "nie wpłynie na okres drgań wahadła",
+        "spowoduje wydłużenie okresu drgań wahadła"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 178,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Która jednostka została zaprojektowana specjalnie pod kątem optymalizacji pod kątem szybkiego renderowania grafiki trójwymiarowej (3D) i przetwarzania wideo.",
+      "answers": [
+        "CLI",
+        "ALU",
+        "CPU",
+        "GPU"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 179,
+      "category": "Sieci komputerowe",
+      "question_text": "Obiektami warstwy fizycznej w siedmiowarstwowym systemie ISO/OSI są:",
+      "answers": [
+        "modemy i karty sieciowe",
+        "switche i karty sieciowe",
+        "kable i switche",
+        "transceivery i przerzutniki"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 180,
+      "category": "E-biznes",
+      "question_text": "Model współpracy, w którym osoba lub firma promuje produkty/usługi w zamian za prowizję.",
+      "answers": [
+        "aprowizacja",
+        "konwersja",
+        "afiliacja",
+        "promocja"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 181,
+      "category": "Matematyka 1",
+      "question_text": "Dana jest funkcja $f(x)=\\frac{\\sqrt{12+x-x^{2}}}{x^{2}-9}-log(5x^{2}-8x+4).$ Wskaż zdanie prawdziwe:",
+      "answers": [
+        "do wykresu funkcji $f(x)$ należy punkt: $\\overline{P}(tan(arcsin(\\frac{\\sqrt{2}}{2})),-\\frac{\\sqrt{3}}{4})$",
+        "funkcja jest parzysta",
+        "dziedziną funkcji f(x) jest przedział (-3, 4)",
+        "dziedziną funkcji f(x) jest przedział (-3, 4]"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 182,
+      "category": "Projektowanie wizualne i tworzenie interfejsów",
+      "question_text": "Architektura informacji w serwisach WWW dotyczy:",
+      "answers": [
+        "struktury, nawigacji i logiki organizacji treści tak, aby użytkownik sprawnie dotarł do celu",
+        "programowania API REST w Pythonie",
+        "konfiguracji DNS i certyfikatów SSL",
+        "wyłącznie stylów CSS i kolorystyki Ul"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 183,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Liczbę 22 z systemu dziesiętnego, można zapisać w ośmiobitowym systemie U2 w postaci 0001 0110. Liczba -22 w tym samym systemie jest równa:",
+      "answers": [
+        "1000 0001",
+        "1010 1010",
+        "1001 1011",
+        "1110 1010"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 184,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "CUDA została stworzona przez?",
+      "answers": [
+        "NVIDIA",
+        "AMD",
+        "Amdahl",
+        "Herbert Moore"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 185,
+      "category": "Matematyka 2",
+      "question_text": "Pochodna funkcji $y=x^{ax}$ względem x wynosi",
+      "answers": [
+        "$y^{\\prime}=x^{ax-1}$",
+        "$y^{\\prime}=a(ln(x)+1)x^{ax}$",
+        "$y^{\\prime}=ax^{ax}$",
+        "$y^{\\prime}=a(ln(x)+a)x^{x}$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 186,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Drzewo binarne jest zrównoważone, jeśli:",
+      "answers": [
+        "różnica wysokości obu poddrzew dowolnego węzła jest równa 2",
+        "różnica wysokości obu poddrzew dowolnego węzła jest równa 0 lub 1",
+        "różnica wysokości obu poddrzew dowolnego węzła jest równa 0",
+        "różnica wysokości obu poddrzew dowolnego węzła jest równa 1"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 187,
+      "category": "Sieci komputerowe",
+      "question_text": "Co stanie się, jeśli podczas trwającej sesji TCP, pakiety dotrą do celu w złej kolejności?",
+      "answers": [
+        "Pakiety zostaną dostarczone i prawidłowo scalone u celu",
+        "Pakiety zostaną dostarczone, ale nie zostaną scalone u celu",
+        "Pakiety zostaną retransmitowane przez źródło",
+        "Pakiety nie zostaną dostarczone"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 188,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Liczniki mogą być projektowane jako?",
+      "answers": [
+        "asynchroniczne",
+        "zarówno asynchroniczne, jak i synchroniczne",
+        "ani asynchroniczne, ani synchroniczne",
+        "synchroniczne"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 189,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Problem NP to problem decyzyjny:",
+      "answers": [
+        "dla którego rozwiązanie można zweryfikować w czasie wielomianowym",
+        "dla którego rozwiązanie nie można znaleźć w czasie wielomianowym",
+        "dla którego rozwiązanie można znaleźć w czasie wielomianowym",
+        "dla którego rozwiązanie nie można zweryfikować w czasie wielomianowym"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 190,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Moc typu złożonego to:",
+      "answers": [
+        "potęga mocy jego składowych",
+        "suma mocy jego składowych",
+        "iloczyn mocy jego składowych",
+        "logarytm mocy jego składowych"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 191,
+      "category": "Programowanie proceduralne",
+      "question_text": "Po wykonaniu poniższych instrukcji w języku C:\nchar s2[10]=\"kot\", *wsk;\nconst char *s1=\"Pierwszy kot, drugi kot, trzeci kot\";\nwsk=strstr(s1, s2);\nprintf(\"%s\", wsk);",
+      "answers": [
+        "wskaźnik wsk będzie wskazywał na pierwsze wystąpienie łańcucha s1 w łańcuchu s2",
+        "wskaźnik wsk będzie wskazywał na pierwsze wystąpienie słowa \"kot\" w łańcuchu s1",
+        "wskaźnik wsk będzie wskazywał na ostatnie wystąpienie słowa \"kot\" w łańcuchu s1",
+        "na ekranie komputera zostanie wyświetlony napis: \"kot\""
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 192,
+      "category": "Systemy operacyjne",
+      "question_text": "Zakleszczenie (ang. deadlock) - wzajemna blokada - procesów ubiegających się o współdzielone zasoby najlepiej ilustruje jeden z klasycznych problemów synchronizacji procesów i jest to:",
+      "answers": [
+        "żaden z wymienionych",
+        "problem pięciu ucztujących filozofów",
+        "problem producenta i konsumenta",
+        "problem czytelników i pisarzy"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 193,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Węzły wewnętrzne B+-drzewa to:",
+      "answers": [
+        "indeksy",
+        "liście",
+        "korzenie",
+        "rodzice"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 194,
+      "category": "Systemy czasu rzeczywistego",
+      "question_text": "Metoda EDF (ang. Earliest Deadline First) wymaga zdefiniowania:",
+      "answers": [
+        "tylko poziomu wywłaszczenia",
+        "funkcji zysku",
+        "tylko ostatecznego terminu wykonania",
+        "ostatecznego terminu wykonania oraz poziomu wywłaszczenia"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 195,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Automat liniowo ograniczony (szczególny przypadek maszyny Turinga) jest równoważny gramatyce:",
+      "answers": [
+        "regularnej",
+        "kontekstowej",
+        "nieograniczonej",
+        "bezkontekstowej"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 196,
+      "category": "Matematyka 1",
+      "question_text": "Na podstawie grafu relacji R wskaż własności relacji [OBRAZEK: pytanie_196_tresc.png]",
+      "answers": [
+        "symetryczna",
+        "przeciw zwrotna",
+        "przechodnia",
+        "spójna"
+      ],
+      "correct_answer": 0,
+      "assets": [
+        "pytanie_196_tresc.png"
+      ]
+    },
+    {
+      "question_number": 197,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Jak nazywamy tabele, która zawiera wartość następnego wyjścia, gdy znane są wejścia i obecne wyjście, czyli dokładnie informacje potrzebne do zaprojektowania licznika lub dowolnego obwodu?",
+      "answers": [
+        "FPGA",
+        "wzbudzeń (excitation)",
+        "Kenough",
+        "przerzutnik J-K"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 198,
+      "category": "E-biznes",
+      "question_text": "Certyfikat pozwalający na potwierdzenie autentyczności właściciela domeny oraz bezpieczną transmisję danych przesyłanych między serwerem a przeglądarką internetową.",
+      "answers": [
+        "LLS",
+        "SSL",
+        "SLS",
+        "SLL"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 199,
+      "category": "Podstawy programowania",
+      "question_text": "Rozważmy następujące deklaracje zmiennych:\nstruct point {\ndouble x, y;\n} d, $*p=8d$;\nW celu inicjalizacji składowej x wartością 5.5 zmiennej strukturalnej d nie możemy użyć instrukcji:",
+      "answers": [
+        "$p->x=5.5$;",
+        "$*p.x=5.5$",
+        "$d.x=5.5$",
+        "(*p) $x=5.5$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 200,
+      "category": "Sztuczna inteligencja",
+      "question_text": "Dobre prompt engineering to:",
+      "answers": [
+        "dopisywanie maksymalnie dużo słów, aby było bardziej \"inteligentnie\"",
+        "konstruowanie jasnych poleceń z kontekstem, ograniczeniami i przykładem formatu",
+        "próby losowych promptów bez kontroli efektu",
+        "kopiowanie promptów z internetu bez związku z konkretnym problemem"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    }
+  ]
+}

@@ -1,0 +1,656 @@
+{
+  "questions": [
+    {
+      "question_number": 251,
+      "category": "Konfiguracja i zarządzanie systemami CMS",
+      "question_text": "Jednym z typowych zagrożeń integralności CMS jest:",
+      "answers": [
+        "wykonywanie automatycznych backupów",
+        "infekcja złośliwą wtyczką lub motywem z niewiarygodnego źródła",
+        "używanie szyfrowania HTTPS",
+        "aktualizowanie pluginów zgodnie z changelogiem"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 252,
+      "category": "Elektronika",
+      "question_text": "Które wtórne źródła energii cechuje największa gęstość energii:",
+      "answers": [
+        "akumulatory NiMH",
+        "akumulatory NiCd",
+        "akumulatory Li-jon",
+        "akumulatory ołowiowe"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 253,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Magistrala łącząca główne komponenty komputera (procesor, pamięć, urządzenia We/Wy) nosi nazwę?",
+      "answers": [
+        "magistrala adresowa",
+        "magistrala systemowa",
+        "magistrala danych",
+        "magistrala sterująca"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 254,
+      "category": "Integracja sieci i usług",
+      "question_text": "Routing polega na:",
+      "answers": [
+        "wyszukiwaniu w tablicy informacji dot. miejsca docelowego pakietu i określenie jego najbliższego przeskoku",
+        "określeniu czy dany pakiet podlega obsłudze czy odrzuceniu",
+        "wyszukiwaniu w tablicy odpowiedniej informacji dot. miejsca docelowego pakietu, tzn. trasy jaką ma przebyć dany pakiet, aby dotrzeć do celu",
+        "kolejkowaniu pakietów wg priorytetów na danym interfejsie"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 255,
+      "category": "Podstawy programowania",
+      "question_text": "Wskaż zdanie fałszywe dotyczące zmiennych w języku C.",
+      "answers": [
+        "Zmienna odnosi się do miejsca w pamięci.",
+        "Raz zdefiniowana zmienna może być zdefiniowana ponownie z innym zakresem.",
+        "Pojedynczej zmiennej nie można zdefiniować za pomocą dwóch różnych typów w tym samym zakresie.",
+        "Zmienna musi być jednocześnie zadeklarowana i zainicjalizowana."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 256,
+      "category": "Rzeczywistość wirtualna",
+      "question_text": "Aby dodać fizykę do obiektów w Unity należy dodać do obiektu:",
+      "answers": [
+        "Rigidbody",
+        "Collider",
+        "Force",
+        "PhysX"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 257,
+      "category": "Problemy społeczne i zawodowe informatyki",
+      "question_text": "Kodeks etyczny informatyka (np. PTI) ma głównie na celu:",
+      "answers": [
+        "zastąpić prawo autorskie ustawowe",
+        "określić normy zachowań i odpowiedzialności w wykonywaniu zawodu",
+        "wskazywać minimalne wymagania sprzętowe do pracy z komputerem",
+        "definiować wszystkie szczegółowe przepisy BHP dla stanowisk komputerowych"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 258,
+      "category": "Inżynieria i analiza danych",
+      "question_text": "Jak zastosować funkcję przetwarzania tekstu (np. zamiana na małe litery) do całej kolumny \"text\" ramki df w Pandas?",
+      "answers": [
+        "df.process_text('text', lambda x: x.lower())",
+        "df['text'].process_text(lambda x: x.lower())",
+        "df['text'].apply(lambda x: x.lower())",
+        "df.lowercase('text')"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 259,
+      "category": "Modelowanie 3D",
+      "question_text": "Aby możliwe było dziedziczenie (dokonanie zmiany w obiekcie, z którego kopiowano wpływa na obiekty skopiowane) niektórych cech kopiowanego obiektu w SketchUp obiekt ten powinien:",
+      "answers": [
+        "być zgrupowany",
+        "wszystkie odpowiedzi są poprawne",
+        "obiekt kopiowany zawsze dziedziczy wszystkie cechy",
+        "być komponentem"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 260,
+      "category": "Relacyjne bazy danych",
+      "question_text": "Które zdanie najlepiej opisuje różnicę między klauzulą GROUP BY a klauzulą ORDER BY w zapytaniach SQL?",
+      "answers": [
+        "GROUP BY filtrowe dane na podstawie określonych warunków, a ORDER BY sortuje dane na podstawie określonych warunków.",
+        "ORDER BY i GROUP BY filtrują dane na podstawie określonych warunków zastępując klauzulę SELECT",
+        "GROUP BY sortuje dane w kolejności rosnącej, a ORDER BY sortuje dane w kolejności malejącej.",
+        "GROUP BY grupuje dane na podstawie określonej kolumny, a ORDER BY sortuje dane na podstawie określonej kolumny."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 261,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Jak nazywamy możliwość wykonywania instrukcji niezależnie i współbieżnie w różnych potokach?",
+      "answers": [
+        "superskalarnego",
+        "skalarnego",
+        "potokowego",
+        "wektorowego"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 262,
+      "category": "Programowanie obiektowe",
+      "question_text": "W języku C++ konsekwencją utworzenia w klasie MyClass metody czysto wirtualnej jest:",
+      "answers": [
+        "brak możliwości tworzenia instancji klasy MyClass",
+        "konieczność utworzenia klasy pochodnej, która dziedziczy z klasy MyClass",
+        "brak możliwości nadpisania tej metody w klasach pochodnych",
+        "brak możliwości dziedziczenia z klasy MyClass"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 263,
+      "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
+      "question_text": "Który z poniższych dokumentów XML jest dobrze sformułowany",
+      "answers": [
+        "<firstElement>dowolny tekst\n</secondElement>kolejny dowolny tekst\n<secondElement>\n</firstElement>",
+        "<firstElement>dowolny tekst\n<secondElement> kolejny dowolny tekst\n</firstElement>\n</secondElement>",
+        "<firstElement>dowolny tekst</firstElement>\n<secondElement> kolejny dowolny tekst</secondElement>",
+        "</firstElement>dowolny tekst\n</secondElement>kolejny dowolny tekst\n<firstElement>"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 264,
+      "category": "Języki skryptowe",
+      "question_text": "Co oznacza, że Python jest typowany dynamicznie?",
+      "answers": [
+        "zmienne muszą być typowane statycznie przed ich deklaracją",
+        "jest to przypisywanie typów do zmiennych dopiero w trakcie działania programu",
+        "typy zmiennych są określane na etapie kompilacji i nie mogą ulegać zmianom",
+        "wszystkie wymienione odpowiedzi"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 265,
+      "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
+      "question_text": "Plik XML ma następującą strukturę:\n<menstore>\n<category>Shirts</category>\n<color>Red</color>\n<size>M</size>\n<price>$25.99</price>\n<clothing />\n</menstore>\nKtóra składnie XPath zwróci kolor koszuli?",
+      "answers": [
+        "path='/clothing/color'",
+        "path='/menstore/color'",
+        "path='/mensstore/category/colors'",
+        "path='/menstore/category /color'"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 266,
+      "category": "Animacje komputerowe",
+      "question_text": "Wygląd krzywej przedstawiającej ruch obiektu w jednej z osi oznacza, że: [OBRAZEK: pytanie_266_tresc.png]",
+      "answers": [
+        "obiekt przyspiesza na pierwszym odcinku animacji",
+        "żadna z odpowiedzi nie jest poprawna",
+        "obiekt porusza się ze stałą prędkością na pierwszym odcinku animacji",
+        "obiekt zwalnia na pierwszym odcinku animacji"
+      ],
+      "correct_answer": 0,
+      "assets": [
+        "pytanie_266_tresc.png"
+      ]
+    },
+    {
+      "question_number": 267,
+      "category": "Inżynieria i analiza danych",
+      "question_text": "Jak obliczyć współczynnik korelacji między kolumnami \"X\" i \"Y\" ramki df w Pandas?",
+      "answers": [
+        "df[['X', 'Y']].corr()",
+        "df['X'].correlation(df['Y'])",
+        "df.correlation('X', 'Y')",
+        "df.corr('X', 'Y')"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 268,
+      "category": "Modelowanie 3D",
+      "question_text": "Aby utworzyć bryłę z dowolnego płaskiego kształtu w programie SketchUp należy użyć narzędzia:",
+      "answers": [
+        "Scale",
+        "Push/Pull",
+        "Follow Me",
+        "Offset"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 269,
+      "category": "Wstęp do programowania w języku Java",
+      "question_text": "Klasa implementująca interfejs",
+      "answers": [
+        "Nie może być abstrakcyjna.",
+        "Nie musi implementować wszystkich jego metod pod warunkiem, że jest abstrakcyjna.",
+        "Musi być abstrakcyjna.",
+        "Jeśli jest abstrakcyjna to nie może implementować jego metod."
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 270,
+      "category": "Sieci komputerowe",
+      "question_text": "Jak nazywa się grupę hostów posiadających taki sam wzorzec dla najbardziej znaczących bitów w adresie IP?",
+      "answers": [
+        "sieć",
+        "oktet",
+        "Internet",
+        "baza"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 271,
+      "category": "Podstawy programowania",
+      "question_text": "Typ wyrażenia sterującego instrukcji switch w języku C nie może być typem:",
+      "answers": [
+        "long",
+        "float",
+        "char",
+        "int"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 272,
+      "category": "Inżynieria oprogramowania",
+      "question_text": "Jakie są korzyści z wytwarzania oprogramowania w sposób przyrostowy?",
+      "answers": [
+        "umożliwienie zastosowania środowiska IDE",
+        "wprowadzanie zmian w oprogramowaniu jest tańsze i łatwiejsze",
+        "wprowadzane zmiany mogą być wielokrotnie sprawdzone",
+        "uzyskanie pełnego rozwiązania już w pierwszym etapie budowy oprogramowania"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 273,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Magnes sztabkowy został rozcięty na dwie równe części. W wyniku tego zabiegu otrzymano dwa równe kawałki metalu takie, że:",
+      "answers": [
+        "każdy z nich posiada dwa identyczne bieguny",
+        "każdy z nich posiada dwa przeciwne bieguny",
+        "każdy z nich posiada jeden biegun",
+        "żaden z nich nie jest magnesem"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 274,
+      "category": "E-biznes",
+      "question_text": "Proces tworzenia strony internetowej i linków (wewnętrznych oraz zewnętrznych) w sposób przyjazny dla Google, aby zapewnić jej możliwie najlepszą pozycję w wynikach wyszukiwania.",
+      "answers": [
+        "SEO",
+        "SEM",
+        "SAS",
+        "SRP"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 275,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "W którym elemencie przechowywana jest ostatnia pobrana instrukcja?",
+      "answers": [
+        "MAR",
+        "IR",
+        "MBR",
+        "PC"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 276,
+      "category": "E-biznes",
+      "question_text": "Określenie wszystkich użytkowników trafiających na strony internetowe za pośrednictwem wyników wyszukiwania wyświetlanych przez wyszukiwarki internetowe i jednocześnie nieoznaczonych jako reklama.",
+      "answers": [
+        "CDN",
+        "ISP",
+        "ruch organiczny",
+        "wyniki organiczne"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 277,
+      "category": "Komunikacja i zarządzanie projektami",
+      "question_text": "Dlaczego komunikacja jest krytyczna w projektach IT?",
+      "answers": [
+        "ponieważ większość problemów projektowych wynika z nieporozumień i różnic interpretacji",
+        "ponieważ komunikacja zastępuje dokumentację techniczną",
+        "ponieważ ludzie lubią rozmawiać i to naturalnie poprawia jakość produktu",
+        "ponieważ komunikacja zwiększa koszty i trzeba ją kontrolować"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 278,
+      "category": "Systemy operacyjne",
+      "question_text": "Najważniejszym elementem systemu operacyjnego jest:",
+      "answers": [
+        "program powłoki (np. BASH, CMD)",
+        "pamięć operacyjna",
+        "jądro (ang. kernel)",
+        "graficzny interfejs użytkownika"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 279,
+      "category": "Sztuczna inteligencja",
+      "question_text": "Zasada Hebba najprościej (w klasycznej wersji) mówi, że:",
+      "answers": [
+        "połączenia wzmacniają się, gdy neurony aktywują się „razem”",
+        "połączenia zawsze dążą do zera",
+        "wagi są aktualizowane wyłącznie na podstawie błędu predykcji",
+        "połączenia są losowo resetowane po każdej epoce"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 280,
+      "category": "Systemy operacyjne",
+      "question_text": "Dla kogo można ustalać uprawnienia w systemie Linux do pliku/katalogu?",
+      "answers": [
+        "tylko dla grupy i pozostałych użytkowników; właściciel ma zawsze pełne uprawnienia",
+        "tylko dla właściciela i grupy",
+        "dla właściciela, grupy oraz pozostałych użytkowników",
+        "tylko dla grupy"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 281,
+      "category": "Integracja sieci i usług",
+      "question_text": "Wszystkie routery w sieci są skonfigurowane w jednym obszarze OSPF z taką sama wartością priorytetu. Żaden interfejs pętli zwrotnej nie został skonfigurowany na żadnym z routerów. Jakiej drugiej wartości będą używały routery do określenia ID routera?",
+      "answers": [
+        "Nie będzie ID routera dopóki jest skonfigurowany interfejs pętli zwrotnej",
+        "Będzie użyty najwyższy adres spośród aktywnych interfejsów",
+        "Będzie użyty najwyższy adres IP spośród aktywnych interfejsów FastEthernet, których używa OSPF",
+        "Będzie użyty najwyższy MAC spośród aktywnych interfejsów w sieci"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 282,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Która z poniższych definicji najlepiej opisuje podzapytanie w SQL?",
+      "answers": [
+        "zapytanie, które korzysta z funkcji agregujących, takich jak SUM lub AVG.",
+        "zapytanie, które zawiera tylko jedną klauzulę WHERE.",
+        "zapytanie, które zwraca wynik jako kombinację dwóch lub więcej tabel.",
+        "zapytanie, które jest zagnieżdżone wewnątrz innego zapytania."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 283,
+      "category": "Systemy czasu rzeczywistego",
+      "question_text": "Aby system kontroli lotu zapewniał maksymalny poziom bezpieczeństwa, powinien być zaprojektowany jako system czasu rzeczywistego spełniający:",
+      "answers": [
+        "twarde wymagania czasowe",
+        "miękkie wymagania czasowe",
+        "średnie wymagania czasowe",
+        "brak wymagań czasowych"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 284,
+      "category": "Elektronika",
+      "question_text": "Dioda LED emituje strumień światła gdy:",
+      "answers": [
+        "sposób polaryzacji nie ma znaczenia",
+        "jest spolaryzowana w kierunku zaporowym",
+        "jest zasilana napięciem wstecznym",
+        "jest spolaryzowana w kierunku przewodzenia"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 285,
+      "category": "Inżynieria i analiza danych",
+      "question_text": "Jakiej metody użyć aby uzyskać podstawowe statystyki opisowe dla ramki danych w Pandas?",
+      "answers": [
+        "stats()",
+        "summary()",
+        "describe()",
+        "basic_stats()"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 286,
+      "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
+      "question_text": "Jak można opisać dane XML?",
+      "answers": [
+        "XML wykorzystuje CSS do opisu danych",
+        "XML wykorzystuje XLT do opisu danych",
+        "XML wykorzystuje DTD do opisu danych",
+        "XML wykorzystuje DOCX do opisu danych"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 287,
+      "category": "Wstęp do programowania w języku Java",
+      "question_text": "Które słowo kluczowe używane jest do deklaracji zmiennej której raz przypisanej wartości nie można zmienić?",
+      "answers": [
+        "static const",
+        "static",
+        "const",
+        "final"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 288,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Aby utworzyć r-narny (dla r = 4 ) kod zwięzły dla źródła bezpamięciowego S = {a1 ,a2 ,…,s11} metodą Huffmana musimy rozszerzyć źródło o następującą liczbę elementów:",
+      "answers": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 289,
+      "category": "Rzeczywistość wirtualna",
+      "question_text": "Jeśli mówi: „Hello there!” w konsoli Unity, jaki to był kod użyty do utworzenia tej wiadomości?",
+      "answers": [
+        "Debug.Console(“Hello there!”);",
+        "Debug.Log(Hello there!);",
+        "Debug(“Hello there!”);",
+        "Debug.Log(\"Hello there!\");"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 290,
+      "category": "Podstawy programowania",
+      "question_text": "Która konwersja typu nie jest akceptowana w języku C?",
+      "answers": [
+        "z typu double do typu char",
+        "z typu char na typ int",
+        "z typu int do typu double",
+        "z typu float na wskaźnik do char"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 291,
+      "category": "E-biznes",
+      "question_text": "W e-commerce oznacza współpracę, transakcję czy wymianę między firmą a prywatnym odbiorcą, będącym końcowym użytkownikiem produktów/usług.",
+      "answers": [
+        "B2B",
+        "B2C",
+        "B2U",
+        "B2E"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 292,
+      "category": "Wstęp do matematyki",
+      "question_text": "Dane są wektory [2, -1, 3] i [1, 3, k]. Dla jakich wartości parametru k ∈ ℜ wektory są prostopadłe?",
+      "answers": [
+        "1/3",
+        "1/2",
+        "2",
+        "1"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 293,
+      "category": "Systemy operacyjne",
+      "question_text": "Katalog domowy użytkownika o nazwie Student ma następującą ścieżkę bezwzględną w systemie plików: „C:\\Users\\Student”. Jakiego systemu operacyjnego to dotyczy?",
+      "answers": [
+        "Windows",
+        "Nie jest to poprawna ścieżka w żadnym systemie plików",
+        "Linux",
+        "macOS"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 294,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Która architektura procesora wykorzystuje więcej i bardziej drobnoziarnistych etapów potoku?",
+      "answers": [
+        "superpipelinowa (ang. superpipeline)",
+        "równoległa",
+        "hybrydowa",
+        "superskalarnego (ang. superscalar)"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 295,
+      "category": "Rzeczywistość wirtualna",
+      "question_text": "Mipmaping to:",
+      "answers": [
+        "proces nakładania tekstury w grafice 3D",
+        "proces nakładania tekstury w przypadku gdy teksele są większe od pikseli",
+        "proces nakładania tekstury wykorzystujący wiele tekstur o różnych rozdzielczościach",
+        "proces nakładania tekstury w przypadku gdy teksele są mniejsze od pikseli"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 296,
+      "category": "Sieci komputerowe",
+      "question_text": "Z ilu par żył składa się kabel typu skrętka?",
+      "answers": [
+        "2",
+        "4",
+        "8",
+        "6"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 297,
+      "category": "Systemy czasu rzeczywistego",
+      "question_text": "Który planista zajmuje się szeregowaniem zadań w systemie czasu rzeczywistego?",
+      "answers": [
+        "średnioterminowy",
+        "tym zadaniem zajmuje się procesor",
+        "krótkoterminowy",
+        "długoterminowy"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 298,
+      "category": "Metody numeryczne",
+      "question_text": "Metoda Newtona znajdowania pierwiastków równania ƒ(x) = 0 wymaga:",
+      "answers": [
+        "podania dwóch punktów startowych",
+        "podania jednego punktu startowego",
+        "nie wymaga znajomości pochodnej funkcji ƒ(x)",
+        "służy do obliczania całki nieoznaczonej"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 299,
+      "category": "Sieci komputerowe",
+      "question_text": "Sniffing najczęściej oznacza:",
+      "answers": [
+        "przechwytywanie ruchu sieciowego w celu pozyskania informacji",
+        "uzależnienie od internetu typu socjomania",
+        "sprawdzanie stanowiska pracy pod kątem BHP",
+        "podszywanie się pod inne urządzenie lub adres IP"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 300,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Energia elektronu (w przybliżeniu nierelatywistycznym, oraz przy braku zewnętrznych zaburzeń) w atomie wodoru zależy od:",
+      "answers": [
+        "liczb n i l",
+        "głównej liczby kwantowej – n",
+        "magnetycznej liczby kwantowej - m",
+        "orbitalnej liczby kwantowej - l"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    }
+  ]
+}

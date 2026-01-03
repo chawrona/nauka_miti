@@ -1,0 +1,658 @@
+{
+  "questions": [
+    {
+      "question_number": 301,
+      "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
+      "question_text": "Co oznacza skrót XML?",
+      "answers": [
+        "eXpensive Markup Language",
+        "eXternal Markup Language",
+        "eXtensible Markup Language",
+        "X-Markup Language"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 302,
+      "category": "Podstawy programowania",
+      "question_text": "W języku C operator: ->",
+      "answers": [
+        "udostępnia składową struktury, tylko wtedy, jeśli jest ona (składowa) wskaźnikiem",
+        "udostępnia adres struktury",
+        "udostępnia adres składowej struktury, jeśli jest ona (składowa) wskaźnikiem",
+        "udostępnia składową struktury poprzez wskaźnik do tej struktury"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 303,
+      "category": "Inżynieria i analiza danych",
+      "question_text": "Jak utworzyć tabelę przestawną (pivot table) w Pandas na podstawie kolumny \"category\" i \"value\" ramki df?",
+      "answers": [
+        "pd.pivot_table(df, values='value', index='category')",
+        "pivot_table(df, columns='category', values='value')",
+        "df.create_pivot('category', 'value')",
+        "df.pivot('category', 'value')"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 304,
+      "category": "Matematyka 2",
+      "question_text": "Druga pochodna funkcji $y = e^{sin(x)}$ wynosi:",
+      "answers": [
+        "$e^{sin(x)}$",
+        "$e^{sin(x)}(cos^2(x) - sin(x))$",
+        "$2e^{sin(x)}$",
+        "$e^{cos(x)}$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 305,
+      "category": "Systemy operacyjne",
+      "question_text": "Który z podanych poniżej plików systemu Linux jest ukryty?",
+      "answers": [
+        "–plik2",
+        "żadna odpowiedź nie jest poprawna, gdyż w celu ukrycia pliku należy włączyć odpowiedni atrybut, podobnie jak w systemie Windows",
+        ".plik1",
+        "hidden_plik3"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 306,
+      "category": "Programowanie proceduralne",
+      "question_text": "Czy któraś z instrukcji znajdujących się w podanej funkcji jest błędna? Jeśli tak, to proszę ją wskazać.\nint *f(const int *p){\n++p;\np[2]=3;\nreturn p;\n}",
+      "answers": [
+        "p[2]=3;",
+        "++p;",
+        "return p;",
+        "Wszystkie instrukcje są poprawne."
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 307,
+      "category": "Wzorce projektowe",
+      "question_text": "Intencja (przeznaczenie) wzorca Stan (State) to:",
+      "answers": [
+        "Zdefiniowanie obiektu hermetyzującego informację o interakcji pomiędzy obiektami z pewnego zbioru.",
+        "Utrwalenie wewnętrznego stanu obiektu w zewnętrznej jednostce bez naruszania hermetyzacji tak, żeby obiekt można było później przywrócić do tego stanu.",
+        "Wszystkie pozostałe odpowiedzi są błędne.",
+        "Umożliwienie obiektowi zmiany zachowania w wyniku zmiany wewnętrznego stanu."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 308,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Efekt Comptona polega na:",
+      "answers": [
+        "przechodzeniu elektronów z powłok odpowiadających wyższym energiom na powłoki odpowiadające energiom niższym",
+        "zmianie długości fali promieniowania rentgenowskiego rozpraszanego na swobodnych elektronach",
+        "przechodzeniu elektronów z powłok odpowiadających niższym energiom na powłoki odpowiadające energiom wyższym",
+        "wybijaniu elektronów przez fotony z powierzchni metalu."
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 309,
+      "category": "Elektronika",
+      "question_text": "Liniowe stabilizatory napięcia LDO (ang. Low Drop Out) to:",
+      "answers": [
+        "stabilizatory o zmniejszonym zakresie regulacji napięcia wyjściowego",
+        "stabilizatory o małym natężeniu prądu wyjściowego",
+        "stabilizatory o zmniejszonym spadku napięcia między wejściem a wyjściem",
+        "stabilizatory o małym napięciu wyjściowym"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 310,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Liczba A1F w systemie heksadecymalnym to w systemie dziesiętnym liczba:",
+      "answers": [
+        "2591",
+        "2199",
+        "2285",
+        "2123"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 311,
+      "category": "Języki hipertekstowe i tworzenie stron WWW",
+      "question_text": "Zaznacz funkcję, którą należy wykorzystać, aby wysłać w PHP poprawnie zapytanie do bazy MySQL. Zmienna $conn oznacza uchwyt połączenia, $sql- treść zapytania.",
+      "answers": [
+        "query($conn, $sql);",
+        "mysql_query($sql);",
+        "mysqli_query($conn, $sql);",
+        "mysql_query($conn, $sql);"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 312,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Tabele relacyjnej bazy danych, na których wykonywane są zapytania SQL",
+      "answers": [
+        "nie muszą posiadać klucza obcego",
+        "muszą posiadać co najmniej dwie kolumny",
+        "muszą być znormalizowane",
+        "muszą posiadać klucz obcy"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 313,
+      "category": "Relacyjne bazy danych",
+      "question_text": "Czym jest normalizacja w kontekście relacyjnych baz danych?",
+      "answers": [
+        "Sposobem zabezpieczania bazy przed atakami.",
+        "Procesem eliminowania nadmiarowości danych i poprawiania struktury bazy danych.",
+        "Procesem zapisywania danych w postaci nieuporządkowanej.",
+        "Metodą szybkiego dostępu do danych."
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 314,
+      "category": "Oprogramowanie użytkowe",
+      "question_text": "Aby w arkuszu kalkulacyjnym obliczyć wiele wyników za pomocą formuły tablicowej, należy wprowadzić formułę tablicową do:",
+      "answers": [
+        "do nowej, pustej kolumny",
+        "wszystkie odpowiedzi są błędne",
+        "tylko do jednej komórki wynikowej",
+        "zakresu komórek, który ma tę samą liczbę wierszy i kolumn, co argumenty tablicowe"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 315,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Kod prefiksowy przy kompresji danych to taki w którym:",
+      "answers": [
+        "niektóre symbole kodowe są prefiksami innych symboli kodowych",
+        "wszystkie symbole kodowe są prefiksami innych symboli kodowych",
+        "każdy symbol kodowy jest prefiksem innego symbolu kodowego",
+        "żaden symbol kodowy nie jest prefiksem innego symbolu kodowego"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 316,
+      "category": "Inżynieria i analiza danych",
+      "question_text": "Jak wybrać wiersze z tablicy tab w NumPy, gdzie wartości w kolumnie 2 są większe niż 10 ?",
+      "answers": [
+        "tab.select(tab[:, 2] > 10)",
+        "tab[filter(tab[:, 2] > 10)]",
+        "tab.filter(tab[:, 2] > 10)",
+        "tab[tab[:, 2] > 10]"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 317,
+      "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
+      "question_text": "Które z poniższych stwierdzeń dokładnie opisuje XPath?",
+      "answers": [
+        "XPath można odczytać za pomocą dokumentów Word",
+        "XPath to język zapytań",
+        "XPath jest językiem programowania",
+        "XPath jest taki sam jak pliki XML"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 318,
+      "category": "Systemy operacyjne",
+      "question_text": "W jakim środowisku wykona się następujący program?\n$a= 1, 2, 3\n$b=1000\n$a | ForEach-Object -Process {$_*2}\n$b | ForEach-Object -Process {$_+350}",
+      "answers": [
+        "PowerShell",
+        "C",
+        "Python",
+        "BASH"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 319,
+      "category": "Sieci komputerowe",
+      "question_text": "Przyjrzyj się zamieszczonemu powyżej schematowi. Które stwierdzenie opisuje metody kontroli dostępu do medium, które są wykorzystane w sieciach przedstawionych na ilustracji? [OBRAZEK: pytanie_319_tresc.png]",
+      "answers": [
+        "Wszystkie trzy sieci używają CSMA/CA",
+        "Sieć 1 używa CSMA/CA, a Sieć 2 używa CSMA/CD",
+        "Sieć 2 używa CSMA/CA, a Sieć 3 używa CSMA/CD",
+        "Sieć 1 używa CSMA/CD, a Sieć 3 używa CSMA/CA"
+      ],
+      "correct_answer": 3,
+      "assets": [
+        "pytanie_319_tresc.png"
+      ]
+    },
+    {
+      "question_number": 320,
+      "category": "Inżynieria oprogramowania",
+      "question_text": "Jaki jest główny cel walidacji oprogramowania?",
+      "answers": [
+        "sprawdzanie zgodności programu z wymaganiami użytkownika",
+        "wykrywanie błędów w funkcjonowaniu programu",
+        "sprawdzenie przypadków użycia zdefiniowanych na etapie projektowania",
+        "wykrycie powtarzających się bloków kodu w odrębnych modułach programu"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 321,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Który z poniższych elementów jest wejściem jednostki sterującej?",
+      "answers": [
+        "flagi ALU",
+        "wszystkie wymienione",
+        "zegar",
+        "IR"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 322,
+      "category": "Animacje komputerowe",
+      "question_text": "Styczne kluczy (Key Tangents)",
+      "answers": [
+        "umożliwiają utworzenie ruchu jednostajnego pomiędzy dwoma klatkami kluczowymi",
+        "określają sposób wejścia i wyjścia animacji z klatki kluczowej",
+        "wszystkie odpowiedzi są poprawne",
+        "pozwalają na przyspieszenie lub zwolnienie w miarę zbliżania się do klatki kluczowej"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 323,
+      "category": "Elektronika",
+      "question_text": "Wzmacniacz operacyjny w układzie komparatora napięcia umożliwia:",
+      "answers": [
+        "porównanie dwóch napięć wejściowych",
+        "porównanie napięcia wejściowego z napięciem wyjściowym",
+        "wzmocnienie dodatniego sygnału elektrycznego",
+        "wzmocnienie ujemnego sygnału elektrycznego"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 324,
+      "category": "Animacje komputerowe",
+      "question_text": "Aby utworzyć w programie 3ds Max kamerę użyjemy skrótu:",
+      "answers": [
+        "Shift+c",
+        "Ctrl+k",
+        "Ctrl+c",
+        "Alt+c"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 325,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Które polecenia serwera MySQL sprawi, że użytkownikowi zosia zostaną odebrane prawa do usuwania i aktualizacji danych w tabeli pracownicy",
+      "answers": [
+        "REVOKE DELETE, UPDATE ON pracownicy FROM 'zosia'@'localhost'",
+        "REVOKE * ON pracownicy FROM 'zosia'@'localhost'",
+        "GRANT ALL ON pracownicy FROM 'zosia'@'localhost'",
+        "GRANT DELETE, UPDATE ON pracownicy FROM 'zosia'@'localhost'"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 326,
+      "category": "Matematyka 1",
+      "question_text": "Jak można opisać zastosowanie indukcji dla twierdzenia dotyczącego liczb naturalnych nie mniejszych niż $a_0$?",
+      "answers": [
+        "pokazujemy, że twierdzenie jest prawdziwe dla n0, a potem pokazujemy, że przy założeniu prawdziwości twierdzenia dla $n \\ge n_0$ wynika prawdziwość twierdzenia dla $n+1$.",
+        "pokazujemy, że twierdzenie jest prawdziwe dla n0, a potem pokazujemy, że przy założeniu prawdziwości twierdzenia dla dowolnego $n \\le n_0$ wynika prawdziwość twierdzenia dla n",
+        "pokazujemy, że jeśli twierdzenie jest prawdziwe dla n0, to jest prawdziwe dla $n_0 +1$.",
+        "pokazujemy, że przy założeniu prawdziwości twierdzenia dla dowolnego $n \\ge n_0$ wynika prawdziwość twierdzenia dla $n+1$."
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 327,
+      "category": "Relacyjne bazy danych",
+      "question_text": "W bazie danych samochodów pole kolor z tabeli samochody przyjmuje wartości kolorów jedynie ze słownika lakier. Aby połączyć tabele samochody i lakier relacją należy, zastosować kwerendę",
+      "answers": [
+        "ALTER TABLE lakier ADD FOREIGN KEY (barwa) REFERENCES samochody(kolor);",
+        "ALTER TABLE samochody ADD FOREIGN KEY kolor REFERENCES lakier;",
+        "ALTER TABLE samochody ADD FOREIGN KEY barwa REFERENCES samochody.lakier;",
+        "ALTER TABLE samochody ADD FOREIGN KEY (kolor) REFERENCES lakier(lakierId);"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 328,
+      "category": "Języki skryptowe",
+      "question_text": "Które z poniższych stwierdzeń dotyczących destruktorów w języku Python jest prawdziwe?",
+      "answers": [
+        "destruktory w Pythonie są wywoływane przed utworzeniem obiektu",
+        "destruktory w Pythonie są wywoływane po zniszczeniu obiektu",
+        "Python nie obsługuje destruktorów",
+        "destruktory w Pythonie są wywoływane ręcznie przez programistę"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 329,
+      "category": "Systemy czasu rzeczywistego",
+      "question_text": "Dziedziczenie priorytetu umożliwia wykonanie zadania ze zwiększonym priorytetem w przypadku, gdy zadanie to blokuje lub mogłoby wstrzymywać zadanie o wyższym priorytecie. Mechanizm ten stosuje się w celu ... zjawiska inwersji priorytetów. Poprzednie zdanie uzupełnij właściwym słowem:",
+      "answers": [
+        "zwiększenia częstości wystąpienia",
+        "zmniejszenia częstości wystąpienia",
+        "wydłużenia czasu",
+        "redukcji czasu"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 330,
+      "category": "Sztuczna inteligencja",
+      "question_text": "Agent AI to:",
+      "answers": [
+        "każde połączenie dwóch LLM",
+        "klasyczny skrypt pythona bez żadnych modułów",
+        "model językowy + pamięć/instrumenty/akcje + środowisko (np. API, bazy danych)",
+        "zwykły czat bez wykonywania akcji"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 331,
+      "category": "Animacje komputerowe",
+      "question_text": "Aby w programie Adobe Animate wykonać jednostajnie przyspieszony ruch animowanego obiektu na danym odcinku animacji należy ustawić parametr Ease na wartość:",
+      "answers": [
+        "0",
+        "+200",
+        "+100",
+        "-100"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 332,
+      "category": "Sztuczna inteligencja",
+      "question_text": "Tokenizacja w NLP to:",
+      "answers": [
+        "proces przekształcenia tekstu w obraz pikselowy",
+        "proces rozbijania tekstu na elementarne jednostki (np. słowa / subwordy / tokeny)",
+        "proces usuwania wszystkich znaków interpunkcyjnych jako wstęp do uczenia",
+        "tworzenie ontologii do systemów ekspertowych"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 333,
+      "category": "Programowanie obiektowe",
+      "question_text": "Poniższy fragment programu w języku C++:\nMyClass object_1;\nMyClass object_2 = object_1;\nzawiera wywołania:",
+      "answers": [
+        "konstruktora domyślnego i operatora przypisania",
+        "konstruktora domyślnego i konstruktora kopiującego",
+        "konstruktora parametrowego i konstruktora kopiującego",
+        "operatora przypisania i konstruktora parametrowego"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 334,
+      "category": "Matematyka 1",
+      "question_text": "Wśród podanych poniżej równości wskaż tę, która jest twierdzeniem rachunku zbiorów:",
+      "answers": [
+        "$A\\backslash B = A \\cap B$",
+        "$(A \\cup B) \\backslash A = A \\backslash B$",
+        "$A \\cap (B \\backslash C) = (A \\cap B) \\backslash (A \\cap C)$",
+        "$A \\cap (B \\cup C) = (A \\cap B) \\cap (A \\cap C)$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 335,
+      "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
+      "question_text": "Jak stworzyć w XML-u, aby atrybut miał wiele wartości?",
+      "answers": [
+        "<myElement myAttribute=\"value1\" \"value2\"/>",
+        "<myElement myAttribute=\"value1\"-\"value2\"/>",
+        "Atrybuty nie mogą mieć wielu wartości.",
+        "<myElement myAttribute=\"value1\" myAttribute=\"value2\"/>"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 336,
+      "category": "Programowanie obiektowe",
+      "question_text": "Wskaż stwierdzenie prawdziwe dla zmiennych referencyjnych (język C++):",
+      "answers": [
+        "muszą być od razu zainicjalizowane",
+        "mogą zmieniać typ, do którego się odnoszą",
+        "mają własny adres w pamięci, niezależny i różny od adresu zmiennej, do której się odnoszą",
+        "mogą zawierać null"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 337,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Automat ze stosem posiada pamięć:",
+      "answers": [
+        "swobodnego dostępu",
+        "cykliczną",
+        "wybiórczą",
+        "sekwencyjną"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 338,
+      "category": "Systemy operacyjne",
+      "question_text": "Logiczna struktura systemów plików we współczesnych systemach operacyjnych z rodziny Unix/Linux i Windows wygląda jak:",
+      "answers": [
+        "gwiazda",
+        "stos",
+        "siatka",
+        "odwrócone drzewo"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 339,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Jaki element zapewnia pamięć wewnętrzną procesora?",
+      "answers": [
+        "ALU",
+        "jednostka sterująca",
+        "pamięć główna",
+        "rejestr"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 340,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Aby obniżyć prawdopodobieństwo błędu w trakcie transmisji kodu odległość Hamminga pomiędzy dowolnymi dwoma binarnymi ciągami kodowymi o tej samej długości należy dobrać tak aby:",
+      "answers": [
+        "była równa zeru",
+        "była minimalna",
+        "była możliwie największa",
+        "była nie większa jak ½"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 341,
+      "category": "Integracja sieci i usług",
+      "question_text": "Które polecenie utworzy statyczną trasę w R2 prowadzącą do komputera PC B? [OBRAZEK: pytanie_341_tresc.png]",
+      "answers": [
+        "R2(config)# ip route 172.16.2.0 255.255.255.0 172.16.3.1",
+        "R2(config)# ip route 172.16.3.0 255.255.255.0 172.16.2.254",
+        "R2(config)# ip route 172.16.2.1 255.255.255.0 172.16.3.1",
+        "R2(config)# ip route 172.16.2.0 255.255.255.0 172.16.2.254"
+      ],
+      "correct_answer": 0,
+      "assets": [
+        "pytanie_341_tresc.png"
+      ]
+    },
+    {
+      "question_number": 342,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Który z poniższych protokołów jest często wykorzystywany do komunikacji między aplikacjami WWW a bazą danych?",
+      "answers": [
+        "FTP",
+        "HTTP",
+        "SMTP",
+        "SNMP"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 343,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Pierwsze litery własności transakcji to ACID. Co oznaczają te litery?",
+      "answers": [
+        "niepodzielność, spójność, izolację, trwałość",
+        "atomowość, spójność, Izolacja, Dostęp",
+        "niepodzielność, atomowość, izolację, czytelność",
+        "atomowość, ciągłość, izolację, dostęp"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 344,
+      "category": "Animacje komputerowe",
+      "question_text": "Aby w programie 3ds Max podczas tworzenia animacji zapamiętane zostały (w postaci klatek kluczowych) zmiany położenia obiektu na osi czasu należy:",
+      "answers": [
+        "nacisnąć klawisz K po każdej zmianie położenia",
+        "włączyć opcje SetKey na początku procesu tworzenia animacji",
+        "po każdej zmianie położenia obiektu włączyć opcję AutoKey",
+        "włączyć AutoKey i dokonywać zmian położenia obiektu w wybranych klatkach osi czasu"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 345,
+      "category": "Metody numeryczne",
+      "question_text": "Rozwiązanie równania różniczkowego $y'(x) = -2y(x)$ metodą Rungego-Kutty rzędu II ma postać $y_{i+1} = 0.82y_i$. Przyjmując $y(0) = 1, h = 0.1$ obliczyć y(0.3). Rozwiązaniem dokładnym jest funkcja $y(x) = e^{-2x}$. Błąd względny w punkcie x = 0.3 wynosi",
+      "answers": [
+        "-0.4567",
+        "0.004658",
+        "nie można obliczyć błędu korzystając wyłącznie z powyższych danych",
+        "0.005"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 346,
+      "category": "Systemy czasu rzeczywistego",
+      "question_text": "System operacyjny czasu rzeczywistego, którego cechą charakterystyczną jest to, że współistnieją w nim jądro czasu rzeczywistego oraz jądro systemu operacyjnego to:",
+      "answers": [
+        "Windows CE",
+        "VxWorks",
+        "QNX Neutrino",
+        "RTLinux"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 347,
+      "category": "Inżynieria i analiza danych",
+      "question_text": "W regresji liniowej, jakie jest zadanie funkcji regresji?",
+      "answers": [
+        "Minimalizacja sumy kwadratów różnic między prognozowanymi a rzeczywistymi wartościami.",
+        "Maksymalizacja współczynnika determinacji R^2.",
+        "Minimalizacja błędu klasyfikacji.",
+        "Maksymalizacja współczynnika korelacji."
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 348,
+      "category": "Projektowanie wizualne i tworzenie interfejsów",
+      "question_text": "Standard WCAG 2.1 dotyczy:",
+      "answers": [
+        "dostępności treści cyfrowych dla osób z różnymi ograniczeniami (np. wzrok, słuch, percepcja)",
+        "certyfikacji bezpieczeństwa danych w RODO",
+        "wymagań dla konstrukcji serwerowni",
+        "minimalnych wymagań wydajności aplikacji webowych"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 349,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "W przypadku pamięci o dostępie swobodnym jak nazywamy czas od momentu podania adresu do pamięci do momentu zapisania lub udostępnienia danych do użytku?",
+      "answers": [
+        "czas cyklu pamięci",
+        "szybkość transmisji",
+        "czas dostępu",
+        "dostęp bezpośredni"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 350,
+      "category": "Programowanie proceduralne",
+      "question_text": "W języku C deklaracja static int x; (wewnątrz funkcji lub poza)",
+      "answers": [
+        "oznacza, że zasięg zmiennej x jest ograniczony do bloku funkcji main()",
+        "może być deklaracją zmiennej o łączności wewnętrznej",
+        "jest deklaracją zmiennej automatycznej",
+        "musi znajdować się w bloku funkcji"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    }
+  ]
+}

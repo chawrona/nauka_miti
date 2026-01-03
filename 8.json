@@ -1,0 +1,658 @@
+{
+  "questions": [
+    {
+      "question_number": 351,
+      "category": "Relacyjne bazy danych",
+      "question_text": "Które z poniższych twierdzeń dotyczących kluczy w bazie danych są prawdziwe?",
+      "answers": [
+        "klucz obcy jest używany do łączenia tabel w bazie danych",
+        "klucz główny jest wymagany tylko dla relacyjnych baz danych",
+        "klucz główny może mieć różne wartości dla każdego wiersza w tabeli",
+        "klucz główny musi być zawsze typu tekstowego"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 352,
+      "category": "Matematyka 1",
+      "question_text": "Które z podanych wyrażeń jest zdaniem logicznym?",
+      "answers": [
+        "zamknij drzwi!",
+        "czy pójdziesz dzisiaj do kina?",
+        "x+2 > 0",
+        "zamek wawelski w Krakowie był siedzibą polskich królów"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 353,
+      "category": "Oprogramowanie użytkowe",
+      "question_text": "Parametr ORDER BY służy do:",
+      "answers": [
+        "porządkowania kwerend",
+        "grupowania danych",
+        "porządkowania rekordów",
+        "grupowania kwerend"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 354,
+      "category": "Wstęp do programowania w języku Java",
+      "question_text": "Które słowo kluczowe w języku Java oznacza, że rozszerzamy o klasę X?",
+      "answers": [
+        "<T extends X>",
+        "<X>",
+        "implements X",
+        "extends X"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 355,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Triggery (wyzwalacze) w relacyjnych bazach danych:",
+      "answers": [
+        "wykonują się w przypadku zaistnienia danego zdarzenia w bazie danych",
+        "wykonują się wyłącznie cyklicznie na podstawie wcześniej ustalonego harmonogramu",
+        "wykonują się niedeterministycznie",
+        "mogą korzystać jedynie z widoków"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 356,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Definicja gramatyki generacyjnej ma postać:",
+      "answers": [
+        "G = (S, P, V+,T)",
+        "G = (N, T, P, S)",
+        "G = (V, T, P, S)",
+        "G = (N, V+, P, S)"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 357,
+      "category": "Wstęp do matematyki",
+      "question_text": "Równanie $|x| - 2 = -|x| + 2$",
+      "answers": [
+        "ma dokładnie cztery rozwiązania",
+        "ma dokładnie dwa rozwiązania",
+        "nie ma rozwiązań",
+        "ma dokładnie jedno rozwiązanie"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 358,
+      "category": "Wstęp do programowania w języku Java",
+      "question_text": "Jedną z dostępnych implementacji dla zbiorów znajdujących się w Java Collections Framework jest:",
+      "answers": [
+        "SetTree",
+        "LinkedVectorSet",
+        "ArraySet",
+        "LinkedHashSet"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 359,
+      "category": "Przetwarzanie dokumentów XML i zaawansowane techniki WWW",
+      "question_text": "Która z poniższych nazw jest poprawną nazwą elementu XML",
+      "answers": [
+        "myElement",
+        "#myElement",
+        "my Element",
+        "#my.Element"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 360,
+      "category": "Matematyka 1",
+      "question_text": "Dana jest relacja $R \\subset \\mathbb{Z}^2 \\land \\forall_{x \\in \\mathbb{Z}}: xRy \\Leftrightarrow |x| + |y| = 3$. Relacja ta jest:",
+      "answers": [
+        "przechodnia",
+        "symetryczna",
+        "antysymetryczna",
+        "spójna"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 361,
+      "category": "Animacje komputerowe",
+      "question_text": "Jedną z kluczowych zasad animacji opisanych przez animatorów Disney’a w książce The Illusion of Life, w której animowany obiekt ulega odkształceniu jest zasada:",
+      "answers": [
+        "follow through",
+        "staging",
+        "squash and stretch",
+        "appeal"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 362,
+      "category": "Wstęp do matematyki",
+      "question_text": "Rozwiązaniem równania sin x = 0 jest:",
+      "answers": [
+        "$x = \\frac{\\pi}{3} + 2k\\pi$",
+        "$x = 2k\\pi$",
+        "$x = k\\pi$",
+        "$x = \\frac{\\pi}{6} + 2k\\pi$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 363,
+      "category": "Języki skryptowe",
+      "question_text": "Jaki będzie wynik operacji {1, 2, 3} + {2, 3, 4} w języku Python?",
+      "answers": [
+        "wystąpi błąd, ponieważ Python nie obsługuje bezpośredniego dodawania zbiorów",
+        "{1, 2, 3, 4}",
+        "{1, 2, 3, 2, 3, 4}",
+        "{1, 2, 3}"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 364,
+      "category": "Matematyka 2",
+      "question_text": "Granica ciągu liczbowego nieskończonego $a_n = (-1)^n + 1$",
+      "answers": [
+        "istnieje i wynosi 0",
+        "istnieje i wynosi +1",
+        "nie istnieje",
+        "istnieje i wynosi -1"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 365,
+      "category": "Kryptografia",
+      "question_text": "Które stwierdzenie najlepiej opisuje cel podpisu cyfrowego w kontekście niezaprzeczalności?",
+      "answers": [
+        "podpis cyfrowy zastępuje funkcje skrótu i jest używany zamiast SHA-2/3",
+        "podpis cyfrowy zawsze jest ślepy (blind) i uniemożliwia weryfikację tożsamości",
+        "podpis cyfrowy pozwala udowodnić autorstwo i zapobiega późniejszemu wypieraniu się przez podpisującego",
+        "podpis cyfrowy służy do szyfrowania całej treści wiadomości tak, aby nikt jej nie odczytał"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 366,
+      "category": "Teoretyczne podstawy informatyki",
+      "question_text": "Odwrotnością liczby 5 ze względu na mnożenie modulo 7 jest liczba:",
+      "answers": [
+        "5",
+        "2",
+        "3",
+        "7"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 367,
+      "category": "Języki hipertekstowe i tworzenie stron WWW",
+      "question_text": "Która z wymienionych własności w CSS nie podlega dziedziczeniu?",
+      "answers": [
+        "background-color",
+        "font-size",
+        "text-align",
+        "border"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 368,
+      "category": "Podstawy programowania",
+      "question_text": "Która z poniższych instrukcji jest niepoprawna składniowo?",
+      "answers": [
+        "if(warunek1){ instrukcja1; if(warunek2) instrukcja2; }",
+        "if(warunek){ instrukcja1; else instrukcja2; }",
+        "if(warunek1) instrukcja1; else if(warunek2) instrukcja2;",
+        "if (warunek) instrukcja1; else instrukcja2;"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 369,
+      "category": "Programowanie obiektowe",
+      "question_text": "Wskaźnik this w języku C++,",
+      "answers": [
+        "pokazuje funkcji, gdzie składowa znajduje się w pamięci",
+        "pokazuje funkcji, na którym konkretnym składniku ma ona teraz pracować",
+        "pokazuje funkcji, na którym egzemplarzu obiektu tej klasy ma ona pracować",
+        "pokazuje funkcji, gdzie ta funkcja znajduje się w pamięci"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 370,
+      "category": "Programowanie proceduralne",
+      "question_text": "Czy któraś z instrukcji znajdujących się w podanej funkcji jest błędna? Jeśli tak, to proszę ją wskazać.\nint *f(int *const p){\n++p;\np[2]=3;\nreturn p;\n}",
+      "answers": [
+        "Wszystkie instrukcje są poprawne.",
+        "++p;",
+        "p[2] = 3;",
+        "return p;"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 371,
+      "category": "Modelowanie 3D",
+      "question_text": "W programie 3ds Max do poprawnego rozłożenia tekstury na obiekcie 3D służy modyfikator:",
+      "answers": [
+        "XForm",
+        "Wave",
+        "Unwrap UVW",
+        "Symmetry"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 372,
+      "category": "Inżynieria oprogramowania",
+      "question_text": "Co wchodzi w skład \"instalacji\" w zautomatyzowanym teście jednostkowym:",
+      "answers": [
+        "przekazanie danych testowych dla modułu instalacji oprogramowania",
+        "porównywanie wyników wywołania z oczekiwanymi",
+        "wywoływanie konkretnej metody do przetestowania",
+        "inicjowanie systemu przypadkiem testowym"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 373,
+      "category": "Wzorce projektowe",
+      "question_text": "Intencja (przeznaczenie) wzorca Pełnomocnik (Proxy) to:",
+      "answers": [
+        "Dostarczenie zastępnika lub reprezentanta innego obiektu w celu kontrolowania dostępu do tego obiektu.",
+        "Wszystkie pozostałe odpowiedzi są błędne.",
+        "Dodanie dodatkowej odpowiedzialności do obiektu w sposób dynamiczny (elastyczna alternatywa dla tworzenia podklas w rozszerzaniu funkcjonalności).",
+        "Umożliwienie obiektowi zmiany zachowania w wyniku zmiany wewnętrznego stanu."
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 374,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Wskaż zdanie fałszywe odnośnie algorytmów sortowania:",
+      "answers": [
+        "Algorytm sortowania przez scalanie ma w każdym przypadku złożoność O(nlogn).",
+        "Algorytm sortowania przez wstawianie ma w każdym przypadku złożoność O(n^2).",
+        "Algorytm sortowania szybkiego (Quick sort) ma w każdym przypadku złożoność O(nlogn).",
+        "Algorytm sortowania przez wybieranie ma w każdym przypadku złożoność O(n^2)."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 375,
+      "category": "Elektronika",
+      "question_text": "Nieoryginalny zasilacz z pasującą do gniazda zasilania wtyczką, można dołączyć...",
+      "answers": [
+        "zgodności natężenia prądu i zgodności napięcia",
+        "bez znaczenia",
+        "tylko jeśli jest tego samego producenta",
+        "zawsze"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 376,
+      "category": "E-Biznes",
+      "question_text": "Równoważny w skutkach prawnych z podpisem manualnym jest:",
+      "answers": [
+        "kwalifikowany podpis elektroniczny",
+        "zaawansowany podpis elektroniczny",
+        "skan podpisu manualnego",
+        "każdy podpis elektroniczny c/a"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 377,
+      "category": "Języki hipertekstowe i tworzenie stron WWW",
+      "question_text": "Za pomocą, której pseudo klasy można ustawić w co drugim wierszu w tabeli kolor tła szary?",
+      "answers": [
+        "tr:first-child() {background-color: gray;}",
+        "tr:nth-child {background-color: gray;}",
+        "tr:nth-child(n+2) {background-color: gray;}",
+        "tr:nth-child(2n) {background-color: gray;}"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 378,
+      "category": "Sieci komputerowe",
+      "question_text": "Na podstawie przedstawionej konfiguracji IP odpowiedz, dlaczego host A i host B nie mogą komunikować się z urządzeniami znajdującymi się poza ich lokalną siecią. [OBRAZEK: pytanie_378_tresc.png]",
+      "answers": [
+        "host B może komunikować się z tymi urządzeniami, a host A nie",
+        "host A i host B nie mogą komunikować się z tymi urządzeniami",
+        "host A i host B mogą komunikować się z tymi urządzeniami",
+        "host A może komunikować się z tymi urządzeniami, a host B nie"
+      ],
+      "correct_answer": 0,
+      "assets": [
+        "pytanie_378_tresc.png"
+      ]
+    },
+    {
+      "question_number": 379,
+      "category": "Podstawy programowania",
+      "question_text": "Która z poniższych deklaracji nie jest obsługiwana w języku C?",
+      "answers": [
+        "char str;",
+        "string str;",
+        "char *str;",
+        "float str = 3e2;"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 380,
+      "category": "Wzorce projektowe",
+      "question_text": "Intencja (przeznaczenie) wzorca Most (Bridge) to:",
+      "answers": [
+        "Wszystkie pozostałe odpowiedzi są błędne.",
+        "Oddzielenie konstrukcji obiektu o złożonej strukturze od jego reprezentacji tak, że ten sam proces konstrukcji może prowadzić do powstawania różnych reprezentacji.",
+        "Zdefiniowanie obiektu hermetyzującego informację o interakcji pomiędzy obiektami z pewnego zbioru.",
+        "Oddzielenie abstrakcji od implementacji w sposób umożliwiający ich zmiany niezależnie od siebie."
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 381,
+      "category": "Rzeczywistość wirtualna",
+      "question_text": "Jaki będzie pierwszy użyty default'owy stan Animation Controller'a? [OBRAZEK: pytanie_381_tresc.png]",
+      "answers": [
+        "NotCrouched",
+        "Death",
+        "Any State",
+        "Crouch_Up"
+      ],
+      "correct_answer": 0,
+      "assets": [
+        "pytanie_381_tresc.png"
+      ]
+    },
+    {
+      "question_number": 382,
+      "category": "Bazy danych w aplikacjach internetowych",
+      "question_text": "Transakcje służą do:",
+      "answers": [
+        "tworzenia zapytań, które wykonają się w całości lub w ogóle.",
+        "przeglądania wyników zapytania",
+        "zarządzania sesją połączenia",
+        "eliminowanie problemów z redundancją danych"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 383,
+      "category": "Komunikacja i zarządzanie projektami",
+      "question_text": "Który kanał jest przykładem komunikacji synchronicznej?",
+      "answers": [
+        "wątek na Slacku, czytany następnego dnia",
+        "komentarz w JIRA",
+        "spotkanie online na żywo (Teams/Zoom)",
+        "e-mail"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 384,
+      "category": "Integracja sieci i usług",
+      "question_text": "Mała szkoła używa sieci VLAN 10 dla sieci szkolnej i sieci VLAN 20 dla sieci biurowej. Co jest potrzebne, aby umożliwić komunikację między tymi dwiema sieciami VLAN podczas korzystania ze starszego routera, który nie obsługuje żadnego protokołu dla łącza trunk?",
+      "answers": [
+        "potrzebne są dwie grupy przełączników, każdy z portami skonfigurowanymi dla jednej sieci VLAN",
+        "do połączenia się z SVI na przełączniku potrzebny jest router z jednym interfejsem VLAN",
+        "do połączenia z routerem potrzebny jest przełącznik z portem skonfigurowanym jako trunk",
+        "należy użyć routera z co najmniej dwoma interfejsami LAN"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 385,
+      "category": "Integracja sieci i usług",
+      "question_text": "Router ALFA obsługuje trzy sieci o adresach IP: 172.16.8.0, 172.16.10.0 i 172.16.12.0 wszystkie z maskami 255.255.255.0. Router BETA połączony jest z ALFA łączem serialowym. Jakiego polecenia powinien użyć administrator, aby zainstalować na routerze BETA trasę statyczną podsumowującą wszystkie sieci lokalne routera ALFA?",
+      "answers": [
+        "ALFA(config)# ip route 172.16.0.0 255.255.240.0 serial0/0",
+        "ALFA(config)# ip route 172.16.8.0 255.255.255.248 serial0/0",
+        "ALFA(config)# ip route 172.16.8.0 255.255.248.0 serial0/0",
+        "ALFA(config)# ip route 172.16.8.0 255.255.252.0 serial0/0"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 386,
+      "category": "Konfiguracja i zarządzanie systemami CMS",
+      "question_text": "Rozszerzenia / pluginy w CMS-ach pozwalają na:",
+      "answers": [
+        "odtwarzanie sesji cache bez logów",
+        "przywracanie systemu po awarii bez backupu",
+        "zmianę silnika bazy danych bez utraty treści",
+        "dodawanie nowych funkcji bez modyfikowania rdzenia"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 387,
+      "category": "Wstęp do programowania w języku Java",
+      "question_text": "Wyrażeniem lambda nazywamy:",
+      "answers": [
+        "Funkcję która nie posiada nazwy, które są traktowane jak obiekt, można je przypisać do zmiennej lub przekazać jako argument do metody.",
+        "Specjalne pola interfejsów służące do implementacji wewnętrznych funkcji jako klasy.",
+        "Są stosowane do dynamicznej alokacji danych w kolekcjach.",
+        "Specjalne klasy które są traktowane jako stałe."
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 388,
+      "category": "Języki skryptowe",
+      "question_text": "Po ilu klasach może dziedziczyć klasa w języku Python?",
+      "answers": [
+        "po dwóch klasach",
+        "Python nie obsługuje dziedziczenia",
+        "po dowolnej liczbie klas",
+        "po jednej klasie"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 389,
+      "category": "Wzorce projektowe",
+      "question_text": "Do kategorii wzorców obiektowych należą (wskaż odpowiedź zawierającą wzorce tylko i wyłącznie z tej kategorii):",
+      "answers": [
+        "Wszystkie pozostałe odpowiedzi są błędne.",
+        "Metoda Szablonowa (Template Method), Budowniczy (Builder), Dekorator (Decorator), Fasada (Facade), Mediator (Mediator), Pula Obiektów (Object Pool).",
+        "Fabryka Abstrakcyjna (Abstract Factory), Budowniczy (Builder), Dekorator (Decorator), Fasada (Facade), Mediator (Mediator).",
+        "Fabryka Abstrakcyjna (Abstract Factory), Budowniczy (Builder), Dekorator (Decorator), Fasada (Facade), Mediator (Mediator)."
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 390,
+      "category": "Konfiguracja i zarządzanie systemami CMS",
+      "question_text": "Jednym z podstawowych sposobów ograniczania ryzyka utraty integralności systemu CMS jest:",
+      "answers": [
+        "udostępnienie konta administratora wszystkim redaktorom",
+        "przechowywanie haseł w pliku TXT “dla wygody”",
+        "regularne wykonywanie kopii zapasowych i testowanie procedur odtwarzania",
+        "wyłączenie kontroli wersji treści i mechanizmów logowania"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 391,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Który element akceptuje i/lub przesyła informacje szeregowo?",
+      "answers": [
+        "FPGA",
+        "rejestr równoległy",
+        "rejestr przesuwny",
+        "przerzutnik S-R"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 392,
+      "category": "Wzorce projektowe",
+      "question_text": "Intencja (przeznaczenie) wzorca Strategia (Strategy) to:",
+      "answers": [
+        "Zdefiniowanie rodziny algorytmów, zastosowanie hermetyzacji dla każdego z nich i stosowanie ich wymiennie.",
+        "Wzorzec pozwala zmieniać algorytmy niezależnie od wykorzystujących je obiektów.",
+        "Wzorzec pozwala klientom na traktowanie w taki sam sposób indywidualnych obiektów i ich złożeń.",
+        "Udostępnienie interfejsu do tworzenia rodzin powiązanych lub zależnych obiektów bez specyfikacji ich konkretnych klas."
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 393,
+      "category": "Wstęp do matematyki",
+      "question_text": "W sześciowyrazowym ciągu arytmetycznym suma wyrazów o numerach nieparzystych jest równa 186. Trzeci wyraz tego ciągu wynosi:",
+      "answers": [
+        "60",
+        "68",
+        "62",
+        "nie można tego wyliczyć"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 394,
+      "category": "Matematyka 2",
+      "question_text": "Wynikiem obliczeń ln(-1) jest",
+      "answers": [
+        "e",
+        "(2n - 1)πi gdzie n ∈ N",
+        "2nπi gdzie n ∈ N",
+        "0"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 395,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Skojarzenie M w grafie G, to podzbiór krawędzi M spełniającym warunek:",
+      "answers": [
+        "każde dwie krawędzie skojarzenia mają wspólnego przodka",
+        "każde dwie krawędzie skojarzenia sąsiadują ze sobą",
+        "wszystkie krawędzie skojarzenia sąsiadują ze sobą",
+        "żadne dwie krawędzie nie mają wspólnego wierzchołka"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 396,
+      "category": "Animacje komputerowe",
+      "question_text": "Elementy sterujące kontrolerami i trajektoriami animacji znajdziemy w Control Panel w zakładce:",
+      "answers": [
+        "Motion panel",
+        "Create panel",
+        "Modify panel",
+        "Utilities panel"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 397,
+      "category": "Języki skryptowe",
+      "question_text": "Która z poniższych funkcji jest wbudowaną funkcją Pythona do sortowania list?",
+      "answers": [
+        "order()",
+        "sort()",
+        "sorted()",
+        "nie istnieje wbudowana funkcja o takim zastosowaniu"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 398,
+      "category": "Organizacja i architektura komputerów",
+      "question_text": "Która wartość w zapisie szesnastkowym jest równa wartości \"10\" w zapisie dziesiętnym?",
+      "answers": [
+        "FF",
+        "1",
+        "0",
+        "A"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 399,
+      "category": "Programowanie proceduralne",
+      "question_text": "Wskaż poprawny prototyp oraz wywołanie funkcji, która nie zwraca żadnej wartości, a jako argumenty przyjmuje adres zmiennej a, zmienną b oraz zmienną aba.",
+      "answers": [
+        "Prototyp: void fun(struct A *x, FILE y, struct A *z[]); Wywołanie: fun(&a, b, aba);",
+        "Prototyp: void fun(struct A &x, FILE *y, struct A *z); Wywołanie: fun(*a, b, aba);",
+        "Prototyp: void fun(struct A *x, FILE *y, struct A *z); Wywołanie: fun(&a, b, aba);",
+        "Prototyp: void fun(struct A *x, FILE y, struct A *z); Wywołanie: fun(&a, b, aba[]);"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 400,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Sterta maksymalna, to drzewo idealnie zrównoważone:",
+      "answers": [
+        "wartość każdego węzła jest nie mniejsza od wartości w każdym z jego dzieci",
+        "wartość każdego węzła jest większa od wartości w każdym z jego dzieci",
+        "wartość każdego węzła jest mniejsza od wartości w każdym z jego dzieci",
+        "wartość każdego węzła jest nie większa od wartości w każdym z jego dzieci"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    }
+  ]
+}

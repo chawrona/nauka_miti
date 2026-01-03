@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wszystkie pytania - Quiz</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<nav>
+  <button onclick="location.href='index.html'" id="back">Powrót do quizu</button>
+</nav>
+
+<h2>Wszystkie pytania i Twoje odpowiedzi</h2>
+<div id="all-questions"></div>
+
+<script type="module">
+import { questions } from './questions.js';
+
+// Pobranie zapisanych odpowiedzi
+const userAnswers = JSON.parse(localStorage.getItem('userAnswers')) || {};
+const container = document.getElementById('all-questions');
+
+questions.forEach((q, i) => {
+  const div = document.createElement('div');
+  div.classList.add('question');
+
+  // Nagłówek pytania
+  let html = `<h4>Pytanie ${q.question_number} (${q.category})</h4>`;
+  html += `<p>${q.question_text}</p>`;
+
+  // Obrazek jeśli jest
+  if (q.assets.length) {
+    html += `<img src="${q.assets[0]}" style="max-width:400px; display:block; margin:5px 0;">`;
+  }
+
+  // Odpowiedzi
+  html += '<ul class="answers">';
+  q.answers.forEach((a, idx) => {
+    let classes = [];
+    if (idx === q.correct_answer) classes.push('correct');
+    if (userAnswers[i] === idx && idx !== q.correct_answer) classes.push('wrong', 'your-choice');
+    if (userAnswers[i] === idx && idx === q.correct_answer) classes.push('your-choice'); // Twój wybór poprawny
+
+    html += `<li class="${classes.join(' ')}">${a} ${userAnswers[i] === idx ? '← Twój wybór' : ''}</li>`;
+  });
+  html += '</ul>';
+
+  div.innerHTML = html;
+  container.appendChild(div);
+});
+</script>
+
+</body>
+</html>
