@@ -44,7 +44,10 @@ function showQuestion(index) {
 
   
   questionNumberEl.textContent = `Pytanie ${q.question_number} z ${questions.length}`;
-  questionTextEl.textContent = q.question_text;
+  questionTextEl.innerHTML = q.question_text; 
+if (window.MathJax && window.MathJax.typesetPromise) {
+  MathJax.typesetPromise([questionTextEl]).catch((err)=>console.error(err));
+}
 
   // Obsługa obrazka
   questionImageEl.innerHTML = '';
@@ -56,10 +59,13 @@ function showQuestion(index) {
 
   // Wyświetlanie odpowiedzi
   answersButtons.forEach((btn, i) => {
-    let ansewrString = `${q.answers[i]}`
-    btn.textContent = ansewrString.charAt(0).toUpperCase() + ansewrString.slice(1);
-    btn.onclick = () => handleAnswer(i);
-  });
+  const ans = q.answers[i] || "";
+  btn.innerHTML = ans.charAt(0).toUpperCase() + ans.slice(1);
+  if (window.MathJax && window.MathJax.typesetPromise) {
+    MathJax.typesetPromise([btn]).catch((err)=>console.error(err));
+  }
+  btn.onclick = () => handleAnswer(i);
+});
 }
 
 // Obsługa kliknięcia odpowiedzi

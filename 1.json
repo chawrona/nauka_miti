@@ -26,13 +26,13 @@
       "correct_answer": 2,
       "assets": []
     },
-    {
+  {
       "question_number": 3,
       "category": "Matematyka 1",
-      "question_text": "Wskaż zdanie prawdziwe dotyczące indeksowanej rodziny zbiorów $A_{n}:=[\\frac{1}{n},n]dla~n\\in\\mathbb{N}_{+}$",
+      "question_text": "Wskaż zdanie prawdziwe dotyczące indeksowanej rodziny zbiorów $A_{n}:=[\\frac{1}{n},n]$ dla $n\\in\\mathbb{N}_{+}$",
       "answers": [
-        "U An = [0,00), $\\bigcap_{n\\in\\mathbb{N}_{+}}A_{n}=A_{1}$",
-        "NEN+",
+        "$\\bigcup_{n\\in\\mathbb{N}_{+}}A_{n} = [0, \\infty), \\bigcap_{n\\in\\mathbb{N}_{+}}A_{n}=A_{1}$",
+        "$\\bigcap_{n\\in\\mathbb{N}_{+}}A_{n} = \\mathbb{N}_{+}$",
         "$\\bigcup_{n\\in\\mathbb{N}_{+}}A_{n}=(0,+\\infty)$",
         "$\\bigcup_{n\\in\\mathbb{N}_{+}}A_{n}=(0,+\\infty),\\bigcap_{n\\in\\mathbb{N}_{+}}A_{n}=\\emptyset$"
       ],
@@ -91,10 +91,10 @@
       "correct_answer": 3,
       "assets": []
     },
-    {
+ {
       "question_number": 8,
       "category": "Wstęp do matematyki",
-      "question_text": "Dana jest funkcja f określona wzorem $f(x)=\\begin{cases}x-2&dla~x\\le0\\\\ |x+3|&dla~x>0\\end{cases}.$ Równanie $f(x)=-1$ ma:",
+      "question_text": "Dana jest funkcja f określona wzorem $f(x)=\\begin{cases}x-2 & dla~x\\le0\\\\ |x+3| & dla~x>0\\end{cases}.$ Równanie $f(x)=-1$ ma:",
       "answers": [
         "0 rozwiązań",
         "1 rozwiązanie",
@@ -117,13 +117,13 @@
       "correct_answer": 3,
       "assets": []
     },
-    {
+  {
       "question_number": 10,
       "category": "Matematyka 1",
       "question_text": "Wskaż zdanie, którego wartość logiczna wynosi 1.",
       "answers": [
         "$[(\\sqrt{2}>1,41)\\Rightarrow\\sqrt{1\\frac{7}{9}}>(1\\frac{1}{2})^{-1}]\\wedge[(3:2=6)\\Leftrightarrow(4\\cdot70=4)]$",
-        "$lim_{n\\rightarrow\\infty}\\frac{1+2+3+4+...+n}{n^{2}}$ jest liczbą naturalną",
+        "$\\lim_{n\\rightarrow\\infty}\\frac{1+2+3+4+...+n}{n^{2}}$ jest liczbą naturalną",
         "Liczba 0,(3) jest liczbą niewymierną i spełniona jest nierówność $3\\sqrt{2}<2\\sqrt{3}$",
         "$(3|5)\\Leftrightarrow(2|8)$"
       ],
@@ -133,11 +133,11 @@
     {
       "question_number": 11,
       "category": "Matematyka 1",
-      "question_text": "Ciąg $(a_{n})$ określony jest wzorem rekurencyjnym $\\begin{cases}a_{1}=1,a_{2}=1,&a_{3}=1\\\\ a_{n+3}=a_{n+2}+a_{n+1}+a_{n},&n\\ge1\\end{cases}$. Szósty wyraz tego ciągu jest równy:",
+      "question_text": "Ciąg $(a_{n})$ określony jest wzorem rekurencyjnym $\\begin{cases}a_{1}=1,a_{2}=1,a_{3}=1\\\\ a_{n+3}=a_{n+2}+a_{n+1}+a_{n},&n\\ge1\\end{cases}$. Szósty wyraz tego ciągu jest równy:",
       "answers": [
         "$\\frac{64^{\\frac{2}{3}}\\cdot\\sqrt{8}}{0,5^{-4}\\cdot\\sqrt[4]{4}}\\cdot4,5$",
         "-9",
-        "$3^{log_{9}27}+log_{\\frac{1}{3}}\\frac{1}{9}-3\\sqrt{3}$",
+        "$3^{\\log_{9}27}+\\log_{\\frac{1}{3}}\\frac{1}{9}-3\\sqrt{3}$",
         "reszcie z dzielenia liczby 10 przez 6"
       ],
       "correct_answer": 0,
@@ -182,15 +182,15 @@
       "correct_answer": 3,
       "assets": []
     },
-    {
+   {
       "question_number": 15,
       "category": "Programowanie proceduralne",
       "question_text": "Wskaż poprawną w języku C instrukcję dynamicznego przydziału i zwalniania pamięci dla dwuwymiarowej tablicy t składającej się z N wierszy i M kolumn i typie elementów int:",
       "answers": [
-        "int **t = (int **) malloc(N* sizeof(int*)); for(int $i=0$; $i<N$; i++){ $t[i]=(int)$ malloc(M * sizeof(int)); } ...",
-        "int **t = (int **) malloc(N* sizeof(int*)); t[0] = (int*) malloc(M*N* sizeof(int)); for(int $i=0$; $i<N$; i++){ $t[i]=t[\\theta]+i^{*}N;$ } ... free(**t); free(t[\\theta]);",
-        "int **t = (int **) malloc(N* sizeof(int*)); for(int $i=0$; $i<N$; i++){ $t[i]=(int^{*})$ malloc(M sizeof(int)); } ... free(t[i]); free(**t);",
-        "int **t = (int**) malloc(N* sizeof(int*)); $t[\\theta]=(int^{*})$ malloc(M*N * sizeof(int)); for(int $i=0$; $i<N$; i++){ $*(t+i)=*t+i^{*}N;$ } free(*t); free(t);"
+        "int **t = (int **) malloc(N* sizeof(int*)); for(int i=0; i<N; i++){ t[i]=(int*) malloc(M * sizeof(int)); } ... for(int i=0; i<N; i++) free(t[i]); free(t);",
+        "int **t = (int **) malloc(N* sizeof(int*)); t[0] = (int*) malloc(M*N* sizeof(int)); for(int i=0; i<N; i++){ t[i]=t[0]+i*N; } ... free(**t); free(t[0]);",
+        "int **t = (int **) malloc(N* sizeof(int*)); for(int i=0; i<N; i++){ t[i]=(int*) malloc(M * sizeof(int)); } ... free(t[i]); free(**t);",
+        "int **t = (int**) malloc(N* sizeof(int*)); t[0]=(int*) malloc(M*N * sizeof(int)); for(int i=0; i<N; i++){ *(t+i)=*t+i*N; } ... free(*t); free(t);"
       ],
       "correct_answer": 3,
       "assets": []
@@ -273,20 +273,20 @@
       "correct_answer": 1,
       "assets": []
     },
-    {
+  {
       "question_number": 22,
       "category": "Metody numeryczne",
-      "question_text": "Oblicz przy pomocy metody Newtona pierwiastek równania ex $=2$ przyjmując $x_{0}=1$. Rozwiązanie po pierwszym kroku $(x_{1})$ wynosi",
+      "question_text": "Oblicz przy pomocy metody Newtona pierwiastek równania $e^x = 2$ przyjmując $x_{0}=1$. Rozwiązanie po pierwszym kroku $(x_{1})$ wynosi",
       "answers": [
-        "1-2/e",
-        "(2-e)/e",
-        "1-1/e",
-        "2/e"
+        "$1 - 2/e$",
+        "$(2-e)/e$",
+        "$1 - 1/e$",
+        "$2/e$"
       ],
       "correct_answer": 3,
       "assets": []
     },
-    {
+   {
       "question_number": 23,
       "category": "Matematyka 1",
       "question_text": "Rzucamy dwa razy sześcienną kostką do gry. Oblicz prawdopodobieństwo, że suma wyrzuconych oczek jest podzielna przez 3 lub iloraz wyrzuconych oczek jest liczbą całkowitą.",
@@ -613,15 +613,15 @@
       "correct_answer": 1,
       "assets": []
     },
-    {
+   {
       "question_number": 48,
       "category": "Matematyka 2",
       "question_text": "Funkcja $f(x)=\\frac{(x-1)^{2}}{(x-1)}$ jest odwracalna w zbiorze",
       "answers": [
-        "nie jest odwrotna w",
-        "R",
+        "nie jest odwracalna",
+        "$\\mathbb{R}$",
         "$\\mathbb{R}\\backslash\\{1\\}$",
-        "R\\{0}"
+        "$\\mathbb{R}\\backslash\\{0\\}$"
       ],
       "correct_answer": 2,
       "assets": []

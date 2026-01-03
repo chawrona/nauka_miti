@@ -65,13 +65,13 @@
       "correct_answer": 2,
       "assets": []
     },
-    {
+   {
       "question_number": 56,
       "category": "Matematyka 2",
-      "question_text": "Funkcja $f:\\mathbb{R}\\rightarrow\\mathbb{R}^{+}U$ {0} o przypisie $f(x)=|x-1|$",
+      "question_text": "Funkcja $f:\\mathbb{R}\\rightarrow\\mathbb{R}^{+} \\cup \\{0\\}$ o przypisie $f(x)=|x-1|$",
       "answers": [
-        "jest różniczkowalna w R",
-        "jest różniczkowalna w $\\mathfrak{R}^{+}$",
+        "jest różniczkowalna w $\\mathbb{R}$",
+        "jest różniczkowalna w $\\mathbb{R}^{+}$",
         "posiada ekstremum lokalne",
         "nie posiada ekstremum lokalnego"
       ],
@@ -104,7 +104,7 @@
       "correct_answer": 0,
       "assets": []
     },
-    {
+  {
       "question_number": 59,
       "category": "Elektronika",
       "question_text": "Zasilacze impulsowe osiągają wysoką sprawność dzięki pracy z częstotliwością:",
@@ -112,7 +112,7 @@
         "$f=100~Hz$",
         "$f=60~Hz$",
         "$f=50~Hz$",
-        "$f>100Hz$"
+        "$f > 100~Hz$"
       ],
       "correct_answer": 3,
       "assets": []

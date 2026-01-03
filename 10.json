@@ -1,0 +1,615 @@
+{
+  "questions": [
+    {
+      "question_number": 3,
+      "category": "Matematyka 1",
+      "question_text": "Wskaż zdanie prawdziwe dotyczące indeksowanej rodziny zbiorów $A_{n}:=[\\frac{1}{n},n]$ dla $n\\in\\mathbb{N}_{+}$",
+      "answers": [
+        "$\\bigcup_{n\\in\\mathbb{N}_{+}}A_{n} = [0, \\infty), \\bigcap_{n\\in\\mathbb{N}_{+}}A_{n}=A_{1}$",
+        "$\\bigcap_{n\\in\\mathbb{N}_{+}}A_{n} = \\mathbb{N}_{+}$",
+        "$\\bigcup_{n\\in\\mathbb{N}_{+}}A_{n}=(0,+\\infty)$",
+        "$\\bigcup_{n\\in\\mathbb{N}_{+}}A_{n}=(0,+\\infty),\\bigcap_{n\\in\\mathbb{N}_{+}}A_{n}=\\emptyset$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 8,
+      "category": "Wstęp do matematyki",
+      "question_text": "Dana jest funkcja f określona wzorem $f(x)=\\begin{cases}x-2 & dla~x\\le0\\\\ |x+3| & dla~x>0\\end{cases}.$ Równanie $f(x)=-1$ ma:",
+      "answers": [
+        "0 rozwiązań",
+        "1 rozwiązanie",
+        "2 rozwiązania",
+        "nieskończenie wiele rozwiązań"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 10,
+      "category": "Matematyka 1",
+      "question_text": "Wskaż zdanie, którego wartość logiczna wynosi 1.",
+      "answers": [
+        "$[(\\sqrt{2}>1,41)\\Rightarrow\\sqrt{1\\frac{7}{9}}>(1\\frac{1}{2})^{-1}]\\wedge[(3:2=6)\\Leftrightarrow(4\\cdot70=4)]$",
+        "$\\lim_{n\\rightarrow\\infty}\\frac{1+2+3+4+...+n}{n^{2}}$ jest liczbą naturalną",
+        "Liczba 0,(3) jest liczbą niewymierną i spełniona jest nierówność $3\\sqrt{2}<2\\sqrt{3}$",
+        "$(3|5)\\Leftrightarrow(2|8)$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 11,
+      "category": "Matematyka 1",
+      "question_text": "Ciąg $(a_{n})$ określony jest wzorem rekurencyjnym $\\begin{cases}a_{1}=1,a_{2}=1,a_{3}=1\\\\ a_{n+3}=a_{n+2}+a_{n+1}+a_{n},&n\\ge1\\end{cases}$. Szósty wyraz tego ciągu jest równy:",
+      "answers": [
+        "$\\frac{64^{\\frac{2}{3}}\\cdot\\sqrt{8}}{0,5^{-4}\\cdot\\sqrt[4]{4}}\\cdot4,5$",
+        "-9",
+        "$3^{\\log_{9}27}+\\log_{\\frac{1}{3}}\\frac{1}{9}-3\\sqrt{3}$",
+        "reszcie z dzielenia liczby 10 przez 6"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 15,
+      "category": "Programowanie proceduralne",
+      "question_text": "Wskaż poprawną w języku C instrukcję dynamicznego przydziału i zwalniania pamięci dla dwuwymiarowej tablicy t składającej się z N wierszy i M kolumn i typie elementów int:",
+      "answers": [
+        "int **t = (int **) malloc(N* sizeof(int*)); for(int i=0; i<N; i++){ t[i]=(int*) malloc(M * sizeof(int)); } ... for(int i=0; i<N; i++) free(t[i]); free(t);",
+        "int **t = (int **) malloc(N* sizeof(int*)); t[0] = (int*) malloc(M*N* sizeof(int)); for(int i=0; i<N; i++){ t[i]=t[0]+i*N; } ... free(**t); free(t[0]);",
+        "int **t = (int **) malloc(N* sizeof(int*)); for(int i=0; i<N; i++){ t[i]=(int*) malloc(M * sizeof(int)); } ... free(t[i]); free(**t);",
+        "int **t = (int**) malloc(N* sizeof(int*)); t[0]=(int*) malloc(M*N * sizeof(int)); for(int i=0; i<N; i++){ *(t+i)=*t+i*N; } ... free(*t); free(t);"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 17,
+      "category": "Matematyka 1",
+      "question_text": "Czy prawdziwe jest zdanie: \"Jeżeli student przygotował się do sesji, to z faktu, że student nie przygotował się do sesji wynika, że student zdał egzaminy\"?",
+      "answers": [
+        "nie, bo wyrażenie $p\\Rightarrow(\\sim p\\Rightarrow q)$ nie jest tautologią",
+        "tak, bo wyrażenie $(p\\Rightarrow\\sim p)\\Rightarrow q$ jest tautologią",
+        "tak, bo wyrażenie $p\\Rightarrow(\\sim p\\Rightarrow q)$ jest tautologią",
+        "temu wyrażeniu nie można przypisać wartości logicznej"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 22,
+      "category": "Metody numeryczne",
+      "question_text": "Oblicz przy pomocy metody Newtona pierwiastek równania $e^x = 2$ przyjmując $x_{0}=1$. Rozwiązanie po pierwszym kroku $(x_{1})$ wynosi",
+      "answers": [
+        "$1 - 2/e$",
+        "$(2-e)/e$",
+        "$1 - 1/e$",
+        "$2/e$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 23,
+      "category": "Matematyka 1",
+      "question_text": "Rzucamy dwa razy sześcienną kostką do gry. Oblicz prawdopodobieństwo, że suma wyrzuconych oczek jest podzielna przez 3 lub iloraz wyrzuconych oczek jest liczbą całkowitą.",
+      "answers": [
+        "1",
+        "13",
+        "18",
+        "$\\frac{5}{9}$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 48,
+      "category": "Matematyka 2",
+      "question_text": "Funkcja $f(x)=\\frac{(x-1)^{2}}{(x-1)}$ jest odwracalna w zbiorze",
+      "answers": [
+        "nie jest odwracalna",
+        "$\\mathbb{R}$",
+        "$\\mathbb{R}\\backslash\\{1\\}$",
+        "$\\mathbb{R}\\backslash\\{0\\}$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 56,
+      "category": "Matematyka 2",
+      "question_text": "Funkcja $f:\\mathbb{R}\\rightarrow\\mathbb{R}^{+} \\cup \\{0\\}$ o przypisie $f(x)=|x-1|$",
+      "answers": [
+        "jest różniczkowalna w $\\mathbb{R}$",
+        "jest różniczkowalna w $\\mathbb{R}^{+}$",
+        "posiada ekstremum lokalne",
+        "nie posiada ekstremum lokalnego"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 59,
+      "category": "Elektronika",
+      "question_text": "Zasilacze impulsowe osiągają wysoką sprawność dzięki pracy z częstotliwością:",
+      "answers": [
+        "$f=100~Hz$",
+        "$f=60~Hz$",
+        "$f=50~Hz$",
+        "$f > 100~Hz$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 80,
+      "category": "Metody numeryczne",
+      "question_text": "Policzyć błąd względny opierając się na danych: $x_{0}=0.9$ - wartość dokładna, $x=1$ wartość obliczona",
+      "answers": [
+        "$1/9$",
+        "nie można policzyć błędu względnego opierając się na tych danych",
+        "$10/9$",
+        "$1/10$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 82,
+      "category": "Wstęp do matematyki",
+      "question_text": "Rozwiązaniem nierówności $|x+1|\\le1$ jest przedział:",
+      "answers": [
+        "$(-2,0)$",
+        "$(-\\infty,-1)\\cup(0,+\\infty)$",
+        "$[-2,0]$",
+        "$(-\\infty,-1]\\cup[0,+\\infty)$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 87,
+      "category": "Programowanie proceduralne",
+      "question_text": "W poniższym programie w języku C brakuje trzech instrukcji (w miejscach [1], [2], [3]). Wskaż jakie instrukcje i w jakiej kolejności wstawić, tak aby program wyświetlał wartość sumy: $-2+1+4+...+19$.\n[1] w if(n==0), [2] w else return, [3] w main.",
+      "answers": [
+        "[1]: -2; [2]: $(3*n-2)+f(n-1)$; [3]: printf(\"%ld\", f(7))",
+        "[1]: -2; [2]: $(3*n-1)+f(n-1)$; [3]: printf(\"%ld\", f(7))",
+        "[1]: 0; [2]: $(3*n-1)+f(n-1)$; [3]: printf(\"%ld\", f(8))",
+        "[1]: 0; [2]: $(3*n-2)+f(n-1)$; [3]: printf(\"%ld\", f(8))"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 109,
+      "category": "Matematyka 1",
+      "question_text": "Z grupy 6 chłopców i 4 dziewcząt wybieramy losowo 3 osoby. Na ile sposobów można wybrać taką grupę, w której będzie co najwyżej 1 dziewczyna?",
+      "answers": [
+        "$C_{4}^{0}\\cdot C_{6}^{3} + C_{4}^{1}\\cdot C_{6}^{2}$",
+        "$C_{4}^{0} + C_{6}^{3}$",
+        "$C_{4}^{0}\\cdot C_{6}^{3} \\cdot C_{4}^{1}\\cdot C_{6}^{2}$",
+        "$C_{4}^{0}\\cdot C_{6}^{3}$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 115,
+      "category": "Matematyka 2",
+      "question_text": "$\\int_{0}^{2\\pi}|sin(x)|dx$ jest równa",
+      "answers": [
+        "2",
+        "4",
+        "$\\cos(x)$",
+        "0"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 116,
+      "category": "Matematyka 2",
+      "question_text": "Istnieje macierz $A^{-1}$ odwrotna do macierzy kwadratowej A jeżeli",
+      "answers": [
+        "macierz A posiada minor",
+        "A jest nieosobliwa ($det(A) \\neq 0$)",
+        "$det(A) = 0$",
+        "A jest osobliwa"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 129,
+      "category": "Fizyczne podstawy działania urządzeń informatycznych",
+      "question_text": "Punkt materialny porusza się z niezerowym przyspieszeniem $a$ względem jednego inercjalnego układu odniesienia. Jakie będzie jego przyspieszenie względem innego układu inercjalnego?",
+      "answers": [
+        "może być jedynie większe od $a$",
+        "będzie miało wartość identyczną",
+        "może być tylko mniejsze od $a$",
+        "może mieć różne wartości w zależności od wyboru układu"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 154,
+      "category": "Matematyka 2",
+      "question_text": "Granica funkcji $\\lim_{x\\rightarrow1^{-}}\\frac{1}{1-x^{2}}$",
+      "answers": [
+        "nie istnieje",
+        "$\\infty$",
+        "0",
+        "$+\\infty$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 161,
+      "category": "Matematyka 2",
+      "question_text": "Równanie $x^{4}+1=0$ posiada:",
+      "answers": [
+        "po dwa pierwiastki w zbiorze liczb zespolonych i liczb rzeczywistych",
+        "cztery pierwiastki w zbiorze liczb zespolonych",
+        "tylko dwa pierwiastki w zbiorze liczb zespolonych",
+        "tylko dwa pierwiastki w zbiorze liczb rzeczywistych"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 162,
+      "category": "Matematyka 1",
+      "question_text": "Dana jest funkcja $f(x)=|x^{2}-4|$ oraz zbiory $A=(-2,-1)$ i $B=(-1,3)$. Wskaż zdanie prawdziwe:",
+      "answers": [
+        "Obraz $f(A)=(0,3)$, Przeciwobraz $f^{-1}(B)=(-\\sqrt{7},-1)\\cup(1,\\sqrt{7})$",
+        "Obraz $f(A)=(0,3)$, Przeciwobraz $f^{-1}(B)=(-\\sqrt{7},\\sqrt{7})$",
+        "Obraz $f(A)=\\emptyset$, Przeciwobraz $f^{-1}(B)=\\emptyset$",
+        "Obraz $f(A)=\\langle0,3\\rangle$, Przeciwobraz $f^{-1}(B)=(-\\sqrt{7},-1)\\cup(1,\\sqrt{7})$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 181,
+      "category": "Matematyka 1",
+      "question_text": "Dana jest funkcja $f(x)=\\frac{\\sqrt{12+x-x^{2}}}{x^{2}-9}-\\log(5x^{2}-8x+4).$ Wskaż zdanie prawdziwe:",
+      "answers": [
+        "do wykresu funkcji $f(x)$ należy punkt: $P(\\tan(\\arcsin(\\frac{\\sqrt{2}}{2})),-\\frac{\\sqrt{3}}{4})$",
+        "funkcja jest parzysta",
+        "dziedziną funkcji f(x) jest przedział $(-3, 4)$",
+        "dziedziną funkcji f(x) jest przedział $(-3, 4]$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 185,
+      "category": "Matematyka 2",
+      "question_text": "Pochodna funkcji $y=x^{ax}$ względem x wynosi",
+      "answers": [
+        "$y^{\\prime}=x^{ax-1}$",
+        "$y^{\\prime}=a(\\ln(x)+1)x^{ax}$",
+        "$y^{\\prime}=ax^{ax}$",
+        "$y^{\\prime}=a(\\ln(x)+a)x^{x}$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 205,
+      "category": "Matematyka 2",
+      "question_text": "Funkcja $f:[0,+\\infty)\\rightarrow[0,+\\infty)$ o przypisie $y=f(x)=x^{2}$",
+      "answers": [
+        "jest bijekcją",
+        "nie jest surjekcją",
+        "nie jest iniekcją",
+        "nie jest bijekcją"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 212,
+      "category": "Matematyka 1",
+      "question_text": "Dane są zbiory: $A=[-2,7]$, $B = \\{x \\in \\mathbb{R}: x^2-7x+6<0\\}$ i $C = \\{x \\in \\mathbb{R}: |x-1| \\ge 1 \\}$. Wskaż zdanie prawdziwe",
+      "answers": [
+        "$(A\\cap B)\\backslash C=B$",
+        "$A\\backslash B=[-2,1)\\cup(6,7]$",
+        "$C\\backslash(A\\cup B)=(-\\infty,2)$",
+        "$C^{\\prime}\\backslash B=(\\frac{1}{2},1)\\cup(6,\\infty)$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 213,
+      "category": "Matematyka 2",
+      "question_text": "Rząd $r$ macierzy kwadratowej stopnia $n$ może być",
+      "answers": [
+        "$r > n+1$",
+        "dowolny",
+        "$r > n$",
+        "$r \\le n$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 228,
+      "category": "Matematyka 2",
+      "question_text": "Jedną z własności całek oznaczonych jest:",
+      "answers": [
+        "$\\int_{a}^{b}f(x)dx-\\int_{b}^{a}f(x)dx=0$",
+        "$\\int_{a}^{b}cf(x)dx=|c|\\int_{a}^{b}f(x)dx$",
+        "$\\int_{a}^{b}f(x)g(x)dx=\\int_{a}^{b}f(x)dx\\int_{a}^{b}g(x)dx$",
+        "$\\int_{a}^{b}f(x)dx+\\int_{b}^{a}f(x)dx=0$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 235,
+      "category": "Wstęp do matematyki",
+      "question_text": "Układ równań $\\begin{cases}2x+4y=-2\\\\ x+y=1\\end{cases}$",
+      "answers": [
+        "jest nieoznaczony",
+        "jest sprzeczny",
+        "jest oznaczony",
+        "ma rozwiązanie $\\begin{cases}x=-2\\\\ y=3\\end{cases}$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 236,
+      "category": "Wstęp do matematyki",
+      "question_text": "Ciąg $(a_{n})$ ma granicę równą 1. Wskaż ciąg, którego granicą jest liczba 2.",
+      "answers": [
+        "$\\frac{2a_{n}-1}{{(a_{n}+1)}^{2}}$",
+        "$\\frac{2a_{n}+1}{a_{n}+1}$",
+        "$\\frac{2{a_{n}}^{2}}{a_{n}+1}$",
+        "$\\frac{\\sqrt{2a_{1}+2}}{2a_{11}-1}$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 237,
+      "category": "Metody numeryczne",
+      "question_text": "Metody Newtona i Regula Falsi znajdowania pierwiastków równania $f(x)=0$ na przedziale [a,b] wymagają wiedzy na temat znaków pierwszej i drugiej pochodnej funkcji $f(x)$ na tym przedziale, tzn., że:",
+      "answers": [
+        "$f^{\\prime}(x)$ i $f^{\\prime\\prime}(x)$ mają stały znak",
+        "$f^{\\prime}(x)$ i $f(x)$ muszą mieć takie same znaki",
+        "$f^{\\prime}(x)$ i $f^{\\prime\\prime}(x)$ mogą mieć wartość zero w którymś z punktów przedziału",
+        "$f^{\\prime}(x)$ i $f^{\\prime\\prime}(x)$ muszą mieć przeciwne znaki"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 240,
+      "category": "Matematyka 2",
+      "question_text": "Całka oznaczona $\\int_a^b f(x)dx = F(b) - F(a)$. Jeżeli",
+      "answers": [
+        "$F(b) > F(a)$",
+        "$F(x)$ jest dowolną całką nieoznaczoną funkcji $f(x)$",
+        "$F(b) \\ge F(a)$",
+        "$f(x) > 0$ dla $x \\in [a,b]$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 241,
+      "category": "Metody numeryczne",
+      "question_text": "Rozwiązać równanie różniczkowe $y'(x) = -2y(x)$ metodą Eulera przyjmując $y(0) = 1, h = 0.1$. Obliczyć $y(0.2)$",
+      "answers": [
+        "$y(0.2) = -0.64$",
+        "nie można obliczyć y(0.2) korzystając wyłącznie z powyższych danych",
+        "$y(0.2) = 0.8$",
+        "$y(0.2) = 0.64$"
+      ],
+      "correct_answer": 3,
+      "assets": []
+    },
+    {
+      "question_number": 304,
+      "category": "Matematyka 2",
+      "question_text": "Druga pochodna funkcji $y = e^{\\sin(x)}$ wynosi:",
+      "answers": [
+        "$e^{\\sin(x)}$",
+        "$e^{\\sin(x)}(\\cos^2(x) - \\sin(x))$",
+        "$2e^{\\sin(x)}$",
+        "$e^{\\cos(x)}$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 334,
+      "category": "Matematyka 1",
+      "question_text": "Wśród podanych poniżej równości wskaż tę, która jest twierdzeniem rachunku zbiorów:",
+      "answers": [
+        "$A\\backslash B = A \\cap B$",
+        "$(A \\cup B) \\backslash A = A \\backslash B$",
+        "$A \\cap (B \\backslash C) = (A \\cap B) \\backslash (A \\cap C)$",
+        "$A \\cap (B \\cup C) = (A \\cap B) \\cap (A \\cap C)$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 345,
+      "category": "Metody numeryczne",
+      "question_text": "Rozwiązanie równania różniczkowego $y'(x) = -2y(x)$ metodą Rungego-Kutty rzędu II ma postać $y_{i+1} = 0.82y_i$. Przyjmując $y(0) = 1, h = 0.1$ obliczyć $y(0.3)$. Rozwiązaniem dokładnym jest funkcja $y(x) = e^{-2x}$. Błąd względny w punkcie x = 0.3 wynosi",
+      "answers": [
+        "-0.4567",
+        "0.004658",
+        "nie można obliczyć błędu korzystając wyłącznie z powyższych danych",
+        "0.005"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 357,
+      "category": "Wstęp do matematyki",
+      "question_text": "Równanie $|x| - 2 = -|x| + 2$",
+      "answers": [
+        "ma dokładnie cztery rozwiązania",
+        "ma dokładnie dwa rozwiązania",
+        "nie ma rozwiązań",
+        "ma dokładnie jedno rozwiązanie"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 362,
+      "category": "Wstęp do matematyki",
+      "question_text": "Rozwiązaniem równania $\\sin x = 0$ jest:",
+      "answers": [
+        "$x = \\frac{\\pi}{3} + 2k\\pi$",
+        "$x = 2k\\pi$",
+        "$x = k\\pi$",
+        "$x = \\frac{\\pi}{6} + 2k\\pi$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 393,
+      "category": "Wstęp do matematyki",
+      "question_text": "W sześciowyrazowym ciągu arytmetycznym suma wyrazów o numerach nieparzystych jest równa 186. Trzeci wyraz tego ciągu wynosi:",
+      "answers": [
+        "60",
+        "68",
+        "62",
+        "nie można tego wyliczyć"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 394,
+      "category": "Matematyka 2",
+      "question_text": "Wynikiem obliczeń $\\ln(-1)$ jest",
+      "answers": [
+        "$e$",
+        "$(2n - 1)\\pi i$ gdzie $n \\in \\mathbb{N}$",
+        "$2n\\pi i$ gdzie $n \\in \\mathbb{N}$",
+        "$0$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 410,
+      "category": "Matematyka 1",
+      "question_text": "Wśród podanych poniżej zdań wskaż to, która ma wartość logiczną 1.",
+      "answers": [
+        "$\\forall x \\in \\mathbb{R} [x^2 > 0]$",
+        "$\\forall m \\in \\mathbb{N} \\exists n \\in \\mathbb{N} [n > m]$",
+        "$\\exists m \\in \\mathbb{N} [m < 0]$",
+        "$\\forall x \\in \\mathbb{N} \\exists y \\in \\mathbb{N} [x + y = 2]$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 411,
+      "category": "Matematyka 2",
+      "question_text": "Policzyć pierwsze trzy niezerowe wyrazy szeregu Maclaurina dla funkcji $f(x)=\\cos(x)$",
+      "answers": [
+        "$f(x) = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - ...$",
+        "$f(x) = 1 + \\frac{x^2}{2!} - \\frac{x^4}{4!} + ...$",
+        "$f(x) = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} + ...$",
+        "$f(x) = 1 + \\frac{x}{1!} + \\frac{x^3}{3!} + ...$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 418,
+      "category": "Wstęp do matematyki",
+      "question_text": "Czwarty wyraz ciągu określonego wzorem $a_n = \\frac{n(1-2n)}{(1-n)^2}$ jest równy:",
+      "answers": [
+        "$-\\frac{64}{147}$",
+        "$\\frac{n}{2}$",
+        "$\\frac{64}{147}$",
+        "$-\\frac{4}{147}$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 421,
+      "category": "Matematyka 1",
+      "question_text": "Funkcja $f:\\mathbb{R} \\rightarrow \\mathbb{R}$ jest dana wzorem $f(x) = \\begin{cases} 2x+1 & dla~x \\ge 0 \\\\ x-1 & dla~x < 0 \\end{cases}$ Wskaż zdanie prawdziwe:",
+      "answers": [
+        "funkcja jest bijekcją",
+        "miejsce zerowe to punkt $(-2/3, 0)$",
+        "funkcja jest iniekcją",
+        "funkcja jest suriekcją"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 430,
+      "category": "Algorytmy i struktury danych",
+      "question_text": "Sumę $n$ kolejnych liczb naturalnych: $1 + 2 + 3 + \\dots + (n - 1) + n$ możemy obliczyć korzystając ze wzoru: $n(n + 1)/2$. Najbardziej precyzyjnie określimy złożoność takiego algorytmu jako:",
+      "answers": [
+        "$O(n)$",
+        "$O(n^2)$",
+        "$O(1)$",
+        "$O(\\log n)$"
+      ],
+      "correct_answer": 2,
+      "assets": []
+    },
+    {
+      "question_number": 433,
+      "category": "Wstęp do matematyki",
+      "question_text": "Dziedziną funkcji $f(x) = \\log(x - 1)$ jest:",
+      "answers": [
+        "$(1, +\\infty)$",
+        "$(1, 2]$",
+        "$[2, +\\infty)$",
+        "$(1, 2)$"
+      ],
+      "correct_answer": 0,
+      "assets": []
+    },
+    {
+      "question_number": 436,
+      "category": "Matematyka 2",
+      "question_text": "Całka $\\int \\ln(x) dx$ wynosi:",
+      "answers": [
+        "$x \\ln(x) - x + C$",
+        "$2x(\\ln(x) - 1) + C$ (według klucza, choć matematycznie poprawna dla całki z 2ln(x))",
+        "$x(\\ln(x) + 1) + 1$",
+        "$-x\\ln(x) + C$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    },
+    {
+      "question_number": 437,
+      "category": "Metody numeryczne",
+      "question_text": "Dane są węzły interpolacji $(-1, -1), (0, -2), (1, -1)$. Podać stopień wielomianu interpolacyjnego i jego wartość dla $x = 2$.",
+      "answers": [
+        "wielomian stopnia pierwszego oraz $y(2) = 2$",
+        "wielomian stopnia drugiego oraz $y(2) = 2$",
+        "wielomian stopnia trzeciego oraz $y(2) = 1$",
+        "wielomian stopnia drugiego ale na podstawie danych nie można policzyć $y(2)$"
+      ],
+      "correct_answer": 1,
+      "assets": []
+    }
+  ]
+}
