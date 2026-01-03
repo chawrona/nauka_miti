@@ -486,7 +486,7 @@
     {
       "question_number": 38,
       "category": "Programowanie proceduralne",
-      "question_text": "Rozważmy następujące deklaracje w języku C:<br>int $t[2][3]=\\{\\{1,2,3\\}$, {4,5,6}};<br>int $(^{*}p)[3]=8t[1]$;<br>int $*q=t[1]$;<br>Która z wymienionych instrukcji nie jest równoważna instrukcji $t[1][2]=7$",
+      "question_text": "Rozważmy następujące deklaracje w języku C:<br>int $t[2][3]=\\{\\{1,2,3\\}$, {4,5,6}};<br>int $(^{*}p)[3]=&t[1]$;<br>int $*q=t[1]$;<br>Która z wymienionych instrukcji nie jest równoważna instrukcji $t[1][2]=7$",
       "answers": [
         "$*(t[2]+1)=7$;",
         "$*(^{*}(t+1)+2)=7$;",
