@@ -81,7 +81,7 @@
     {
       "question_number": 57,
       "category": "Programowanie proceduralne",
-      "question_text": "Czy któraś ze zmiennych w podanym programie jest zmienną dynamiczną? Jeśli tak, to proszę ją wskazać.\n#include <stdio.h>\nint main(void) {\nint $x=6$;\nint $*y=8x$\nstatic int $z=8$;\n}\nprintf(\"%d %d %d\\n\", x, y, z);",
+      "question_text": "Czy któraś ze zmiennych w podanym programie jest zmienną dynamiczną? Jeśli tak, to proszę ją wskazać.\n#include <stdio.h>\nint main(void) {\nint $x=6$;\nint $*y=&x$\nstatic int $z=8$;\n}\nprintf(\"%d %d %d\\n\", x, y, z);",
       "answers": [
         "Zmienna y jest zmienną dynamiczną.",
         "Zmienna z jest zmienną dynamiczną.",
